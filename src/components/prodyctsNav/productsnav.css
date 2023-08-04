@@ -1,0 +1,52 @@
+a.nav-link.active {
+  width: auto;
+}
+.thrd_cnt {
+  position: sticky;
+  top: 12.75%;
+  z-index: 100;
+}
+.creo_nav.container {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  height: 12vh;
+}
+.creo_logo {
+  width: 40%;
+}
+.nav_elements {
+  width: 60%;
+}
+.creo_logo img {
+  width: 25%;
+}
+.creo_logo {
+  width: 40%;
+  display: flex;
+  justify-content: flex-start;
+}
+.nav_elements {
+  width: 60%;
+  display: flex;
+  justify-content: end;
+  gap: 2.5em;
+}
+
+@media screen and (max-width: 770px) {
+  .nav_elements {
+    width: 70%;
+    gap: 0.75em;
+  }
+  .creo_logo {
+    width: 30%;
+  }
+  .creo_logo img {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 770px) {
+  .thrd_cnt {
+    display: none;
+  }
+}
