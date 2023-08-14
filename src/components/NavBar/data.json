@@ -1,0 +1,183 @@
+{
+  "products": [
+    {
+      "name": "CAD",
+      "categories": [
+        {
+          "name": "Creo",
+          "link": "/cad/creo"
+        },
+        {
+          "name": "Creo +",
+          "link": "/cad/creoplus"
+        },
+        {
+          "name": "On Shape",
+          "link": "/cad/onshape"
+        }
+      ]
+    },
+    {
+      "name": "Simulation",
+      "categories": [
+        {
+          "name": "Altair",
+          "link": "/simulation/altair"
+        }
+      ]
+    },
+    {
+      "name": "PLM",
+      "categories": [
+        {
+          "name": "WindChill",
+          "link": "/plm/windchill"
+        }
+      ]
+    },
+    {
+      "name": "AR & VR",
+      "categories": [
+        {
+          "name": "Vuforia",
+          "link": "/arvr/vuforia"
+        }
+      ]
+    },
+    {
+      "name": "Industrial IoT",
+      "categories": [
+        {
+          "name": "ThingWorx",
+          "link": "/iot/thingworx"
+        }
+      ]
+    },
+    {
+      "name": "SLM",
+      "categories": [
+        {
+          "name": "Service Lifecycle Management",
+          "link": "/slm"
+        }
+      ]
+    },
+    {
+      "name": "ALM",
+      "categories": [
+        {
+          "name": "Codebeamer",
+          "link": "/alm/codebeamer"
+        }
+      ]
+    }
+  ],
+  "services": [
+    {
+      "name": "Analytics & Data Science",
+      "categories": [
+        {
+          "name": "Electronics",
+          "link": "/cad"
+        },
+        {
+          "name": "Clothing",
+          "link": "/cad"
+        }
+      ]
+    },
+    {
+      "name": "Digital Services",
+      "categories": [
+        {
+          "name": "Books",
+          "link": "/cad"
+        },
+        {
+          "name": "Home Appliances",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "name": "Cloud",
+      "categories": [
+        {
+          "name": "Books",
+          "link": "/cad"
+        },
+        {
+          "name": "Home Appliances",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "name": "Staffing",
+      "categories": [
+        {
+          "name": "Books",
+          "link": "/cad"
+        },
+        {
+          "name": "Home Appliances",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "name": "Product Design",
+      "categories": [
+        {
+          "name": "Books",
+          "link": "/cad"
+        },
+        {
+          "name": "Home Appliances",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "name": "Simulation",
+      "categories": [
+        {
+          "name": "Books",
+          "link": "/cad"
+        },
+        {
+          "name": "Home Appliances",
+          "link": "#"
+        }
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "name": "Products",
+      "categories": [
+        {
+          "name": "Electronics",
+          "link": "/cad"
+        },
+        {
+          "name": "Clothing",
+          "link": "/cad"
+        }
+      ]
+    },
+    {
+      "name": "Services",
+      "categories": [
+        {
+          "name": "Books",
+          "link": "/cad"
+        },
+        {
+          "name": "Home Appliances",
+          "link": "#"
+        }
+      ]
+    }
+  ]
+}

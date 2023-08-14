@@ -1,0 +1,119 @@
+.modal_background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(0 0 0 / 22%);
+    z-index: 1000;
+    animation: modal-in 0.5s ease-in-out forwards;
+}
+
+.modal_content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFF;
+    padding: 2em;
+    z-index: 1000;
+    animation: modal-in 0.5s ease-in-out forwards;
+    /* Center the modal content */
+    transform: translate(-50%, -50%) !important;
+}
+
+@keyframes modal-in {
+    from {
+        opacity: 0;
+        transform: scale(0);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+input {
+    color: white;
+}
+
+/* Model inner Content */
+input[type="number"] {
+    width: -webkit-fill-available;
+    background: #3c3e43;
+    padding: 16px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    /* margin-bottom: 1.4em; */
+}
+
+.modal_content {
+    width: 70%;
+    margin-top: 3%;
+    border-radius: 12px;
+}
+
+.modal_header {
+    font-size: 1.75em;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+button.modal_close {
+    padding: 8px 24px;
+    border: none;
+    background-color: goldenrod;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border-radius: 8px;
+    font-size: 1.05em;
+}
+
+button.modal_submit {
+    padding: 8px 24px;
+    border: none;
+    background-color: rgb(100, 218, 32);
+    color: white;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border-radius: 8px;
+    font-size: 1.05em;
+}
+
+.modal_btns {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+@media screen and (max-width:750px) {
+    .contactdetails {
+        grid-template-columns: 1fr;
+        grid-gap: 0;
+        margin-bottom: 1em;
+    }
+
+    .modal_content {
+        width: 90%;
+        max-height: 80vh;
+        overflow-y: scroll;
+        top: 54%;
+    }
+
+    input[type="text"] {
+        margin-bottom: 1em;
+    }
+
+    input[type="number"] {
+        margin-bottom: 1em;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .modal_content {
+        padding: 1em;
+    }
+}
