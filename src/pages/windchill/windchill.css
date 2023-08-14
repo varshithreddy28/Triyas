@@ -1,0 +1,59 @@
+.home_gen_info.windchill {
+    color: #000000e6;
+}
+
+.head_home.windchill {
+    color: black;
+}
+
+div#value_windchill {
+
+    padding-top: 12%;
+}
+
+div#introduction_windchill {
+    padding-top: 6%;
+}
+
+/*  */
+.onshape_features.container.features_windchill {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 1em;
+}
+
+.fea_headers.features_windchill {
+    flex-direction: column;
+}
+
+.features_windchill img {
+    width: 42%;
+}
+
+/* .features.container {
+    padding-top: 12%;
+} */
+
+div#benifits_windchill {
+    padding-top: 12%;
+}
+
+@media screen and (max-width:800px) {
+    .onshape_features.container.features_windchill {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1em;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .onshape_features.container.features_windchill {
+        grid-template-columns: 1fr 1fr;
+        gap: 1em;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .onshape_features.container.features_windchill {
+        grid-template-columns: 1fr;
+        gap: 1em;
+    }
+}

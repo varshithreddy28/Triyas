@@ -1,0 +1,49 @@
+.home_gen_info.windchill {
+    color: #000000e6;
+}
+
+.head_home.windchill {
+    color: black;
+}
+
+div#value_windchill {
+
+    padding-top: 12%;
+}
+
+div#introduction_windchill {
+    padding-top: 6%;
+}
+
+/*  */
+.onshape_features.container.features_vuforia {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2em;
+}
+
+.fea_headers.features_vuforia {
+    flex-direction: column;
+}
+
+.features_vuforia img {
+    width: 36%;
+}
+
+/* .features.container {
+    padding-top: 12%;
+} */
+div#products_vuforia {
+    padding-top: 12%;
+}
+
+@media screen and (max-width:780px) {
+    .onshape_features.container.features_vuforia {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .onshape_features.container.features_vuforia {
+        grid-template-columns: 1fr;
+    }
+}
