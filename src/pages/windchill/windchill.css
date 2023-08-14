@@ -29,7 +29,11 @@ div#introduction_windchill {
     width: 42%;
 }
 
-.features.container {
+/* .features.container {
+    padding-top: 12%;
+} */
+
+div#benifits_windchill {
     padding-top: 12%;
 }
 

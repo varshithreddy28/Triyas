@@ -13,8 +13,8 @@ const Contact = ({ theme }) => {
     email: "",
     company: "",
     phno: "",
-    message: ""
-  })
+    message: "",
+  });
 
   const [mailSent, setMailSent] = useState(true);
 
@@ -31,10 +31,11 @@ const Contact = ({ theme }) => {
       details.name == "" ||
       details.email == "" ||
       details.company == "" ||
-      details.company == "" || details.phno === ""
+      details.company == "" ||
+      details.phno === ""
     ) {
       toast.error("Fill all the Required fields");
-      console.log("FIll all req fields")
+      console.log("FIll all req fields");
     } else if (details.email.indexOf("@") == -1) {
       toast.warning("Enter a valid email");
       console.log("Enter a valid email");
@@ -102,7 +103,7 @@ const Contact = ({ theme }) => {
                   name="name"
                   onChange={handelChange}
                   value={details.name}
-                // required="true"
+                  // required="true"
                 />
               </div>
               <div className="inputLabel">
@@ -127,7 +128,7 @@ const Contact = ({ theme }) => {
                   name="phno"
                   onChange={handelChange}
                   value={details.phno}
-                // required="true"
+                  // required="true"
                 />
               </div>
               <div className="inputLabel">

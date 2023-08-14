@@ -1,0 +1,16 @@
+.home_img_block.slm_home {
+    display: none;
+}
+
+.head_home.slm_home {
+    color: black;
+}
+
+.home_gen_info.slm_home {
+    color: black;
+}
+
+.home_compo_img.slm_home img {
+    width: 90%;
+    /* justify-content: center; */
+}

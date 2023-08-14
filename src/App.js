@@ -20,6 +20,9 @@ import Onshape from "./pages/onshape/onshape";
 import Windchill from "./pages/windchill/windchill";
 import Vuforia from "./pages/vuforia/vuforia";
 import Thingwox from "./pages/thingvox/thingwox";
+import Altair from "./pages/altair/altair";
+import Codebeamer from "./pages/Codebeamer/codebeamer";
+import Slm from "./pages/SLM/slm";
 
 function App() {
   return (
@@ -41,6 +44,9 @@ function App() {
           <Route path="/plm/windchill" element={<Windchill />} />
           <Route path="/arvr/vuforia" element={<Vuforia />} />
           <Route path="/iot/thingworx" element={<Thingwox />} />
+          <Route path="/simulation/altair" element={<Altair />} />
+          <Route path="/alm/codebeamer" element={<Codebeamer />} />
+          <Route path="/slm" element={<Slm />} />
         </Routes>
       </Router>
     </div>

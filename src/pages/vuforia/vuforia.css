@@ -29,10 +29,12 @@ div#introduction_windchill {
     width: 36%;
 }
 
-.features.container {
+/* .features.container {
+    padding-top: 12%;
+} */
+div#products_vuforia {
     padding-top: 12%;
 }
-
 
 @media screen and (max-width:780px) {
     .onshape_features.container.features_vuforia {

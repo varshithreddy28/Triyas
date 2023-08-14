@@ -1,7 +1,7 @@
 import React from "react";
 import Home from "../../components/Home_pdts/home";
-import Logo from "../../assests/Windchill_logo.png";
-import onshapeBg from "../../assests/onshape_bg.jpg";
+import Logo from "../../assests/slm_logo.jpg";
+import LogoNav from "../../assests/Triyas_Web.png";
 import ProductsNav from "../../components/prodyctsNav/productsnav";
 import Overview from "../../components/Overview/overview";
 import CreoImg from "../../assests/Triyas_Web.png";
@@ -14,10 +14,10 @@ import Updates from "../../assests/windchill/update.svg";
 import Admin from "../../assests/windchill/support.svg";
 import Delivery from "../../assests/windchill/delivery.svg";
 
-import "./windchill.css";
+import "./slm.css";
 import Value from "../../components/values_windchill/value";
 
-export default function Windchills() {
+export default function Slm() {
   const windchillFeatures = [
     {
       name: "Modern architecture",
@@ -52,13 +52,12 @@ export default function Windchills() {
   ];
 
   const home_content = {
-    header: "Windchill PLM Software",
-    content:
-      "Realize value quickly with standardized, out-of-the-box functionality across a comprehensive portfolio of core PDM and advanced PLM applications.",
+    header: "SERVICE LIFECYCLE MANAGEMENT",
+    content: "A Strategic Approach to After Market Services",
     logo: Logo,
-    classHome: "windchill",
+    classHome: "slm_home",
     back_img:
-      "https://res.cloudinary.com/dbomu1erj/image/upload/v1691050119/Images_Website/Windchill_bg_ltjias.jpg",
+      "https://res.cloudinary.com/dbomu1erj/image/upload/v1691933945/Images_Website/dakg6uzfnfx502yzmuxg.png",
   };
 
   const naveles = [
@@ -74,53 +73,58 @@ export default function Windchills() {
       name: "Benifits",
       id: "benifits_windchill",
     },
-    {
-      name: "Framework",
-      id: "framework_windchill",
-    },
   ];
 
   const overViewContent = {
-    header: "Windchill product lifecycle management software",
+    header: "Increase revenue and profitability from service",
     content:
-      "Windchill revolutionizes product development with real-time information sharing, dynamic data visualization, and seamless collaboration. Its open architecture enables integration with other systems, including IoT, creating a robust digital thread for product-driven processes. With comprehensive functionality and configurable role-based apps, Windchill optimizes PLM while ensuring traceable product data access for non-experts without excessive complexity.",
-    video: "https://www.youtube.com/embed/7AIYwWE20p4?controls=0",
+      "For complex products, manufacturing, construction machinery and transport vehicles it is crucial to be able to deliver top quality service, as well as considering the potential profitability of spare part sales. This puts high demand on maintenance in terms of diagnosis as well as correct, complete and easily accessible product information. It also stresses the need for a process approach.",
+    video: "https://www.youtube-nocookie.com/embed/zB9vn2anJrw?controls=0",
     id: "introduction_windchill",
   };
 
   const values = [
     {
-      number: "15%",
-      title: "PTC PLM market growth",
-    },
-    {
-      number: "50%",
-      title: "Increase operational efficiency",
-    },
-    {
-      number: "59%",
-      title: "of businesses consider PLM business critical or significant",
-    },
-    {
-      number: "10K+",
-      title: "PTC Windchill worldwide customers",
-    },
-    {
       number: "30%",
-      title: "PLM market size 2020",
+      title: "of businesses run an e-commerce initiative",
     },
     {
-      number: "50%",
-      title: "Faster Leads Time",
+      number: "30X",
+      title:
+        "Profit margin contribution from aftermarket compared with new sales",
+    },
+    {
+      number: "40%",
+      title: "Average savings on translation cost with a CCMS strategy",
+    },
+    {
+      number: "25%",
+      title:
+        "The OEM ability to capture business from their customers aftermarket",
+    },
+    {
+      number: "1/3",
+      title: "of all service calls fails to deliver “first time fix”",
+    },
+    {
+      number: "$1M",
+      title: "Lower Translation Costs",
     },
   ];
 
   const features = [
     {
-      name: "Benifits of Implementing PLM System",
+      name: "Transform your after-sales service organization",
       content:
-        "Windchill brings significant benefits to the product development lifecycle, including reduced costs, faster time to market, improved product quality, and enhanced collaboration. Its streamlined processes and data management optimize resources and maximize efficiency, leading to higher customer satisfaction and cost savings through minimized prototyping and increased data re-use. ",
+        "Challenges like missing parts, outdated documentation, and low fix rates hinder after-sales growth. Transformation is needed in managing parts, delivering current service information, and predicting/preventing product failures.",
       reversed: true,
+      img: CreoImg,
+    },
+    {
+      name: "A strategic approach to Aftermarket",
+      content:
+        "Service Lifecycle Management (SLM) aligns service parts, technical communication, field service, and product support for enhanced operations. It's a combination of processes, tools, and methods customized for each case. Key benefits include visualizing enterprise data for service efficiency and utilizing real-time product data for proactive issue resolution, minimizing downtime.",
+      reversed: false,
       img: CreoImg,
     },
   ];
@@ -128,7 +132,7 @@ export default function Windchills() {
   return (
     <div>
       <Home {...home_content} />
-      <ProductsNav naveles={naveles} logo={Logo} />
+      <ProductsNav naveles={naveles} logo={LogoNav} />
       <Overview {...overViewContent} />
       <Value
         title={
@@ -138,12 +142,12 @@ export default function Windchills() {
         id={"value_windchill"}
       />
       <Info features={features} id="benifits_windchill" />
-      <OnShapeFeatures
+      {/* <OnShapeFeatures
         title="Framework & Deployment"
         className="features_windchill"
         features={windchillFeatures}
         id="framework_windchill"
-      />
+      /> */}
       {/* <Info features={framework} id="framework_onshape" /> */}
     </div>
   );

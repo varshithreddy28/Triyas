@@ -1,0 +1,285 @@
+.altair_pdts {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+}
+
+.pdt_img img {
+    width: 100%;
+}
+
+.pdt_header {
+    font-size: 2em;
+    text-align: center;
+    margin: 0.2em 0;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.pdt_disc {
+    font-size: 1.1em;
+    text-align: justify;
+    font-weight: 450;
+}
+
+.pdt_altair_btns {
+    display: flex;
+    /* flex-direction: column; */
+    width: 100%;
+    gap: 1em;
+}
+
+button#btn_altairlink {
+    width: 100%;
+    padding: 4px 0;
+}
+
+button#contact_altair_pdt {
+    width: 100%;
+    padding: 5px 0;
+}
+
+/*  */
+
+button#contact_altair_pdt {
+    background: #006f9d;
+    color: #fff;
+    border: none;
+    position: relative;
+    /* height: 60px; */
+    font-size: 1.25em;
+    padding: 6px 0;
+    cursor: pointer;
+    transition: 800ms ease all;
+    outline: none;
+    border-radius: 6px;
+    letter-spacing: 1px;
+}
+
+button#contact_altair_pdt:hover {
+    background: #fff;
+    color: #006f9d;
+}
+
+button#contact_altair_pdt:before,
+button#contact_altair_pdt:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 2px;
+    width: 0;
+    background: #006f9d;
+    transition: 400ms ease all;
+}
+
+button#contact_altair_pdt:after {
+    right: inherit;
+    top: inherit;
+    left: 0;
+    bottom: 0;
+}
+
+button#contact_altair_pdt:hover:before,
+button#contact_altair_pdt:hover:after {
+    width: 100%;
+    transition: 800ms ease all;
+}
+
+/* BTN2 */
+button#btn_altairlink_view {
+    width: 50%;
+}
+
+button#btn_altairlink,
+button#btn_altairlink_view {
+    background: #ff6616;
+    color: #fff;
+    border: none;
+    position: relative;
+    /* height: 60px; */
+    font-size: 1.25em;
+    padding: 6px 0;
+    cursor: pointer;
+    transition: 800ms ease all;
+    outline: none;
+    border-radius: 6px;
+    letter-spacing: 1px;
+}
+
+button#btn_altairlink:hover,
+button#btn_altairlink_view:hover {
+    background: #fff;
+    color: #ff6616;
+}
+
+button#btn_altairlink:before,
+button#btn_altairlink:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 2px;
+    width: 0;
+    background: #ff6616;
+    transition: 400ms ease all;
+}
+
+button#btn_altairlink:after {
+    right: inherit;
+    top: inherit;
+    left: 0;
+    bottom: 0;
+}
+
+button#btn_altairlink:hover:before,
+button#btn_altairlink:hover:after {
+    width: 100%;
+    transition: 800ms ease all;
+}
+
+button#btn_altairlink_view:before,
+button#btn_altairlink_view:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 2px;
+    width: 0;
+    background: #ff6616;
+    transition: 400ms ease all;
+}
+
+button#btn_altairlink_view:after {
+    right: inherit;
+    top: inherit;
+    left: 0;
+    bottom: 0;
+}
+
+button#btn_altairlink_view:hover:before,
+button#btn_altairlink_view:hover:after {
+    width: 100%;
+    transition: 800ms ease all;
+}
+
+a.cnt_altair_pdt {
+    width: 50%;
+}
+
+a#altair_pdt_link {
+    width: 50%;
+}
+
+/* Updates   */
+.altair_product {
+    min-height: 72vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    padding: 3%;
+    border-radius: 6px;
+    box-shadow: 30px 30px 16px -16px rgba(0, 0, 0, 0.4);
+    /* transition: transform 0.5s; */
+}
+
+.altair_product:hover {
+    /* transform: scale(1.03); */
+}
+
+.pdts_header {
+    font-size: 3em;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin: 1% 0;
+}
+
+.pdt_altair_btns {
+    margin-top: 3%;
+}
+
+@media screen and (max-width:950px) {
+    .altair_pdts {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .pdt_altair_btns {
+        margin-top: 6%;
+        margin-bottom: 2%;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .alt_right {
+        display: none;
+    }
+
+    .alt_left {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:650px) {
+    button#contact_altair_pdt {
+        font-size: 1em;
+    }
+
+    button#btn_altairlink {
+        font-size: 1em;
+    }
+
+    .pdt_header {
+        font-size: 1.5em;
+    }
+
+    .pdt_disc {
+        font-size: 1em;
+    }
+
+    .company {
+        width: 25%;
+    }
+
+    .pdts_header {
+        font-size: 1.75em;
+    }
+}
+
+@media screen and (max-width:540px) {
+    .alt_left_btns {
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    button#altair_link {
+        width: 100%;
+    }
+
+    button#contact_altair {
+        width: 100%;
+    }
+
+    .altair_pdts {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .alt_left_txt {
+        font-size: 1.1em;
+    }
+
+    button#altair_link {
+        font-size: 1.25em;
+        height: auto;
+        padding: 8px 0;
+    }
+
+    button#contact_altair {
+        font-size: 1.25em;
+        padding: 8px 0;
+        height: auto;
+    }
+}

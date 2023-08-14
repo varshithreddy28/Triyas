@@ -1,0 +1,132 @@
+body {
+    position: relative;
+}
+
+input#altair_ip {
+    margin-bottom: 0;
+}
+
+
+
+/* NAv Sticky */
+.altair_nav {
+    position: sticky;
+    top: 10%;
+    z-index: 1023;
+}
+
+.nav_sticky_top {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    height: 12vh;
+    justify-content: space-between;
+}
+
+/* Custom Nav */
+.nav_cnt {
+    display: none;
+    /* transition-property: width; */
+    /* transition-duration: 2s; */
+    animation: 1s slide-right;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.nav_cnt.nav_open {
+    display: block;
+    width: 100%;
+    height: 100vh;
+    background-color: #006f9d;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: white;
+}
+
+.filter:hover {
+    cursor: pointer;
+}
+
+button#altair_close {
+    position: absolute;
+    right: 0;
+    margin: 1em;
+    background: no-repeat;
+    border: none;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+button#altair_close {
+    color: white;
+    font-size: 2em;
+}
+
+.types_altair {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.filter_pdt {
+    font-size: 1.45em;
+    margin: 10% 0;
+    letter-spacing: 2px;
+    font-weight: 600;
+    text-align: center;
+    transition: transform 0.5s ease-in-out;
+}
+
+.filter_pdt:hover {
+    cursor: pointer;
+    transform: scale(1.3);
+    color: #f6eb0e;
+}
+
+@keyframes slide-right {
+    from {
+        margin-left: -100%;
+    }
+
+    to {
+        margin-left: 0%;
+    }
+}
+
+/*  */
+.clear_filter {
+    background-color: orangered;
+    padding: 1% 10%;
+    font-size: 1.25em;
+    font-weight: 500;
+    letter-spacing: 2px;
+    border-radius: 8px;
+    transition: 0.5s ease-in-out;
+}
+
+.clear_filter:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.company img {
+    width: 100%;
+}
+
+.company {
+    width: 14%;
+}
+
+.filter {
+    font-size: 1.75em;
+}
+
+@media screen and (max-width:375px) {
+    .clear_filter {
+        padding: 3% 24%;
+    }
+}
