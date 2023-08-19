@@ -8,7 +8,7 @@ import Time from "../../assests/time.svg";
 import CreoPkg from "../../assests/creo_packages.webp";
 import TableCreo from "../../components/creoTable/tablecreo";
 import Creonew from "../../components/creonew/creonew";
-import CreoLogoNav from '../../assests/creo_logo.png';
+import CreoLogoNav from "../../assests/creo_logo.png";
 import ProductsNav from "../../components/prodyctsNav/productsnav";
 
 export default function Creo() {
@@ -42,7 +42,7 @@ export default function Creo() {
 
   const naveles = [
     {
-      name: "Benifits of Creo",
+      name: "Benefits of Creo",
       id: "creo_benifits",
     },
     {

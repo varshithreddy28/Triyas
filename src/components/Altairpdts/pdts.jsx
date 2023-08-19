@@ -5,6 +5,8 @@ import DemoImg from "../../assests/altair_pdt_demo.avif";
 import { HashLink } from "react-router-hash-link";
 import Modal from "../Modal/Modal";
 import { LazyLoadImage } from "react-lazy-load-image-component";
+// import ScrollToTop from "react-scroll-to-top";
+import { BsArrowRight } from "react-icons/bs";
 
 export default function Pdts({ search, isSearched }) {
   const [modelOpen, setModelOpen] = useState(false);
@@ -247,14 +249,11 @@ export default function Pdts({ search, isSearched }) {
     }
   }, [search]);
 
-  useEffect(() => {
-    console.log(searchedPdts);
-  }, [setsearchedPdts]);
-
   return (
     <div className="container">
-      <div className="pdts_header">Top Altair Products</div>
-      <div className="altair_pdts">
+      <div className="pdts_header">Altair Product's : </div>
+      {/* <ScrollToTop /> */}
+      <div className="altair_pdts container">
         {searchedPdts.map((product) => {
           return (
             <div className="altair_product">
@@ -268,18 +267,16 @@ export default function Pdts({ search, isSearched }) {
                 {submitted ? (
                   <>
                     <a
-                      id="altair_pdt_link"
+                      id="alr_pdt_link"
                       href={product.link}
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <button
-                        onClick={() => setModelState()}
-                        id="btn_altairlink"
-                      >
-                        {" "}
-                        View{" "}
-                      </button>
+                      <a onClick={() => setModelState()} id="btn_alrlink_view">
+                        {/* {`Altair ${product.name} in Detail `} */}
+                        More Details
+                        <BsArrowRight />
+                      </a>
                     </a>
                     <Modal
                       open={modelOpen}
@@ -289,13 +286,11 @@ export default function Pdts({ search, isSearched }) {
                   </>
                 ) : (
                   <>
-                    <button
-                      onClick={() => setModelState()}
-                      id="btn_altairlink_view"
-                    >
-                      {" "}
-                      View{" "}
-                    </button>
+                    <a onClick={() => setModelState()} id="btn_alrlink_view">
+                      {/* {`Altair ${product.name} in Detail `} */}
+                      More Details
+                      <BsArrowRight />
+                    </a>
                     <Modal
                       open={modelOpen}
                       handleModalClose={handleModalClose}
@@ -303,9 +298,9 @@ export default function Pdts({ search, isSearched }) {
                     />
                   </>
                 )}
-                <HashLink className="cnt_altair_pdt" to={`/#contact`} smooth>
+                {/* <HashLink className="cnt_altair_pdt" to={`/#contact`} smooth>
                   <button id="contact_altair_pdt">Contact us</button>
-                </HashLink>
+                </HashLink> */}
 
                 {/* <a id="altair_pdt_link" target="_blank" href={product.link} rel="noreferrer">
                                         <button id="btn_altairlink">View</button>
