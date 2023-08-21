@@ -23,6 +23,7 @@ import Thingwox from "./pages/thingvox/thingwox";
 import Altair from "./pages/altair/altair";
 import Codebeamer from "./pages/Codebeamer/codebeamer";
 import Slm from "./pages/SLM/slm";
+import Productdesign from "./pages/ProductDesign/productdesign";
 
 function App() {
   return (
@@ -47,6 +48,8 @@ function App() {
           <Route path="/simulation/altair" element={<Altair />} />
           <Route path="/alm/codebeamer" element={<Codebeamer />} />
           <Route path="/slm" element={<Slm />} />
+          {/* Services */}
+          <Route path="/design/productdesign" element={<Productdesign />} />
         </Routes>
       </Router>
     </div>
