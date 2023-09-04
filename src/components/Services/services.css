@@ -102,8 +102,15 @@ button.service_btn a {
 
 @media screen and (max-width: 800px) {
   .services_all {
-    grid-template-columns: 1fr 1fr;
-    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    /* Gap between cards */
+    justify-content: space-between;
+  }
+
+  .service_card {
+    width: 48%;
   }
 
   #services {
@@ -115,18 +122,20 @@ button.service_btn a {
 
 @media screen and (max-width: 580px) {
   .services_all {
-    grid-template-columns: 1fr;
+    /* grid-template-columns: 1fr; */
+    flex-direction: column;
+    gap: 2em;
     padding: 1em;
   }
 
   .service_card {
     padding: 1em;
+    width: 100%;
   }
 }
 
 @media screen and (max-width: 400px) {
   .services_all {
-    grid-template-columns: 1fr;
     padding: 0.5em;
   }
 

@@ -92,11 +92,21 @@ textarea[type="text"] {
   }
 
   .containerContact {
-    margin-top: 15%;
+    width: 100%;
+    padding: 4%;
+    margin-top: 2%;
+  }
+
+  .contactPage {
+    height: auto;
   }
 
   #contactHeader {
     font-size: xx-large;
+  }
+
+  .containerContact {
+    padding: 0 4%;
   }
 }
 
