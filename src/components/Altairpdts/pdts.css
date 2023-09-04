@@ -30,10 +30,11 @@
 }
 
 .pdt_altair_btns {
-    display: flex;
+    display: flex !important;
     /* flex-direction: column; */
     width: 100%;
     gap: 1em;
+    position: relative;
 }
 
 button#btn_altairlink {
