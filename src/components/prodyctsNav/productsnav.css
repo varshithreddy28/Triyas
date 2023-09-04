@@ -4,7 +4,7 @@ a.nav-link.active {
 
 .thrd_cnt {
   position: sticky;
-  top: 10%;
+  top: 0;
   z-index: 100;
 }
 

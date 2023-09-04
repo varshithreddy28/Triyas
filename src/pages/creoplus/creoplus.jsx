@@ -13,22 +13,22 @@ function Creoplus() {
     {
       name: "Increased Productivity & Innovation",
       icon: Productivity,
-      cnt: "SaaS customers can expect to see productivity and innovation gains in terms of a rapid delivery of the latest CAD capabilities, access to cloud-computing technologies, and real-time design collaboration.",
+      cnt: "SaaS customers can anticipate boosted productivity and innovation through swift access to the latest CAD features, utilization of cloud-computing technologies, and seamless real-time design collaboration",
     },
     {
       name: "Better User Experience",
       icon: Users,
-      cnt: "CAD software is automatically updated with SaaS, so the user experience is better and more consistent for all. CAD SaaS is also more easily accessible and available.",
+      cnt: "With CAD software under a SaaS model, automatic updates ensure a consistently improved user experience for all. Additionally, CAD SaaS offers enhanced accessibility and availability.",
     },
   ];
 
   const features = [
     {
       name: "Real-time collaboration",
-      cnt: "Creo+ enables you to collaborate with multiple contributors in real time, both inside and outside the organization.",
+      cnt: "Creo+ facilitates real-time collaboration with multiple contributors, both within and beyond your organization.",
       points: [
-        "Improve collaboration and communication",
-        "Ensures that everyone is working on the latest design",
+        "Enhance Collaboration and Communication.",
+        "It ensures that everyone is working on the most up-to-date design.",
       ],
       video: "https://www.youtube.com/embed/MGKj9C-3v3I",
       reversed: true,
@@ -36,11 +36,10 @@ function Creoplus() {
     },
     {
       name: "Simplified CAD administration",
-      cnt: "Streamline the management and deployment of Creo across the organization utilizing PTC Control Center.",
+      cnt: "Simplify the administration and rollout of Creo throughout your organisation using PTC Control Center.",
       points: [
-        "Centrally manage and deploy of all entitlements",
-        "Deploy Creo+ updates automatically",
-        "Reduce the time spent on installation and upgrading the software.",
+        "Centralised Management and Deployment.",
+        "Significantly reduce the time dedicated to software installation and upgrades.",
       ],
       video: "https://www.youtube.com/embed/ShKhpi-cgaU",
       reversed: false,
@@ -65,9 +64,10 @@ function Creoplus() {
               <div className="head_creo">Creo+ SaaS CAD</div>
             </div>
             <div className="creo_gen_info">
-              Creo+ combines the power and proven functionality of Creo
-              delivered via SaaS, with new cloud-based tools to enhance
-              collaboration and simplify CAD administration.
+              Creo+ merges the strength and established features of Creo,
+              delivered through SaaS (Software as a Service), with innovative
+              cloud-based tools for improved collaboration and streamlined CAD
+              administration.
             </div>
             <div className="contactus">
               <button>
@@ -99,18 +99,17 @@ function Creoplus() {
             // width={2000}
             truncatedEndingComponent={"..... "}
           >
-            CAD Software as a Service (SaaS) is a model for licensing, delivery,
-            and management of engineering CAD software for improved
-            accessibility, scalability, collaboration, and security. In many
-            instances, SaaS also enhances existing software capabilities and
-            functionality.
-            <br />
+            CAD Software as a Service (SaaS) represents a licensing and delivery
+            model for engineering CAD software, offering benefits such as
+            improved accessibility, scalability, collaboration, and security.
             While in-office communication software like Customer Relationship
-            Management (CRM) and Human Resource Management (HRM) have embraced
-            the SaaS model, CAD SaaS is just reaching its inflection point, with
-            widespread adoption expected in the coming years. PTC is well
-            positioned to help customers when they are ready to make the
-            transition to SaaS, with cloud-based CAD and PLM solutions.
+            Management (CRM) and Human Resource Management (HRM) have already
+            embraced SaaS.
+            <br />
+            The CAD SaaS sector is approaching a pivotal moment, with widespread
+            adoption anticipated in the near future. PTC is uniquely positioned
+            to assist customers in their transition to SaaS with cloud-based CAD
+            and PLM solutions.
           </ShowMoreText>
         </div>
       </div>
@@ -120,9 +119,10 @@ function Creoplus() {
           <div className="lines"></div>
         </div>
         <div className="sass_adv_ans">
-          Software as a Service (SaaS) offers a wealth of opportunities for
-          companies, especially when it comes to CAD solutions. Ultimately, your
-          CAD system will be more powerful and efficient as a SaaS product.
+          Software as a Service (SaaS) presents abundant opportunities for
+          businesses, particularly in the realm of CAD solutions. Ultimately,
+          adopting CAD as a SaaS product can significantly enhance the power and
+          efficiency of your CAD system.
         </div>
 
         <div className="sass_exp container">
@@ -143,12 +143,12 @@ function Creoplus() {
         <div className="into_cnt">
           <div className="into_header">Introducing Creo+</div>
           <div className="intro_cnt">
-            Creo+ combines the power and proven functionality of Creo, delivered
-            via SaaS, with new cloud-based tools to enhance collaboration,
-            improve accessibility, and simplify license management. In addition
-            to all the capabilities of Creo 10, Creo+ includes collaboration
-            tools to enable multiple team members to review, explore, and edit
-            part design—in real time.
+            Creo+ integrates the robust features of Creo, delivered through
+            SaaS, with innovative cloud-based tools designed to foster
+            collaboration, elevate accessibility, and streamline license
+            management. Beyond the capabilities of Creo 10, Creo+ incorporates
+            collaborative tools enabling real-time part design review,
+            exploration, and editing by multiple team members.
           </div>
         </div>
         <div className="video_intro">

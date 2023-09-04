@@ -39,6 +39,7 @@
 .service_info_cnt_txt {
     margin: 2% 0;
     font-size: 1.15em;
+    text-align: justify;
 }
 
 .service_info_img {

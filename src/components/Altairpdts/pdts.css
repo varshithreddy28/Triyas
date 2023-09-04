@@ -1,12 +1,14 @@
 .altair_pdts {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 2em;
+    gap: 1.25em;
 }
 
 .pdt_img img {
     width: 100%;
     transition: transform 0.5s;
+    /*  */
+    height: 14rem;
 }
 
 .pdt_img img:hover {
@@ -187,6 +189,7 @@ a#altair_pdt_link {
     border-radius: 6px;
     box-shadow: 30px 30px 16px -16px rgba(0, 0, 0, 0.4);
     /* transition: transform 0.5s; */
+    margin-bottom: 0.75em;
 }
 
 .altair_product:hover {

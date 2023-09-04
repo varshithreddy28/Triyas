@@ -1,0 +1,911 @@
+[
+  {
+    "name": "Altair SimSolid",
+    "tagline": "Structural Analysis for Rapid Design Iterations",
+    "discreption": "Altair SimSolid redefines the landscape of structural simulation, empowering designers, engineers, and analysts. With the capability to conduct comprehensive structural analyses on detailed CAD assemblies within minutes, it revolutionises the pace of decision-making and product development. Altair SimSolid stands as a versatile solution, supporting a range of typical connections including bolt/nut, bonded, welds, rivets, and sliding. It excels in analysing linear statics, modal responses, thermal properties, and extends its capabilities to more intricate coupled, nonlinear, and transient dynamic effects.",
+    "url": "simsolid",
+    "whyaltr": [
+      {
+        "name": "Eliminate Geometry Simplification",
+        "img": "https://res.cloudinary.com/dbomu1erj/image/upload/v1693286313/Images_Website/Altair/vqpspz2x1x9unpdpn9p3.jpg",
+        "disc": "No more geometry simplification or meshing. Simulate accurately without time-consuming tasks. Experience SimSolid's efficiency today for streamlined structural analysis."
+      },
+      {
+        "name": "Analyze Complex and Large Assemblies",
+        "img": "https://res.cloudinary.com/dbomu1erj/image/upload/v1693293916/Images_Website/Altair/kxh2crglcyuwkmbuucph.jpg",
+        "disc": "SimSolid excels with complex parts and rugged contact surfaces, eliminating the challenges of traditional FEA. Conquer intricate assemblies effortlessly."
+      },
+      {
+        "name": "Get Results in Seconds to Minutes",
+        "img": "https://res.cloudinary.com/dbomu1erj/image/upload/v1693294163/Images_Website/Altair/vsh6iqse5n80m7q4c2a8.jpg",
+        "disc": "Altair SimSolid emerges as a solution designed to analyze intricate parts and extensive assemblies that may prove challenging for traditional FEA methods."
+      }
+    ],
+    "keyfeatures": [
+      {
+        "name": "Available Solutions:",
+        "disc": "Linear statics, modal, stress linearization, thermal, coupled thermal-stress, nonlinear statics, fatigue analysis, linear superpositioning, linear dynamics."
+      },
+      {
+        "name": "Materials:",
+        "disc": "Isotropic, Elasto-plastic, Orthotropic, Rigid parts and liquid bodies"
+      },
+      {
+        "name": "Supported Connections",
+        "disc": "Bonded, sliding and separating with friction, bolts, virtual connectors, welds (spot, laser, and fillet), rivets, adhesives, joints, and bushing."
+      },
+      {
+        "name": "Boundary Conditions",
+        "disc": "Immovable, sliding, hinge, force, pressure, gravity, thermal, inertial loads, inertia relief, bolt/nut tightening, hydrostatic, bearing, volumetric expansion and shrinkage, distributed and remote mass, and remote loads."
+      },
+      {
+        "name": "CAD Connectivity",
+        "disc": "Reads all common CAD/PLM file formats including: CATIA, NX, PTC/Creo, Inventor, Fusion 360, SOLIDWORKS, JT, STEP, VDA, Parasolid, ACIS, PLMXML, CGR, STL. Direct data integration to Onshape and Teamcenter."
+      },
+      {
+        "name": "Result Types",
+        "disc": "Contour plots with displacements, stress & strains, deformed shape animation, max/min labels, point probes, XY plots, reaction/contact forces, bolt/nut forces, spot weld forces, frequencies and mode shapes, modal participation factors, safety factors"
+      }
+    ],
+    "dispname": "Altair SimSolid"
+  },
+  {
+    "name": "Altair® SimLab",
+    "tagline": "Multiphysics Workflows with CAD Associativity",
+    "discreption": "Altair® SimLab presents a process-driven, multidisciplinary simulation environment designed to precisely evaluate the performance of intricate assemblies. Seamlessly integrating multiple physics, such as structural, thermal, and fluid dynamics, Altair® SimLab streamlines setup through automated modeling tasks. Experience an intuitive and self-explanatory graphical user interface that encompasses every facet of the modeling process. Say goodbye to laborious geometry clean-up—now you can work directly on the geometry. Define mesh specifications for specific regions to streamline your workflow.",
+    "url": "simlab",
+    "whyaltr": [
+      {
+        "name": "Multiphysics",
+        "img": "https://res.cloudinary.com/dbomu1erj/image/upload/v1693295716/Images_Website/Altair/qawspft4ed6o6furrqcz.jpg",
+        "disc": "Effortlessly conduct precise linear and nonlinear analyses encompassing structural, thermal, and computational fluid dynamics—whether it's locally or in the cloud."
+      },
+      {
+        "name": "Automated",
+        "img": "https://res.cloudinary.com/dbomu1erj/image/upload/v1693295774/Images_Website/Altair/pqq0apjjmviauqauqu72.jpg",
+        "disc": "Experience rapid model building with advanced algorithms, process automation, and an intuitive GUI. Elevate your workflow efficiency today."
+      },
+      {
+        "name": "CAD Coupling",
+        "img": "https://res.cloudinary.com/dbomu1erj/image/upload/v1693295924/Images_Website/Altair/sez0t0gj8fnb8g36zah6.webp",
+        "disc": "Altair® SimLab simplifies geometry modifications, part variants, and assembly updates through its bi-directional CAD coupling feature."
+      }
+    ],
+    "keyfeatures": [
+      {
+        "name": "Robust, Repeatable Simulation Workflows",
+        "disc": "Streamline workflows with shareable, robust simulations. Bid farewell to manual tasks, ensuring accuracy and consistency throughout your organization."
+      },
+      {
+        "name": "Automation: DOE/Optimization",
+        "disc": "Automation enables easy setup of results and convergence, design of experiments (DOE), and optimization."
+      },
+      {
+        "name": "Intuitive User Environment",
+        "disc": "Solve statics, dynamics, heat transfer, fluid flow, and electromagnetic problems in minutes directly from within Altair® SimLab’s intuitive user environment."
+      },
+      {
+        "name": "Live Syncing to Parametric CAD",
+        "disc": "Instantly assess design changes with live syncing to CATIA, Pro/E Siemens NX, and SolidWorks. Empower your design process with Altair® SimLab."
+      },
+      {
+        "name": "Comprehensive Solver Support",
+        "disc": "Seamless pre- and post-processing, interfacing with diverse FE solvers. Adapt to project needs with versatility, even across different tools."
+      },
+      {
+        "name": "Multiphysics",
+        "disc": "Efficiently configure complex models for multidisciplinary and multiphysics challenges, including co-simulation of structural, CFD, electromagnetics, and thermal analyses."
+      }
+    ],
+    "dispname": "Altair SimLab"
+  },
+  {
+    "name": "Altair OptiStruct",
+    "tagline": "Optimization-enabled Structural Analysis",
+    "discreption": "Building upon a legacy of over 25 years of continuous innovation, OptiStruct emerges as a trusted and contemporary structural solver. It offers a range of comprehensive, precise, and scalable solutions for linear and nonlinear analyses, spanning statics and dynamics, vibrations, acoustics, fatigue, heat transfer, and multiphysics domains.",
+    "url": "optistruct",
+    "whyaltr": [
+      {
+        "name": "Comprehensive Analysis Solutions",
+        "img": "https://res.cloudinary.com/dbomu1erj/image/upload/v1692802949/Images_Website/Altair/kttlrwbc6szspg6cgyvo.jpg",
+        "disc": "OptiStruct offers solvers for linear, nonlinear, vibrations, acoustics, fatigue and heat transfer. Renowned for accuracy, speed, scalability, and compatibility with CPUs and GPUs."
+      },
+      {
+        "name": "Industry Leading Optimization",
+        "img": "https://res.cloudinary.com/dbomu1erj/image/upload/v1693298058/Images_Website/Altair/lrelcraeefmrttbmmuwq.webp",
+        "disc": "OptiStruct redefines optimization with industry-firsts like fail-safe topology, multi-material topology, and multi-model optimization. Shape the future of design with OptiStruct's pioneering advancements."
+      },
+      {
+        "name": "Single Model Multi-attribute Workflow",
+        "img": "https://res.cloudinary.com/dbomu1erj/image/upload/v1693298163/Images_Website/Altair/dkrvnykagzvebfv2pnxt.webp",
+        "disc": "OptiStruct streamlines workflows, minimizes errors, and optimizes attributes across disciplines like strength, vibrations, and fatigue. Achieve holistic insights for accelerated decision-making."
+      }
+    ],
+    "keyfeatures": [
+      {
+        "name": "Modern NASTRAN Formulation for Linear Analysis",
+        "disc": "Robust and accurate NASTRAN linear solutions used in virtually every industry for strength and deformation simulation throughout the proof of structure process."
+      },
+      {
+        "name": "Efficient Nonlinear Analysis",
+        "disc": "Rapidly expanding nonlinear features include modern, efficient contact algorithms, bolt and gasket modeling, hyperelastic material, and thermal analyses."
+      },
+      {
+        "name": "Leading Optimization Technology",
+        "disc": "OptiStruct's industry-proven optimization capabilities have been the driving force behind innovative, lightweight, and refined product designs that touch your daily life."
+      },
+      {
+        "name": "Specialty Vibration and Acoustics Solvers",
+        "disc": "Unique capabilities and integrated specialty solvers (AMSES and FASTFR) enable efficient diagnostic analyses, from component to full vehicle."
+      },
+      {
+        "name": "Advanced Materials and Manufacturing",
+        "disc": "Design and optimization for composite parts - ply shape to layup schedule - and 3D printing including complex lattice structures."
+      },
+      {
+        "name": "Real-world Multiphysics",
+        "disc": "Thermomechanical simulation and solver coupling for complex phenomena including fluid-structure and electromagnetic-structure interactions."
+      }
+    ],
+    "dispname": "Altair OptiStruct"
+  },
+  {
+    "name": "Altair Inspire Form",
+    "tagline": "Complete Stamping Simulation Environment",
+    "discreption": "Introducing Inspire Form—an all-encompassing stamping simulation environment designed to empower product designers and process engineers. With its comprehensive capabilities, Inspire Form offers the perfect platform to optimize designs, simulate resilient manufacturing processes, and curtail material costs. Experience the power of Altair Inspire Form's rapid feasibility module, which allows users to swiftly analyze parts and predict formability within seconds during the initial stages of product development.",
+    "url": "inspireform",
+    "whyaltr": [
+      {
+        "name": "Design Better Products",
+        "img": "https://res.cloudinary.com/dbomu1erj/image/upload/v1693298332/Images_Website/Altair/avh4mbskom5yrh3sltpj.png",
+        "disc": "Altair Inspire Form swiftly evaluates part formability during early design. Detect defects like splits, wrinkles, and more."
+      },
+      {
+        "name": "Easy to Use",
+        "img": "https://res.cloudinary.com/dbomu1erj/image/upload/v1693298360/Images_Website/Altair/jv3la2ilduhbwyuuta6s.png",
+        "disc": "Altair Inspire Form presents a streamlined and remarkably intuitive workflow that is both easy to learn and apply. With its user-friendly interface, getting started is a breeze."
+      },
+      {
+        "name": "Save Material and Costs",
+        "img": "https://res.cloudinary.com/dbomu1erj/image/upload/v1693298388/Images_Website/Altair/cetsusikxatmguiumrg9.png",
+        "disc": "Inspire Form predicts accurate blank shapes that can be optimally nested in progressive and transfer die layouts within manufacturing constraints to save material and cost."
+      }
+    ],
+    "keyfeatures": [
+      {
+        "name": "Geometry Creation and Simplification",
+        "disc": "Extract midsurface, fill holes and cutouts, and remove flanges using Inspire Form’s geometry preparation tools."
+      },
+      {
+        "name": "Model Setup",
+        "disc": "Using car coordinates, Inspire Form computes optimal stamping direction and applies forces. Users can also specify stamping direction for precision."
+      },
+      {
+        "name": "Materials Library",
+        "disc": "Inspire Form provides a material library with properties for standard steel and aluminum grades. It can also create a new material and save it within the user database."
+      },
+      {
+        "name": "Analysis and Results Visualization",
+        "disc": "The flat blank needed to form the part shape is available at the end of the analysis. Visualize thinning and other defects such as splits, wrinkles, and loose metal."
+      },
+      {
+        "name": "Die Geometry Module",
+        "disc": "Start from CAD geometry and create die addendum using Inspire's user-friendly environment. Benefit from PolyNURBS modeling for quick evaluation."
+      },
+      {
+        "name": "Multi-stage Virtual Tryout",
+        "disc": "Set up metal forming tools for single and multistage virtual tryouts. Fast incremental solver ensures accurate analysis of material flow, springback, and more."
+      }
+    ],
+    "dispname": "Altair Inspire Form"
+  },
+  {
+    "name": "Altair Inspire Cast",
+    "tagline": "Swift, Precise, and Accessible Casting Simulation",
+    "discreption": "Experience the power of Inspire Cast software, a swift, precise, and accessible casting simulation environment designed to craft top-notch components for heightened profitability. Seamlessly navigate an intuitive user experience that caters to beginners and experts alike, from visionary product designers to adept foundry engineers. Unlock the potential of Altair Inspire Cast's guided process templates, providing a seamless five-step journey to simulate various casting methods including gravity die, gravity sand, investment, high pressure, low pressure die casting, and tilt pouring.",
+    "url": "inspirecast",
+    "whyaltr": [
+      {
+        "name": "Design for Castings",
+        "img": "https://res.cloudinary.com/dbomu1erj/image/upload/v1693298538/Images_Website/Altair/bm9oczeiiyeq1rwbwaxk.png",
+        "disc": "Swiftly assess designs with Inspire Cast. Simulate issues upfront, optimize processes, and guide product development from concept to manufacturing."
+      },
+      {
+        "name": "Minimize Process Complexity",
+        "img": "https://res.cloudinary.com/dbomu1erj/image/upload/v1693298569/Images_Website/Altair/q8vnew5d6bwhmx7j5aye.png",
+        "disc": "Empower process refinement alongside creativity. Virtualized in-gates guide filling, aided by risers for compensation. Evolve designs with Inspire Cast."
+      },
+      {
+        "name": "Improve Quality and Profitability",
+        "img": "https://res.cloudinary.com/dbomu1erj/image/upload/v1693298608/Images_Website/Altair/te3jsaznkhgqipf8ke0w.png",
+        "disc": "Advanced finite element formulation captures filling and solidification for high-quality castings and improved margins."
+      }
+    ],
+    "keyfeatures": [
+      {
+        "name": "Ease of Use with 5 Simple Steps",
+        "disc": "Simulate, run analysis, optimize, and cast the final part all within one comprehensive environment and user-friendly interface."
+      },
+      {
+        "name": "Variety of Casting Templates to Simulate",
+        "disc": "Explore casting methods effortlessly with templates. Simulate high/low pressure die casting, gravity sand casting, and investment casting precisely."
+      },
+      {
+        "name": "Optimize Ingate Design and Position",
+        "disc": "Inspire Cast makes ingate simulation easy. Select size and position, and watch as Inspire Cast generates ingates seamlessly."
+      },
+      {
+        "name": "Validate Full Casting Designs",
+        "disc": "Inspire Cast allows users to validate full casting designs including cavities, runners, and overflows."
+      },
+      {
+        "name": "Fast Computation",
+        "disc": "Inspire Cast's solver, powered by parallel processing, drastically reduces calculation times. Most components are solved within minutes, even on standard workstations."
+      },
+      {
+        "name": "Accurate Solution",
+        "disc": "Inspire Cast's advanced biphasic air-metal model captures air's impact during mold filling, enhancing predictions of air entrapment."
+      }
+    ],
+    "dispname": "Altair Inspire Cast"
+  },
+  {
+    "name": "Altair Inspire Extrude",
+    "tagline": "Efficient and Process-driven Extrusion Simulation",
+    "discreption": "Every extrusion company is looking to eliminate costly prototypes and reduce redesign cycles. Now advanced physics simulations are accessible to organizations of all sizes. Inspire Extrude Metal is an easy-to-learn tool that enables simulation to be used by any engineer or designer. Lower scrap rates can be achieved by exploring process improvements on a virtual press. Simulation allows you to see inside your production line and fine-tune process variables to reduce visible and invisible defects. Inspire Extrude Metal provides quick studies of extrusion die performance and many more.",
+    "url": "inspireextrude",
+    "whyaltr": [
+      {
+        "name": "Efficient and Process-driven",
+        "img": "https://res.cloudinary.com/dbomu1erj/image/upload/v1693300148/ek9wmymd1291xpdznmtq.webp",
+        "disc": "Discover the ease of mastering Inspire Extrude Metal. In just a few hours of training, users confidently navigate the software."
+      },
+      {
+        "name": "Design Optimal Dies and Parts",
+        "img": "https://res.cloudinary.com/dbomu1erj/image/upload/v1693300253/gsf28uhcpd4rkv6nfdc0.webp",
+        "disc": "Avoid expensive die rework and enhance quality by utilizing virtual die trials with Inspire Extrude Metal for intricate, well-formed extruded products."
+      },
+      {
+        "name": "Reduce Manufacturing Cost",
+        "img": "https://res.cloudinary.com/dbomu1erj/image/upload/v1693300287/l3q4ver60xefgobfipif.webp",
+        "disc": "Initiate Inspire Extrude Metal simulation during concept design to eliminate costly iterations, redesigns, and retooling before manufacturing the die."
+      }
+    ],
+    "keyfeatures": [
+      {
+        "name": "Geometry Creation and Simplification",
+        "disc": "Refine, modify, and simplify solid models using Inspire Extrude Metal's advanced modeling tools."
+      },
+      {
+        "name": "Easy-to-learn Environment",
+        "disc": "The intuitive, process-driven user experience accelerates manufacturing insights, fostering quicker and informed design decisions for enhanced outcomes."
+      },
+      {
+        "name": "Extrusion Analysis",
+        "disc": "Analyze extrusion die, profile deformation, part temperature, elastic/elastoplastic tool analysis, and quenching with Inspire Extrude Metal."
+      },
+      {
+        "name": "Optimization Options",
+        "disc": "Optimize bearing length effortlessly with Inspire Extrude Metal, preventing costly die rework and ensuring efficient extrusion processes."
+      },
+      {
+        "name": "Avoid Defects",
+        "disc": "Effortlessly anticipate and visualize prevalent extrusion defects: distortion, contamination, weld issues, grain size, overheating, die wear, and surface quality."
+      }
+    ],
+    "dispname": "Altair Inspire Extrude Metal"
+  },
+  {
+    "name": "Altair Inspire Mold",
+    "tagline": "Integrated Injection Molding Simulation",
+    "discreption": "Inspire Mold transforms injection molding design by integrating simulation into the hands of designers and engineers early in development, enhancing products and reducing tooling costs. It offers fast analysis of mold filling and detailed simulations of advanced physics, enabling virtual testing, validation. Altair provides a comprehensive solution for faster, innovative product development: from initial part design and understanding injection molding to material mapping and efficient structural analysis for complex parts.",
+    "url": "inspiremold",
+    "whyaltr": [
+      {
+        "name": "Reduce Product Development Costs",
+        "img": "https://res.cloudinary.com/dbomu1erj/image/upload/v1693300523/eb9huiduuwqfuvlcab1b.webp",
+        "disc": "Spot manufacturing defects in the early development stages to minimize expenses related to mold trials and rejection rates."
+      },
+      {
+        "name": "Make Better Product Design Decisions Early",
+        "img": "https://res.cloudinary.com/dbomu1erj/image/upload/v1693300561/uia8wzrvv0a8ngiwihuu.webp",
+        "disc": "Accelerate and refine product design cycles, resulting in improved, structurally efficient, and easily manufacturable components through fewer iterations."
+      },
+      {
+        "name": "Deliver Production-ready Tools on Time and on Budget",
+        "img": "https://res.cloudinary.com/dbomu1erj/image/upload/v1693300589/novbcvqoocezla9o1yfv.jpg",
+        "disc": "Shift from 'know how' to 'know why,' evaluating product feasibility during adaptable stages using a straightforward five-step approach."
+      }
+    ],
+    "keyfeatures": [
+      {
+        "name": "Generate Mold Design",
+        "disc": "Initiate mold creation from a 3D part design, automatically generating essential mold components like runner systems, gates, and vents."
+      },
+      {
+        "name": "Mold/Part Configurations",
+        "disc": "Efficiently test and optimize diverse configurations in seconds, encompassing multiple cavities, mold inserts, sprue, and runner systems."
+      },
+      {
+        "name": "Advanced Physics",
+        "disc": "Supported physics encompass filling, packing, cooling, and warpage simulation."
+      }
+    ],
+    "dispname": "Altair Inspire Mold"
+  },
+  {
+    "name": "Altair Inspire Print3D",
+    "tagline": "Accelerated 3D Printing Optimization",
+    "discreption": "Inspire Print3D accelerates 3D-printed part creation and optimization, providing a fast toolset for design and process simulation. Engineers can assess manufacturability changes, reduce material usage and print times, and easily explore design alternatives within Inspire's user environment. With advanced thermo-mechanical simulation, Inspire Print3D aids additive manufacturing preparation by evaluating critical process variables, reducing trial and error. It identifies and corrects potential issues like deformation and excessive heating, delivering optimized designs with minimal supports and improved manufacturing outcomes.",
+    "url": "inspireprint3d",
+    "whyaltr": [
+      {
+        "name": "Reduce Manufacturing Costs",
+        "img": "https://res.cloudinary.com/dbomu1erj/image/upload/v1693300920/mi13avge55ahctxxr2qv.jpg",
+        "disc": "Enhance product design and reduce post-processing by minimizing supports and correcting potential defects before printing with Inspire Print3D."
+      },
+      {
+        "name": "Increase Process Efficiency",
+        "img": "https://res.cloudinary.com/dbomu1erj/image/upload/v1693300949/syr0hiafbcki24pyvwtz.jpg",
+        "disc": "Leverage performance and manufacturing simulation tools in a single, fast, easy, accurate, and affordable environment for generative design."
+      },
+      {
+        "name": "Design Optimal Parts",
+        "img": "https://res.cloudinary.com/dbomu1erj/image/upload/v1693300982/aout7mvti23hpzzuubsc.jpg",
+        "disc": "Optimize SLM designs using advanced thermo-mechanical simulation to minimize post-processing and eliminate costly trial and error processes."
+      }
+    ],
+    "keyfeatures": [
+      {
+        "name": "Part and Supports Design",
+        "disc": "Efficiently generate and optimize support structures within the same environment as the designed part, streamlining the process and enhancing manufacturability."
+      },
+      {
+        "name": "Easy-to-learn Environment",
+        "disc": "Experience an intuitive, process-driven interface that empowers users with rapid manufacturing insights, facilitating quicker and more informed design decisions."
+      },
+      {
+        "name": "Printing Analysis",
+        "disc": "Utilize the built-in thermo-mechanical solver to precisely simulate the complete printing process, covering build, cooling, cutting, and springback stages."
+      },
+      {
+        "name": "Identify Defects",
+        "disc": "Effortlessly identify and visualize defects such as large deformation, overheating, and delamination, assisting in design adjustments and process enhancements."
+      },
+      {
+        "name": "Materials and Printers",
+        "disc": "Choose from an expanding collection of additive manufacturing materials and standard printers, or utilize advanced options for tailored setups."
+      },
+      {
+        "name": "Ready for Printing",
+        "disc": "Validate the part's geometry layer by layer to ensure accuracy before initiating 3D printing analysis, then export a prepped part and supports file."
+      }
+    ],
+    "dispname": "Altair Inspire Print3D"
+  },
+  {
+    "name": "Altair HyperMesh",
+    "tagline": "High-Fidelity Finite Element Modeling",
+    "discreption": "For over three decades, Altair HyperMesh has stood as a leading solution for high-fidelity finite element (FE) modeling. Today, Altair® HyperWorks® builds upon this legacy by introducing a new user experience enriched with tutorials, context menus, enhanced manipulation, improved display controls, and a model browser. HyperWorks seamlessly handles industry-standard HyperMesh files, utilizing an upgraded HyperMesh database that ensures compatibility with models, scripts, and processes from earlier versions. This modern, optimized environment preserves the essence of HyperMesh's robust capabilities, evolving to meet the ever-changing demands of FE modeling.",
+    "url": "hypermesh",
+    "whyaltr": [
+      {
+        "name": "Faster Invention",
+        "img": "https://res.cloudinary.com/dbomu1erj/image/upload/v1693301137/bkjlgglgcccwovakdyvn.webp",
+        "disc": "Empowers users with diverse physics and efficient geometry manipulation, enabling engineers to swiftly explore design directions without extensive CAD usage."
+      },
+      {
+        "name": "Simpler Automation",
+        "img": "https://res.cloudinary.com/dbomu1erj/image/upload/v1693301167/rs3tylgb5rvam4v4bn5a.webp",
+        "disc": "Enhance confident product development decisions through automated multiphysics simulation and optimization, minimizing relearning and repetition for efficient results."
+      },
+      {
+        "name": "Detailed Interaction",
+        "img": "https://res.cloudinary.com/dbomu1erj/image/upload/v1693301194/pkdw1ma7rjdjqz994ri0.webp",
+        "disc": "Uniquely equipped to mesh, morph, assemble, manage, simulate, optimize, and visualize intricate products and solve complex challenges."
+      }
+    ],
+    "keyfeatures": [],
+    "dispname": "Altair HyperMesh"
+  },
+  {
+    "name": "Radioss",
+    "tagline": "Product Performance Under Dynamic Loadings",
+    "discreption": "Radioss is a premier analysis solution for assessing and enhancing product performance in complex scenarios with dynamic loads. It's globally utilized across industries, boosting safety, manufacturability, and crashworthiness of intricate designs. With a remarkable 30-year legacy, Radioss excels in automotive crash, safety, impact, ballistic, and explosion analyses. Renowned in sectors like automotive, aerospace, and electronics, it predicts multiphysics behaviors, enhancing understanding and robust predictions in intricate environments. Maximize Simulation Throughput and Value. Procure a unified package for scalable hardware and software, leveraging Altair's industry expertise, diverse solver range, and high-performance computing solutions.",
+    "url": "radioss",
+    "whyaltr": [
+      {
+        "name": "Maximize Simulation Throughput and Value",
+        "img": "https://res.cloudinary.com/dbomu1erj/image/upload/v1693301317/mi5qfz9fnt6mnxgrttll.jpg",
+        "disc": "Procure a unified package for scalable hardware and software, leveraging Altair's industry expertise, diverse solver range, and high-performance computing solutions."
+      },
+      {
+        "name": "Proven Automotive Expertise",
+        "img": "https://res.cloudinary.com/dbomu1erj/image/upload/v1693301351/qaerz0qhn466jviwbpon.jpg",
+        "disc": "With over 30 years of experience, we provide comprehensive vehicle safety simulations, including battery pack models running overnight."
+      },
+      {
+        "name": "Solutions for Complex Multiphysics",
+        "img": "https://res.cloudinary.com/dbomu1erj/image/upload/v1693301363/buizonuvnzvdbiji2vpo.jpg",
+        "disc": "Offers robust multiphysics solutions for dynamic problems, integrating structures, fluids, thermal, and electromagnetic effects across industries."
+      }
+    ],
+    "keyfeatures": [
+      {
+        "name": "Material and Rupture Libraries",
+        "disc": "Extensive material laws, including brittle windshield crack propagation and ductile damage, enhance precise simulations, optimization, and robustness studies."
+      },
+      {
+        "name": "Innovative Element Formulations",
+        "disc": "Offers innovative composite elements with delamination tracking, fast parabolic tetra elements, and stable under-integrated shell and solid elements."
+      },
+      {
+        "name": "Battery Electric Vehicles (BEV)",
+        "disc": "Offers battery and module macro models for crash, debris impacts, and shocks, simulating mechanical failures with electrical and thermal risks."
+      },
+      {
+        "name": "Vehicle Occupant Safety",
+        "disc": "Radioss, through partnerships with Humanetics and CellBond, offers an industry-leading toolset for crash simulations, coupled with MADYMO."
+      },
+      {
+        "name": "Airbag Deployment",
+        "disc": "Delivers faster, accurate airbag deployment with finite volume method (FVM) technology."
+      },
+      {
+        "name": "High Workload Throughput",
+        "disc": "Radioss efficiently manages and monitors jobs on diverse infrastructures using Altair® PBS Professional® workload management software."
+      }
+    ],
+    "dispname": "Radioss"
+  },
+  {
+    "name": "Altair MotionSolve",
+    "tagline": "Simplify Complex System Modeling and Optimization",
+    "discreption": "MotionSolve is a versatile multibody simulation software that simplifies building and executing complex system models, evaluating dynamic responses, and optimizing performance. Engineers can create detailed system models with MotionSolve, incorporating realistic geometry, various loading conditions, flexibility, friction, contact, multiphysics effects, and more. By conducting time- and frequency-domain simulations, designs can be improved and validated, reducing the need for physical testing and prototypes.",
+    "url": "motionsolve",
+    "whyaltr": [
+      {
+        "name": "Ensures Desired System Performance",
+        "img": "https://res.cloudinary.com/dbomu1erj/image/upload/v1693301814/sdfvckxiqdvedzhmuu7r.jpg",
+        "disc": "Mechanize CAD for operational prediction, design variation study, and load prediction for downstream strength and fatigue analyses."
+      },
+      {
+        "name": "Accelerates Vehicle Development",
+        "img": "https://res.cloudinary.com/dbomu1erj/image/upload/v1693301838/adppirsjb7jlksgzkmtp.jpg",
+        "disc": "Effortlessly assemble parametric vehicle models, simulate real-world tests, and enhance performance through insightful design variation understanding."
+      },
+      {
+        "name": "Analyzes and Improves Systems-of-Systems",
+        "img": "https://res.cloudinary.com/dbomu1erj/image/upload/v1693301860/glxos8zi42eyizqnx1um.jpg",
+        "disc": "Efficiently simulate intricate system-of-systems with flexbodies, controls, and 3D to 0D test data integration for accelerated, high-quality product design."
+      }
+    ],
+    "keyfeatures": [
+      {
+        "name": "Geometries",
+        "disc": "Import CAD, mesh, and create basic geometry effortlessly in popular formats for model building using an intuitive user interface."
+      },
+      {
+        "name": "Contacts",
+        "disc": "Easily define contact between parts for mechanical system analysis, supporting analytical and CAD-based contacts."
+      },
+      {
+        "name": "Flexbody",
+        "disc": "Supports various structural flexibilities, from beams to nonlinear FE, with pressure loads and geometric stiffening effects."
+      },
+      {
+        "name": "Parametric and Hierarchical Modeling",
+        "disc": "Build parametric models for quick exploration, reuse sub-systems with unlimited hierarchy, and reduce modeling time with intuitive UI."
+      },
+      {
+        "name": "Linear Analysis",
+        "disc": "Simulate complex systems in frequency domain, understand operating frequencies, and aid controller development."
+      },
+      {
+        "name": "Vehicle Tools",
+        "disc": "Offers quick vehicle assembly wizard, intuitive LeafSpring builder, and dedicated auto entities for accurate incorporation of components."
+      },
+      {
+        "name": "Co-simulation",
+        "disc": "FMI 2.0 compatibility and tight integration with Activate and 0D/1D tools enable system-of-systems simulation. Co-simulation with EDEM models soil interaction."
+      },
+      {
+        "name": "Optimization",
+        "disc": "HyperStudy integration facilitates design exploration and optimization. Native tools enable rapid mechanism optimization for efficient simulations."
+      },
+      {
+        "name": "Python APIs",
+        "disc": "Harness robust Python APIs for pre-processing and solving, tailoring MotionSolve to match your unique requirements effectively."
+      }
+    ],
+    "dispname": "MotionSolve"
+  },
+  {
+    "name": "Altair CFD",
+    "tagline": "Versatile Fluid Mechanics Solutions",
+    "discreption": "Altair CFD provides a versatile toolkit for tackling fluid mechanics challenges. Whether it's thermal analysis, aerodynamics, noise reduction, or medical device design, Altair CFD offers tailored solutions. Methods include a general-purpose Navier-Stokes solver, smoothed-particle hydrodynamics (SPH) for free surface simulations, and a Lattice Boltzmann Method (LBM) solver for aerodynamics and aero-acoustics. All these solutions come under a single license, optimizing versatility while controlling software costs.",
+    "url": "cfd",
+    "whyaltr": [
+      {
+        "name": "A Solution to Each Problem",
+        "img": "https://res.cloudinary.com/dbomu1erj/image/upload/v1693302068/is4wkeu7rdidiniaga5z.png",
+        "disc": "Altair CFD simulation encompasses diverse technologies to address fluid problems across industries and applications comprehensively."
+      },
+      {
+        "name": "One License, Multiple Solvers",
+        "img": "https://res.cloudinary.com/dbomu1erj/image/upload/v1693302094/uqb5mrcn5t8osgxysuep.jpg",
+        "disc": "Altair's unit-based license system grants access to all tools in one license, scalable, deployable, and cost-effective."
+      },
+      {
+        "name": "Turnkey HPC and Cloud",
+        "img": "https://res.cloudinary.com/dbomu1erj/image/upload/v1693302122/mstngktxowf7n7yultiw.jpg",
+        "disc": "Altair offers turnkey on-premises and cloud-based appliances bundling software, system admin, and infrastructure for unlimited use."
+      }
+    ],
+    "keyfeatures": [
+      {
+        "name": "Multiple Solutions Available",
+        "disc": "Altair CFD simulation features diverse solvers for various applications, ensuring accuracy, speed, and reduced modeling turnaround times for engineers."
+      },
+      {
+        "name": "High-performance Solvers",
+        "disc": "All solvers are optimized for use on clusters of GPUs for faster and more efficient simulations regardless of the scale and complexity."
+      },
+      {
+        "name": "Efficient Workflows",
+        "disc": "Altair CFD solvers and pre- and post-processing tools are connected by a common, intuitive interface in Altair® HyperWorks® to ensure seamless software deployment."
+      },
+      {
+        "name": "Unique Aero-acoustics Capability",
+        "disc": "Altair CFD simulation provides the capability to accurately predict aero-acoustic noise from rotating equipment such as fans and wind turbines."
+      },
+      {
+        "name": "Solve Complex Multiphysics Problems",
+        "disc": "Altair CFD offers coupling solutions with other tools for fluid-structure interaction (FSI) and thermomechanics simulations."
+      },
+      {
+        "name": "Coupling with the Discrete Element Method",
+        "disc": "Altair CFD users can perform accurate coupled simulations with Altair® EDEM™ for particle-fluid systems like fluidized beds, spray coating, and spreading."
+      }
+    ],
+    "dispname": "Altair CFD"
+  },
+  {
+    "name": "HyperLife",
+    "tagline": "User-Friendly Fatigue Analysis",
+    "discreption": "HyperLife, built on a solver-neutral framework, offers user-friendly fatigue analysis. It seamlessly interfaces with major FEA results files, providing a comprehensive suite for durability analysis. With its embedded material library, HyperLife predicts fatigue life in diverse industrial scenarios, accommodating repetitive loadings. This software encompasses various certification guidelines and boasts an open and customizable environment. This adaptability makes it simple to align with in-house methods and specific requirements, enhancing efficiency and accuracy in fatigue analysis.",
+    "url": "hyperlife",
+    "whyaltr": [
+      {
+        "name": "Easy-to-learn",
+        "img": "https://res.cloudinary.com/dbomu1erj/image/upload/v1693302293/ubkukiiktroftivgsdru.jpg",
+        "disc": "The intuitive GUI of HyperLife ensures efficient fatigue life predictions, making it accessible for both novices and experts."
+      },
+      {
+        "name": "Solver Neutral",
+        "img": "https://res.cloudinary.com/dbomu1erj/image/upload/v1693302318/rqqj55stj6tliqzaklcg.jpg",
+        "disc": "Easily import FEA results data from widely-used commercial solvers."
+      },
+      {
+        "name": "Accelerate Decisions",
+        "img": "https://res.cloudinary.com/dbomu1erj/image/upload/v1693302339/xitze9cnype8qq5nm8ws.jpg",
+        "disc": "Modify analysis settings without restarting, saving time, money, and enhancing decision-making efficiency."
+      }
+    ],
+    "keyfeatures": [
+      {
+        "name": "Available Modules",
+        "disc": "Included fatigue life modules: Uniaxial SN/EN, Multiaxial SN/EN, Dang Van (FOS), and Weld Fatigue (Spot Weld and Seam Weld)."
+      },
+      {
+        "name": "Materials",
+        "disc": "HyperLife includes a comprehensive embedded material database (//matdat.com) and supports major weld regulations like FKM, DVS-1612, DVS-1608, and Eurocode-3."
+      },
+      {
+        "name": "Welds",
+        "disc": "Weld Fatigue assessment is available for Spot Welds and Seam Welds using RUPP and VOLVO methods, respectively."
+      },
+      {
+        "name": "Signal Processing",
+        "disc": "LoadMap utility offers simple, robust signal processing for automatic/manual fatigue durability derivation from FEA load cases."
+      },
+      {
+        "name": "Analysis",
+        "disc": "Check fatigue settings, run analysis, and use results for contour plots and histograms after completion."
+      },
+      {
+        "name": "Utilities",
+        "disc": "HyperLife provides a comprehensive toolkit to handle complex FE data, including LoadMapper, Reports, and more."
+      }
+    ],
+    "dispname": "HyperLife"
+  },
+  {
+    "name": "EDEM",
+    "tagline": "High-Performance Bulk Material Simulation",
+    "discreption": "EDEM is high-performance software for simulating bulk and granular materials using the Discrete Element Method (DEM). It rapidly and accurately models coal, ores, soils, grains, powders, and more, offering valuable insights into their behavior under various operational conditions. Engineers gain crucial insights into how these materials interact with equipment, aiding in performance evaluation and process optimization. EDEM is widely used across industries like heavy equipment, mining, steelmaking, and manufacturing to predict granular behaviors, enhance equipment understanding, and optimize processes.",
+    "url": "edem",
+    "whyaltr": [
+      {
+        "name": "Instant Access to Material Models Libraries",
+        "img": "https://res.cloudinary.com/dbomu1erj/image/upload/v1693302701/xvn5a9rjra5iupqe2ctk.png",
+        "disc": "Begin simulations effortlessly using EDEM's pre-calibrated material models, spanning rocks, ores, soils, and powders for accurate behavior predictions."
+      },
+      {
+        "name": "High-Performance Solver",
+        "img": "https://res.cloudinary.com/dbomu1erj/image/upload/v1693302726/nfybmtlub9zybn98rnyc.png",
+        "disc": "Achieve rapid, scalable performance with EDEM's CPU, GPU, and multi-GPU solvers for simulating massive particle systems efficiently."
+      },
+      {
+        "name": "Integrate with other CAE Tools",
+        "img": "https://res.cloudinary.com/dbomu1erj/image/upload/v1693302754/csiu98sagw4sfv1ag0d6.png",
+        "disc": "Extend your application scope by coupling EDEM with leading tools for other CAE disciplines – from Altair or third parties – including MBD, FEA, and CFD."
+      }
+    ],
+    "keyfeatures": [
+      {
+        "name": "Simulate Any Material",
+        "disc": "Simulate diverse materials like rocks, powders, fibers, and more using efficient multi-sphere or polyhedral particle solvers in EDEM."
+      },
+      {
+        "name": "Realistic Material Behavior",
+        "disc": "EDEM offers validated physics models to accurately represent various material behaviors, including dry, sticky, and compressible properties."
+      },
+      {
+        "name": "Fast and Easy Workflow",
+        "disc": "EDEM features an intuitive user interface for easy simulation setup, direct access to material model libraries, and a powerful solver for efficient simulations."
+      },
+      {
+        "name": "Advanced Analysis",
+        "disc": "EDEM provides a wide range of built-in visualization and analysis tools, along with data export options and a Python library for advanced post-processing."
+      },
+      {
+        "name": "Customization",
+        "disc": "EDEM's API allows for custom physics, enabling complex simulations of advanced material behaviors like wet coating, agglomeration, breakage, magnetic particles, and more."
+      },
+      {
+        "name": "CAE Integration",
+        "disc": "Couple EDEM with FEA and MBD tools to include realistic material loads in structural and system dynamics analysis. Combine with CFD tools for accurate simulation of particle-fluid systems."
+      }
+    ],
+    "dispname": "EDEM"
+  },
+  {
+    "name": "Feko",
+    "tagline": "High-Frequency Electromagnetic Simulation",
+    "discreption": "Feko is a high-frequency electromagnetic simulation software. It has been used for over 20 years to design products for an increasing connected world. Feko can be used to optimize wireless connectivity, ensure electromagnetic compatibility, and perform radar cross-section analysis. It can also be used to simulate antenna placement, radio coverage, and spectrum management.",
+    "url": "feko",
+    "whyaltr": [
+      {
+        "name": "Drive Design with Simulation",
+        "img": "https://res.cloudinary.com/dbomu1erj/image/upload/v1693302923/gfdyctgp7mkrulbscfxw.jpg",
+        "disc": "Comprehensive solver package with true hybridization for efficient design, analysis, and optimization of connected products, EMC compliance, and radar technologies."
+      },
+      {
+        "name": "A Better User Experience",
+        "img": "https://res.cloudinary.com/dbomu1erj/image/upload/v1693302948/uefdyddddhf2xj9ngpdy.jpg",
+        "disc": "Feko's simplified workflows and scripting capabilities make it easy to apply its speed and accuracy to a wide range of electromagnetic simulation tasks."
+      },
+      {
+        "name": "Ongoing Expansion and Innovation",
+        "img": "https://res.cloudinary.com/dbomu1erj/image/upload/v1693302977/rtc3ejy4xcfc54ubrzy9.jpg",
+        "disc": "Feko's advanced features, such as Altair® WRAP™ spectrum management, newFASANT radome modeling, and Altair® WinProp™ wireless coverage, ensure wireless connectivity, compatibility, and radar performance."
+      }
+    ],
+    "keyfeatures": [
+      {
+        "name": "One Product, Multiple Solvers",
+        "disc": "Feko uses multiple specialized solvers for diverse applications and cross-validation, as no single method suffices."
+      },
+      {
+        "name": "True Solver Hybridization",
+        "disc": "Feko offers advanced hybridized solvers for efficient analysis of complex and large electrical problems."
+      },
+      {
+        "name": "Solver Accuracy and Performance",
+        "disc": "Accurate and efficient electromagnetic simulations with extensive validation, solver development, and parallelization."
+      },
+      {
+        "name": "More Specialized Solutions",
+        "disc": "Utilize cutting-edge commercial CMA solver and specialized solutions like cable modeling, collocation interference, ultrasonics, and virtual testing."
+      },
+      {
+        "name": "Complete Connectivity Workflow",
+        "disc": "Feko's unique workflow combines antenna performance, radio coverage, and planning analysis with fast and accurate wave propagation models."
+      },
+      {
+        "name": "Design Optimization with Machine Learning",
+        "disc": "Efficient optimization through machine learning and design experiments for antenna design and placement applications."
+      }
+    ],
+    "dispname": "Feko"
+  },
+  {
+    "name": "Flux",
+    "tagline": "Electromechanical Equipment Simulation Software",
+    "discreption": "Flux is a powerful electromechanical equipment simulation software that has been the industry standard for over 35 years. It excels at optimizing performance, efficiency, size, cost, and weight with precision. This versatile tool simulates a wide range of conditions, from magneto static and steady-state to transient scenarios. Flux is seamlessly integrated with Altair's HyperWorks multiphysics optimization platform, facilitating the evaluation of dynamic interactions among subsystems and streamlining the entire design process. This strong coupling enhances innovation and value creation.",
+    "url": "flux",
+    "whyaltr": [
+      {
+        "name": "Flexibility",
+        "img": "https://res.cloudinary.com/dbomu1erj/image/upload/v1693303159/cihbkinufi64yfwyis6b.jpg",
+        "disc": "In Flux's open environment, utilize scripting, macros, and multiparametrics to efficiently fine-tune models, automate simulations, and optimize processes."
+      },
+      {
+        "name": "Proven Accuracy",
+        "img": "https://res.cloudinary.com/dbomu1erj/image/upload/v1693303194/x6z8vtfewa3nv0q9q4en.jpg",
+        "disc": "Flux's history of precise measurement replication and reliable results builds trust among engineers, replicating complex phenomena."
+      },
+      {
+        "name": "Multiphysics Capabilities",
+        "img": "https://res.cloudinary.com/dbomu1erj/image/upload/v1693303214/rlkuwq2iofkxvhpdorst.jpg",
+        "disc": "Create efficient, silent, and robust machines through seamless integration with HyperWorks for multiphysics optimizations."
+      }
+    ],
+    "keyfeatures": [
+      {
+        "name": "Efficient Geometry Description and Meshing",
+        "disc": "Accelerate innovative 2D/3D design exploration with Flux toolkit, including sketcher, modeler, e-Motor features, and auto-adaptive mesh."
+      },
+      {
+        "name": "Advanced Physical Properties",
+        "disc": "Flux features embedded models for magnetic, electric, thermal, static, AC, transient analysis, plus a circuit editor and motion simulation for real-life predictions."
+      },
+      {
+        "name": "Powerful Modeling Techniques",
+        "disc": "Flux offers unparalleled modeling for quick, precise analysis, including non-meshed coils, anisotropic materials, hysteresis, and winding losses."
+      },
+      {
+        "name": "Fast and Robust Solvers",
+        "disc": "Flux's embedded multi-parametric capabilities, robust solvers, optimization, and HPC support facilitate exploring new layouts efficiently."
+      },
+      {
+        "name": "Convincing Results",
+        "disc": "Flux's versatile postprocessor facilitates analysis, reporting, and exporting of results from multi-parametric solving, covering various physical quantities."
+      },
+      {
+        "name": "Seamless Multiphysics Optimization",
+        "disc": "Connect physics in a single optimization loop, sharing models and variables, automating for a rapid understanding of complex phenomena."
+      }
+    ],
+    "dispname": "Flux"
+  },
+  {
+    "name": "PollEx",
+    "tagline": "Comprehensive PCB Verification Solution",
+    "discreption": "Delivering electronics that truly captivate consumers goes beyond simply bridging the gap between ECAD and MCAD domains. It necessitates the incorporation of physics-based analysis seamlessly into the design process, maintaining a rapid pace of innovation, and fostering interdisciplinary collaboration throughout development. PollEx isn't just a conventional PCB verification tool; it stands as a comprehensive solution that expedites the development of modern, intelligent, and intricately designed electronic products.",
+    "url": "pollex",
+    "whyaltr": [
+      {
+        "name": "Complete PCB Verification Environment",
+        "img": "https://res.cloudinary.com/dbomu1erj/image/upload/v1693303399/wtg9znbgwljuuuoiszgj.jpg",
+        "disc": "Achieve error-free complex electronics design from the start with comprehensive PCB design tools for review, analysis, verification, and manufacturing assessment."
+      },
+      {
+        "name": "Better Collaboration, Shorter Design Times",
+        "img": "https://res.cloudinary.com/dbomu1erj/image/upload/v1693303422/xsdnfrxxh3nxuthuyper.jpg",
+        "disc": "Streamlining data management across disciplines from conceptualization to manufacturing eliminates design bottlenecks and errors."
+      },
+      {
+        "name": "Integrates with Existing Tool Chains",
+        "img": "https://res.cloudinary.com/dbomu1erj/image/upload/v1693303443/hofvisnouj1resqybxjo.jpg",
+        "disc": "Achieve unparalleled connectivity with all major ECAD systems and seamless export capabilities to Altair and third-party physics simulation tools."
+      }
+    ],
+    "keyfeatures": [
+      {
+        "name": "Unified Part Library",
+        "disc": "Facilitate collaborative product development by centralizing physical, logical, thermal, electrical, and assembly attribute data in one unified location."
+      },
+      {
+        "name": "Early Design Simulation",
+        "disc": "PollEx checks signal integrity, power integrity, EMI vulnerability, and ESD protection, covering return path routing, balanced differential pairs, and more."
+      },
+      {
+        "name": "Detailed Performance Analysis",
+        "disc": "Meet performance and usability targets for compact electronic devices through seamless export to engineering simulation across all disciplines."
+      },
+      {
+        "name": "Manufacturing Support",
+        "disc": "Enhance PCB fabrication, assembly, and testing efficiency by exporting data to production line machinery, covering fabrication, mounting, paneling, and testing."
+      },
+      {
+        "name": "Integrates with Existing Tools",
+        "disc": "Pollex reads major ECAD file formats including: ODB++, IPC 2581, Gerber, Altium, Cadence, CADVANE, EAGLE, Mentor Graphics, PowerPCB, Zuken, and CAM350."
+      },
+      {
+        "name": "Part of a Broad Product Development Suite",
+        "disc": "Utilize Altair Units to access Altair solvers like OptiStruct, Radioss, and Feko for comprehensive thermal, stress, vibration, drop, and EMI/EMC analysis."
+      }
+    ],
+    "dispname": "PollEx"
+  },
+  {
+    "name": "Monarch",
+    "tagline": "Self-Service Data Preparation Tool",
+    "discreption": "Monarch, a premier desktop-based self-service data preparation tool, effortlessly connects to various data sources, encompassing structured and unstructured data, as well as cloud-based and big data. It simplifies data connectivity, cleansing, and manipulation without the need for coding. Monarch efficiently transforms diverse data formats into organized rows and columns, expediting data analytics. With over 80 pre-built data preparation functions, tasks are executed swiftly and error-free, allowing more focus on extracting value from data rather than wrestling with data usability issues.",
+    "url": "monarch",
+    "whyaltr": [
+      {
+        "name": "Reveal",
+        "img": "https://res.cloudinary.com/dbomu1erj/image/upload/v1693303607/s4t9mhwt6zuqhpg7jhvy.png",
+        "disc": "Monarch transforms complex data into actionable insights, leveraging 30 years of self-service data preparation experience for informed decisions."
+      },
+      {
+        "name": "Insight",
+        "img": "https://res.cloudinary.com/dbomu1erj/image/upload/v1693303629/fmtj4aeucdmkqybfuxrg.png",
+        "disc": "Monarch empowers confident, data-driven decisions with quick, user-friendly insight, fostering trust and accountability across skill levels."
+      },
+      {
+        "name": "Believe",
+        "img": "https://res.cloudinary.com/dbomu1erj/image/upload/v1693303652/ggeedje6vgo4gsdq01eg.png",
+        "disc": "Monarch offers agile, controlled, and trustworthy self-service data preparation, preventing errors and enhancing confident, timely decision-making."
+      }
+    ],
+    "keyfeatures": [
+      {
+        "name": "Ease of Use",
+        "disc": "Monarch caters to data architects, engineers, and analysts with an intuitive interface, 80+ functions for seamless data transformation. Exportable to BI platforms."
+      },
+      {
+        "name": "Powerful, Efficient Self-Service Data Preparation",
+        "disc": "Monarch, an industry leader for 30 years, swiftly extracts data from diverse sources, ensuring trust and transparency."
+      },
+      {
+        "name": "Reduce Costs, Increase Efficiencies",
+        "disc": "Desktop self-service data prep eliminates IT extraction, saving time and effort. Automation and reuse empower analysis focus."
+      }
+    ],
+    "dispname": "Monarch"
+  },
+  {
+    "name": "Panopticon",
+    "tagline": "Advanced Data Visualization and Stream Processing",
+    "url": "panopticon",
+    "discreption": "In time-sensitive industries like manufacturing, finance, healthcare, and energy, decision delays come at a high cost. Relying on end-of-day reports can lead to missed opportunities and operational challenges, affecting compliance and profitability. Panopticon empowers business users, analysts, and engineers to create and deploy advanced data visualization and stream processing applications effortlessly. With a user-friendly drag-and-drop interface, they can connect to various data sources, including big data, SQL and NoSQL databases, and message queues.",
+    "whyaltr": [
+      {
+        "name": "Visualize Time-critical Data",
+        "img": "https://res.cloudinary.com/dbomu1erj/image/upload/v1693303789/h1dcvcorgnymxe0tu0qi.jpg",
+        "disc": "Panopticon offers diverse high-density data visualizations for intuitive understanding of complexity. Identify patterns, trends, and anomalies instantly."
+      },
+      {
+        "name": "Multiple Deployment Options",
+        "img": "https://res.cloudinary.com/dbomu1erj/image/upload/v1693303816/etv92flfoopxbgs9zgcq.jpg",
+        "disc": "Panopticon supports major cloud providers, Docker containers, and on-premises deployment for tailored security needs."
+      },
+      {
+        "name": "Connect to Any Data Source",
+        "img": "https://res.cloudinary.com/dbomu1erj/image/upload/v1693303859/dztlflytkvbshkm2lhml.jpg",
+        "disc": "Panopticon offers native connectors for diverse data sources, including SQL, NoSQL, big data, message queues, and time series databases—no coding required."
+      }
+    ],
+    "keyfeatures": [
+      {
+        "name": "Enterprise Class Data Exploration",
+        "disc": "Gain insight into data structure, interconnections, causality, and outliers. Create and share secure, comprehensive dashboards and reports enterprise-wide."
+      },
+      {
+        "name": "Code-free Development",
+        "disc": "Develop analytical dashboards and stream processing apps effortlessly with a point-and-click interface. Adapt swiftly, cut risk and cost, and deploy in minutes."
+      },
+      {
+        "name": "Advanced Analysis & Complex Data Visualization",
+        "disc": "Instantly create smart dashboards, auto-generate charts from keywords, and visualize complex data with automatic machine learning in the UI."
+      },
+      {
+        "name": "Visualize Real-time Data",
+        "disc": "Panopticon handles high-velocity data, enabling real-time comparisons with historical time series data, precise timestamp granularity, and retrospective analysis."
+      },
+      {
+        "name": "Build Kafka-enabled Stream Processing Applications",
+        "disc": "Panopticon's stream processing, powered by Apache Kafka and Kafka Streams, offers real-time data prep, aggregation, calculations, and alerts—no Java or Scala code needed."
+      },
+      {
+        "name": "Embed Visual Analytics in Any Application",
+        "disc": "Panopticon lets you embed charts, dashboards, and reports in business apps with SSO, automated links, and CORS."
+      }
+    ],
+    "dispname": "Panopticon"
+  }
+]

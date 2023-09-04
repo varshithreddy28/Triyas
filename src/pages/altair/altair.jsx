@@ -3,6 +3,7 @@ import "./altair.css";
 import Home from "../../components/AltairHome/home";
 import Nav from "../../components/AltairNav/nav";
 import Pdts from "../../components/Altairpdts/pdts";
+import AboutAltair from "../../components/About Altair/about";
 
 export default function Altair() {
   const [search, setSearch] = useState("");
@@ -26,6 +27,7 @@ export default function Altair() {
   return (
     <div>
       <Home />
+      <AboutAltair />
       <Nav handleSerachText={handleSearchText} search={search} />
       <Pdts search={search} isSearched={isSearched} />
     </div>

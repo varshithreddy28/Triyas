@@ -17,37 +17,42 @@ export default function Productdesign() {
     content:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci nisi officia in doloremque distinctio dolore culpa laudantium facere qui, dolorem voluptatibus ratione quia earum reprehenderit rerum minima enim! Dolorem, voluptate? Praesentium, adipisci ipsam.",
     logo: Logo,
-    classHome: "windchill",
+    classHome: "femodelling",
     back_img:
-      "https://res.cloudinary.com/dbomu1erj/image/upload/v1692512903/Images_Website/htddkdikpruhtqils8qt.jpg",
+      "https://res.cloudinary.com/dbomu1erj/image/upload/v1693418633/Images_Website/exhybyrsibwge3iur3qr.jpg",
   };
 
-  const overViewContent = {
-    header: "Windchill product lifecycle management software",
-    content:
-      "Windchill revolutionizes product development with real-time information sharing, dynamic data visualization, and seamless collaboration. Its open architecture enables integration with other systems, including IoT, creating a robust digital thread for product-driven processes. With comprehensive functionality and configurable role-based apps, Windchill optimizes PLM while ensuring traceable product data access for non-experts without excessive complexity.",
-    video:
-      "https://res.cloudinary.com/dbomu1erj/image/upload/v1692512903/Images_Website/htddkdikpruhtqils8qt.jpg",
-    id: "introduction_windchill",
-  };
-
-  const aboutService = {
-    header: "What does Product Design Mean?",
-    content:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni illum possimus harum voluptatum, dicta nesciunt voluptates, inventore mollitia asperiores eum laborum corporis molestiae veritatis eveniet nobis aut iusto! Porro consequatur delectus quaerat, quisquam illo doloremque omnis est ratione perferendis dolor?",
-  };
+  // const aboutService = {
+  //   header: "What does Product Design Mean?",
+  //   content:
+  //     "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni illum possimus harum voluptatum, dicta nesciunt voluptates, inventore mollitia asperiores eum laborum corporis molestiae veritatis eveniet nobis aut iusto! Porro consequatur delectus quaerat, quisquam illo doloremque omnis est ratione perferendis dolor?",
+  // };
 
   const features = [
     {
-      name: "Concept design detailing",
+      name: "Concept Ideation",
       content:
-        "Windchill brings significant benefits to the product development lifecycle, including reduced costs, faster time to market, improved product quality, and enhanced collaboration. Its streamlined processes and data management optimize resources and maximize efficiency, leading to higher customer satisfaction and cost savings through minimized prototyping and increased data re-use. ",
+        "Design Ideation in Mechanical Engineering serves as the creative spark, igniting idea generation during the initial stages of conceptual design. This phase thrives on innovative approaches and strategies that enhance creativity, ultimately shaping the foundation for detailed design development. Ideation methods are meticulously crafted to foster ingenuity, ensuring a seamless transition towards the creation of intricate designs",
+      reversed: true,
+      img: CreoImg,
+    },
+    {
+      name: "Detailed Design",
+      content:
+        "Within Mechanical Engineering, the Detailed Design phase comes to the forefront as designers meticulously craft intricate designs tailored for efficient manufacturing. This crucial stage encompasses the creation of meticulous drawings and specifications, which precisely outline the product's measurements, materials, and manufacturing methodologies. Here, designers delve into concerns of manufacturability, clearances, and operational longevity, ensuring the product's usability without encountering potential hazards.",
+      reversed: false,
+      img: CreoImg,
+    },
+    {
+      name: "Egineering Prototype",
+      content:
+        "We specialize in transforming ideas into reality through expertly crafted engineering prototypes. Our team of experienced engineers excels in creating functional prototypes that not only mirror your vision but also stand as a testament to the power of innovation. From intricate mechanical designs to cutting-edge electronics, we breathe life into concepts, ensuring they're well-prepared for the journey ahead.",
       reversed: true,
       img: CreoImg,
     },
   ];
 
-  const features_points = [
+  /*   const features_points = [
     {
       name: "Concept Ideation",
       cnt: "Creo+ enables you to collaborate with multiple contributors in real time, both inside and outside the organization.",
@@ -71,15 +76,15 @@ export default function Productdesign() {
       reversed: true,
       img: CreoImg,
     },
-  ];
+  ]; */
 
   return (
     <div>
       <Home {...home_content} />
-      <What {...aboutService} />
+      {/* <What {...aboutService} /> */}
       <Info features={features} />
 
-      <Points features={features_points} />
+      {/* <Points features={features_points} /> */}
 
       {/* <Info features={framework} id="framework_onshape" /> */}
     </div>

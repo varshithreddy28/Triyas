@@ -1,0 +1,32 @@
+div#about_altair {
+    margin: 4% 0;
+}
+
+div#about_altair {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: row-reverse;
+    height: 100vh;
+}
+
+@media screen and (max-width: 700px) {
+    .about_data.altair_abt_data {
+        width: 100%;
+    }
+
+    .about_img.altair_abt_img {
+        display: block;
+        width: 100%;
+        padding: 2%;
+    }
+
+    div#about_altair {
+        flex-direction: column-reverse;
+        height: auto;
+    }
+
+    .about_data.altair_abt_data {
+        display: none;
+    }
+}
