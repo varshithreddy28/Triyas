@@ -9,6 +9,9 @@ body {
   background-image: url("../../assests/contactbg.png");
   background-size: cover;
   /* background-color: rgb(255, 0, 234); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .containerContact {

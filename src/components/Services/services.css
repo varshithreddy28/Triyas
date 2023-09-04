@@ -122,10 +122,6 @@ button.service_btn a {
   .service_card {
     padding: 1em;
   }
-
-  #services {
-    height: 420vh;
-  }
 }
 
 @media screen and (max-width: 400px) {
