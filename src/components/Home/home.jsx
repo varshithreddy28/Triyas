@@ -1,6 +1,6 @@
 import React from "react";
 import "./home.css";
-import About from "../About/about";
+import Hero from "../Hero/hero";
 import Services from "../Services/services";
 import Contact from "../Contact/contact";
 import Landing from "../Landingpage/landing";
@@ -9,9 +9,7 @@ import ScrollToTop from "react-scroll-to-top";
 const Home = () => {
   return (
     <div>
-      <Landing />
-      <ScrollToTop />
-      <About />
+      <Hero />
       <Services />
       <Contact />
     </div>
@@ -19,3 +17,11 @@ const Home = () => {
 };
 
 export default Home;
+
+/**
+ * <Landing />
+      <ScrollToTop />
+      <About />
+      <Services />
+      <Contact />
+ */

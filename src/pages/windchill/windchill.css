@@ -15,6 +15,10 @@ div#introduction_windchill {
     padding-top: 6%;
 }
 
+.home_gen_info.windchill {
+    width: 80%;
+}
+
 /*  */
 .onshape_features.container.features_windchill {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./nav.css";
 import { AiOutlineClose } from "react-icons/ai";
 import { TbAdjustmentsHorizontal } from "react-icons/tb";
@@ -18,18 +19,19 @@ export default function Nav({ handleSerachText, search, handleClearFilter }) {
 
   const filters = [
     "Data Analytics & AI",
-    "Electromagnetics",
+    "Electronic System Design",
     "Fluids & Thermal",
     "Structural Analysis",
     "Multiphysics",
-    "Manufacturability",
+    "Manufacturing",
   ];
 
   return (
     <div className="altair_nav">
       <div className=" container nav_sticky_top">
-        <div className="company">
-          <img src={nav_logo} alt="Altair Logo" />
+        <div className="company_altr">
+          {/* <img src={nav_logo} alt="Altair Logo" /> */}
+          <Link to="/">/Home/Simulation/Altair</Link>
         </div>
         {/* <div className="searchbar">
                     <input onChange={handleSerachText} type="search" value={search} name='altairSearch' placeholder="Search..." />

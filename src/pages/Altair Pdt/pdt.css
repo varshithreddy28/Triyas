@@ -1,0 +1,192 @@
+.pdt_hero {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: start;
+    align-items: center;
+    gap: 1em;
+    padding-top: 12%;
+}
+
+.pdt {
+    background-image: url("../../assests/altairpdt_bg.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* or background-repeat: round; if you want it to repeat */
+    height: 100vh;
+    /* position: relative; */
+    /* z-index: 1; */
+}
+
+.title_hero {
+    font-size: 2.5em;
+    color: #fa4616;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+.title_tagline {
+    font-size: 1.45em;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.title_discrip {
+    padding: 0 8%;
+    text-align: center;
+    font-size: 1.10em;
+    font-weight: 450;
+}
+
+.yths_header {
+    font-size: 2.5em;
+    letter-spacing: 1px;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 4%;
+}
+
+.yths_descp {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 6%;
+    gap: 1em;
+}
+
+.crd_img img {
+    width: 100%;
+    height: 98%;
+    padding: 10px;
+}
+
+.card_yths {
+    min-height: 64vh;
+    max-height: 82vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    /* overflow-y: scroll; */
+}
+
+.card_title_yths {
+    font-size: 1.65em;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.card_yths_dscp {
+    text-align: justify;
+    padding: 0 4%;
+}
+
+
+.yths_descp {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 6%;
+    gap: 2em;
+    /* height: 100%; */
+}
+
+.whythis {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.keyfetrs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2em;
+    padding: 0 6%;
+}
+
+.key_header {
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.key_dsc {
+    text-align: justify;
+    margin-top: 2%;
+}
+
+.keyftrs_header {
+    text-align: center;
+    font-size: 2.5em;
+    margin: 2% 0;
+}
+
+/* Scroll bar */
+.card_yths::-webkit-scrollbar {
+    width: 20px;
+}
+
+/* Track */
+.card_yths::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+.card_yths::-webkit-scrollbar-thumb {
+    background: red;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+.card_yths::-webkit-scrollbar-thumb:hover {
+    background: #b30000;
+}
+
+@media only screen and (max-width:850px) {
+    .whythis {
+        height: 100%;
+    }
+
+    .yths_descp {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .card_yths {
+        padding: 3%;
+        min-height: 70vh;
+    }
+
+    .keyfetrs {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .yths_descp {
+        grid-template-columns: 1fr;
+    }
+
+    .card_yths {
+        padding: 5%;
+    }
+
+    .title_tagline {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:450px) {
+    .keyfetrs {
+        grid-template-columns: 1fr;
+    }
+
+    .title_hero {
+        font-size: 1.75em;
+    }
+
+    .title_tagline {
+        font-size: 1.25em;
+    }
+}

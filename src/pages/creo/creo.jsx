@@ -8,41 +8,33 @@ import Time from "../../assests/time.svg";
 import CreoPkg from "../../assests/creo_packages.webp";
 import TableCreo from "../../components/creoTable/tablecreo";
 import Creonew from "../../components/creonew/creonew";
-import CreoLogoNav from '../../assests/creo_logo.png';
+import CreoLogoNav from "../../assests/creo_logo.png";
 import ProductsNav from "../../components/prodyctsNav/productsnav";
 
 export default function Creo() {
-  const benifits_info = `PTC Creo Parametric is an all-encompassing 3D CAD solution, offering
-          engineers a seamless path from concept to validation for their
-          products. With a wide array of powerful features, engineers can
-          simulate and optimize their designs with precision, considering
-          factors like weight, performance, cost, and sustainability. The
-          software also supports various materials and manufacturing processes.
-          Additionally, it goes beyond engineering by replacing 2D drawings with
-          fully-annotated 3D models, streamlining manufacturing, inspection, and
-          servicing of parts and assemblies.`;
+  const benifits_info = `PTC Creo Parametric is a comprehensive 3D CAD solution that provides engineers with a seamless journey from concept to product validation. With a rich set of powerful features, engineers can precisely simulate and optimize their designs, taking into account factors such as weight, performance, cost, and sustainability. The software accommodates a wide range of materials and manufacturing processes. Furthermore, it goes beyond traditional engineering practices by replacing 2D drawings with fully-annotated 3D models, simplifying the manufacturing, inspection, and servicing of parts and assemblies`;
 
   const creobenifits = [
     {
       name: "Lower cost",
       img: Cash,
-      disc: "Our CAD tools offer numerous advantages to help you save on material, labor, and overhead costs. Utilize part optimization tools to minimize material expenses and streamline assembly processes.",
+      disc: "Our CAD tools provide several benefits for cost savings, including reducing material, labor, and overhead expenses. Take advantage of our part optimization tools to minimize material costs and streamline assembly processes.",
     },
     {
       name: "Performance",
       img: Performance,
-      disc: "Differentiate your products with exceptional performance. Optimize your designs for weight, reliability, and sustainability. Maximize performance using the latest additive and composite manufacturing processes.",
+      disc: "Set your products apart with outstanding performance. Optimize your designs for weight, reliability, and sustainability, while harnessing the full potential of cutting-edge additive and composite manufacturing processes.",
     },
     {
       name: "Time to Market",
       img: Time,
-      disc: "PTC Creo helps you build better products faster. Validate design quality early in the design cycle to avoid redesign and rework. Annotated 3D models can streamline downstream activities.",
+      disc: "PTC Creo accelerates product development. Ensure design quality from the start to prevent costly redesigns and rework. Streamline downstream processes with annotated 3D models.",
     },
   ];
 
   const naveles = [
     {
-      name: "Benifits of Creo",
+      name: "Benefits of Creo",
       id: "creo_benifits",
     },
     {
@@ -76,10 +68,10 @@ export default function Creo() {
               <div className="head_creo">Creo Parametric</div>
             </div>
             <div className="creo_gen_info">
-              With PTC Creo Parametric, turbocharge innovation by leveraging
-              advanced functionality and groundbreaking technologies. Streamline
-              iterations, lower expenses, augment quality, and seize market
-              share.
+              With PTC Creo Parametric, supercharge your innovation with
+              advanced features and cutting-edge technologies. Simplify design
+              iterations, reduce costs, enhance quality, and capture a larger
+              market share.
             </div>
             <div className="contactus">
               <button>
@@ -126,14 +118,14 @@ export default function Creo() {
               PTC Creo 3D CAD packages – Design the products for the future
             </div>
             <div className="fth_info">
-              The PTC Creo 3D CAD / CAM / CAE product design solution provides
-              the right tools to produce the highest quality designs in the
-              shortest possible time. Take advantage of the most scalable
-              portfolio of 3D CAD product development solutions. The PTC Creo
-              Design packages are only available through certified PTC
-              resellers. These affordable and easily expandable packages meet
-              the unique needs of a wide variety of design disciplines and
-              business needs of a growing company.
+              The PTC Creo 3D CAD/CAM/CAE product design solution equips you
+              with precisely the tools you need to create top-tier designs
+              efficiently. Benefit from the industry's most scalable array of 3D
+              CAD product development solutions. Exclusively accessible through
+              certified PTC resellers, our affordable and adaptable Creo Design
+              packages cater to a diverse range of design disciplines and
+              evolving business requirements, making them an ideal choice for
+              growing companies.
             </div>
           </div>
           <div className="fth_img">

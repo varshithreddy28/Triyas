@@ -53,7 +53,7 @@ export default function Slm() {
 
   const home_content = {
     header: "SERVICE LIFECYCLE MANAGEMENT",
-    content: "A Strategic Approach to After Market Services",
+    content: "Shaping the Future of Asset-Centric Services",
     logo: Logo,
     classHome: "slm_home",
     back_img:

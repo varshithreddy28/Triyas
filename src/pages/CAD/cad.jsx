@@ -25,19 +25,23 @@ const Cad = () => {
       name: "Creo Plus",
       url: "/cad/creoplus",
     },
+    {
+      name: "On Shape",
+      url: "/cad/onshape",
+    },
 
-    {
-      name: "Service 1",
-      url: "#",
-    },
-    {
-      name: "Service 1",
-      url: "#",
-    },
-    {
-      name: "Service 1",
-      url: "#",
-    },
+    // {
+    //   name: "Service 1",
+    //   url: "#",
+    // },
+    // {
+    //   name: "Service 1",
+    //   url: "#",
+    // },
+    // {
+    //   name: "Service 1",
+    //   url: "#",
+    // },
   ];
 
   const capabilities = [
@@ -113,16 +117,16 @@ const Cad = () => {
             needs of mechanical, automotive, architecture, and structural
             engineering companies.
           </div>
-          <div className="abtstaff">
-            <div className="abtppl">
+          {/* <div className="abtstaff"> */}
+          {/* <div className="abtppl">
               <div className="ppl_txt">We are Team of : </div>
               <div className="ppl_team">50+ Professionals</div>
             </div>
             <div className="abtclients">
               <div className="clnts_txt">Satisfied Clients : </div>
               <div className="clnts_num">20+</div>
-            </div>
-          </div>
+            </div> */}
+          {/* </div> */}
         </div>
       </div>
       {/* <div className="cad_scnd">

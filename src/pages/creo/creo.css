@@ -4,6 +4,7 @@
   width: 100%;
   /* height: 100vh; */
 }
+
 .first_cnt {
   background-image: url("../../assests/cd_creo_bg.webp");
   background-size: cover;
@@ -21,7 +22,7 @@
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.3);
-  filter: blur(6px);
+  filter: blur(5px);
   z-index: -1;
 }
 
@@ -31,13 +32,16 @@
   display: flex;
   flex-direction: column;
 }
+
 .creo_img {
   width: 40%;
 }
+
 .creo_img img {
   width: 100%;
   filter: drop-shadow(8px 0px 10px #ffffff);
 }
+
 .glassefct {
   display: flex;
   width: 100%;
@@ -53,6 +57,7 @@
   font-size: 3.5em;
   font-weight: 500;
 }
+
 .creo_gen_info {
   font-size: 1.1em;
   letter-spacing: 1px;
@@ -60,6 +65,7 @@
   font-weight: 500;
   margin-top: 0.25em;
 }
+
 .contactus button {
   padding: 10px 24px;
   border: 2px solid darkgreen;
@@ -70,9 +76,11 @@
   font-weight: 500;
   letter-spacing: 1px;
 }
+
 .contactus button a {
   color: white;
 }
+
 .ben_crio {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -80,6 +88,7 @@
   margin-top: 6%;
   padding-bottom: 2%;
 }
+
 .ben_img {
   display: flex;
   justify-content: space-between;
@@ -87,12 +96,14 @@
   margin-bottom: 6%;
   align-items: center;
 }
+
 img.creo_img_abt {
   width: 12%;
   /* height: 15%; */
   color: #20717d;
   filter: drop-shadow(12px 0px 4px);
 }
+
 .ben_header {
   font-size: 2em;
   text-align: center;
@@ -100,10 +111,12 @@ img.creo_img_abt {
   font-weight: 500;
   letter-spacing: 1px;
 }
+
 .ben_info {
   margin-top: 2%;
   text-align: justify;
 }
+
 .benifits {
   margin-top: 6%;
   text-align: center;
@@ -112,23 +125,28 @@ img.creo_img_abt {
   letter-spacing: 1px;
   color: #35656d;
 }
+
 .creo_cnt {
   color: #000000cc;
   font-size: 1.15em;
   text-align: justify;
   margin-top: 2%;
 }
+
 .creo_scndimg {
   display: none;
 }
+
 @media screen and (max-width: 770px) {
   .ben_crio {
     grid-template-columns: 1fr 1fr;
     grid-gap: 2.5em;
   }
+
   .creo_img {
     display: none;
   }
+
   img.creo_scndimg {
     display: block;
     width: 30%;
@@ -136,14 +154,17 @@ img.creo_img_abt {
     /* display: flex; */
     /* justify-content: center; */
   }
+
   .creo_img_block {
     display: flex;
     justify-content: center;
     align-items: center;
   }
+
   .creo_info.container {
     width: 100%;
   }
+
   .creo_gen_info {
     /* font-size: medium; */
     font-weight: 400;
@@ -154,6 +175,7 @@ img.creo_img_abt {
   .creo_info.container {
     width: 100%;
   }
+
   .ben_crio {
     grid-template-columns: 1fr;
   }
@@ -163,13 +185,16 @@ img.creo_img_abt {
   .head_creo {
     font-size: xx-large;
   }
+
   .creo_gen_info {
     font-size: medium;
     font-weight: 400;
   }
+
   .first_cnt {
     height: 90vh;
   }
+
   .ben_crio {
     margin-top: 14%;
     padding-bottom: 10%;
@@ -184,9 +209,11 @@ img.creo_img_abt {
   gap: 2em;
   height: 80vh;
 }
+
 .wnew_cnt {
   width: 54%;
 }
+
 .video-responsive {
   width: 55%;
   display: flex;
@@ -194,6 +221,7 @@ img.creo_img_abt {
   align-items: center;
   height: 60%;
 }
+
 .wnewheader {
   font-size: 2.2em;
   font-weight: bold;
@@ -202,10 +230,12 @@ img.creo_img_abt {
   /* font-weight: 500; */
   color: #35656d;
 }
+
 .wnewtcnt {
   font-size: 1.1em;
   text-align: justify;
 }
+
 .fth_cnt {
   display: flex;
   justify-content: center;
@@ -214,18 +244,22 @@ img.creo_img_abt {
   flex-direction: row-reverse;
   padding-top: 14%;
 }
+
 .fth_img {
   width: 44%;
   display: flex;
   justify-content: center;
 }
+
 .fth_txt_cnt {
   width: 64%;
 }
+
 .fth_img img {
   width: 64%;
   /* height: 50%; */
 }
+
 .fth_header {
   font-size: 1.75em;
   text-align: justify;
@@ -234,84 +268,104 @@ img.creo_img_abt {
   font-weight: bold;
   color: #35656d;
 }
+
 .fth_info {
   font-size: 1.05em;
   text-align: justify;
   letter-spacing: 0.5px;
 }
+
 /* V222222222222222222222222 */
 div#whats_new_creo {
   padding-top: 12%;
 }
+
 div#creo_benifits {
   padding-top: 10%;
 }
+
 /*  v3333*/
 
 @media screen and (max-width: 770px) {
   .frth_cnt {
     flex-direction: column;
   }
+
   .video-responsive {
     width: 46%;
     height: 100vh;
   }
+
   .wnew_cnt {
     width: 100%;
   }
+
   .fth_cnt.container {
     flex-direction: column;
   }
+
   .fth_txt_cnt {
     width: 100%;
   }
+
   .fth_img {
     width: 66%;
   }
+
   .creo_cnt {
     font-size: medium;
   }
 }
+
 @media screen and (max-width: 500px) {
   .video-responsive {
     width: 100%;
     height: 100vh;
   }
+
   .frth_cnt {
     padding-top: 5%;
     height: 100vh;
   }
+
   .wnewheader {
     font-size: 1.75em;
     text-align: center;
   }
+
   .wnewtcnt {
     font-size: medium;
   }
+
   .fth_header {
     margin-top: 10%;
     font-size: 1.5em;
   }
+
   .fth_info {
     font-size: medium;
   }
+
   .fth_img {
     width: 100%;
   }
+
   .benifits {
     font-size: 1.5em;
   }
+
   .ben_header {
     font-size: 1.5em;
   }
 }
+
 @media screen and (max-width: 300px) {
   .frth_cnt {
     margin-top: 30%;
   }
+
   .fth_header {
     font-size: 1.35em;
     margin-top: 40%;
   }
 }
-

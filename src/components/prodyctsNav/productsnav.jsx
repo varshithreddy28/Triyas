@@ -5,7 +5,6 @@ import { HashLink } from "react-router-hash-link";
 import "./productsnav.css";
 
 function ProductsNav({ logo, naveles }) {
-
   return (
     <div className="thrd_cnt">
       {/* <HashLink to={`#creo_benifits`} smooth>
@@ -19,11 +18,11 @@ function ProductsNav({ logo, naveles }) {
         <div className="nav_elements">
           {naveles.map((ele) => {
             return (
-              <div className="nav_ele">
-                <HashLink to={`#${ele.id}`} smooth>
-                  {ele.name}
-                </HashLink>
-              </div>
+              // <div className="nav_ele">
+              <HashLink to={`#${ele.id}`} smooth className="nav_ele">
+                {ele.name}
+              </HashLink>
+              // </div>
             );
           })}
         </div>

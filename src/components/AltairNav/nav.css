@@ -6,12 +6,16 @@ input#altair_ip {
     margin-bottom: 0;
 }
 
-
+.company_altr {
+    font-size: 1.25em;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
 
 /* NAv Sticky */
 .altair_nav {
     position: sticky;
-    top: 10%;
+    top: 0;
     z-index: 1023;
 }
 
@@ -125,8 +129,16 @@ button#altair_close {
     font-size: 1.75em;
 }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:420px) {
     .clear_filter {
         padding: 3% 24%;
     }
+
+    button#altair_close {
+        margin: 0.5em 0.5em;
+    }
+}
+
+.altair_nav {
+    z-index: 1010;
 }

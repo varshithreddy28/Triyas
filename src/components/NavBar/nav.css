@@ -1,22 +1,27 @@
 .contact {
   color: brown;
 }
+
 div#basic-navbar-nav {
   width: 100%;
   justify-content: end;
 }
+
 .navitems.navbar-nav {
   width: 90%;
   justify-content: flex-end;
   /* gap: 5%; */
 }
+
 .ms-auto.navbar-nav {
   width: 10%;
   justify-content: flex-end;
 }
+
 a.navbar-brand {
   width: 30%;
 }
+
 .container {
   max-width: 100%;
   padding: 0 4%;
@@ -32,17 +37,20 @@ nav.navcolor.navbar.navbar-expand-md.navbar-light.sticky-top {
     /* justify-content: end; */
   }
 }
+
 /*  */
 .navLink.navbar-nav {
   gap: 28%;
   /* padding-right: 12%; */
 }
+
 span.navbar-brand a {
   color: red;
   font-weight: 500;
   /* font-size: x-large; */
   letter-spacing: 1px;
 }
+
 /*  */
 button#dropdown-button-drop-end {
   background: none;
@@ -54,12 +62,15 @@ button#dropdown-button-drop-end {
   align-items: baseline;
   border-radius: 0;
 }
+
 button.show {
   background: #ebedf0;
 }
+
 button#dropdown-button-drop-end:hover {
   background: #ebedf0;
 }
+
 /* .show.dropend {
     border-bottom: 2px solid #90898980;
 } */
@@ -68,22 +79,31 @@ a.dropdown-item {
   /* text-align: center; */
   /* color: black; */
 }
+
 a.dropdown-item a {
   color: black;
 }
+
+nav.navcolor.navbar.navbar-expand-md.navbar-light {
+  background-color: white;
+}
+
 a.dropdown-item:hover {
   background: #ebedf0;
 }
+
 a.active {
   width: 15%;
   text-align: end;
 }
+
 .navLink.navbar-nav {
   gap: 2%;
   /* padding-right: 12%; */
   width: 75%;
   justify-content: center;
 }
+
 a#basic-nav-dropdown {
   letter-spacing: 2px;
   font-weight: 500;
@@ -92,25 +112,53 @@ a#basic-nav-dropdown {
   align-items: center;
   gap: 2px;
 }
+
 a.active a {
   color: #373737;
   font-weight: 500;
   letter-spacing: 1px;
 }
-@media screen and (max-width: 765px) {
-  a#basic-nav-dropdown {
-    justify-content: flex-start;
-  }
-  .navLink.navbar-nav {
-    width: 100%;
-  }
-}
+
 /*  */
 img.d-inline-block.align-top {
   width: 30%;
   height: 100%;
 }
+
 img.navbrnd {
   width: 6em;
   height: 100%;
+}
+
+/*  */
+nav.navcolor.home_nav_style.navbar.navbar-expand-md.navbar-light {
+  background-color: transparent;
+  position: absolute;
+  /* z-index: 1050; */
+  width: 100%;
+}
+
+.basic_nav_home.nav-item.dropdown a {
+  color: black;
+  font-size: 1.1em;
+}
+
+a.home_nav_cnt {
+  color: black;
+  font-weight: 500;
+  font-size: 1.1em;
+}
+
+@media screen and (max-width: 765px) {
+  a#basic-nav-dropdown {
+    justify-content: flex-start;
+  }
+
+  .navLink.navbar-nav {
+    width: 100%;
+  }
+
+  nav.navcolor.home_nav_style.navbar.navbar-expand-md.navbar-light {
+    background-color: white;
+  }
 }

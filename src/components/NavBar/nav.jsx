@@ -1,4 +1,4 @@
-import { React, useState } from "react";
+import { React, useEffect, useState } from "react";
 import {
   Container,
   Nav,
@@ -10,12 +10,14 @@ import {
 import "./nav.css";
 // import { Link } from "react-scroll";
 import { HashLink } from "react-router-hash-link";
-import { NavLink, Link } from "react-router-dom";
+import { NavLink, Link, useLocation } from "react-router-dom";
 import Logo from "../../assests/Triyas_Web.png";
 import data from "./data.json";
 
 function NavBar() {
   const [show, setShow] = useState(false);
+
+  const { pathname } = useLocation();
 
   const navItems = [
     // {
@@ -46,28 +48,17 @@ function NavBar() {
       id: "resources",
       isDropdown: true,
     },
-    // {
-    //   name: "Services",
-    //   path: "/services",
-    //   id: "services",
-    //   isDropdown: false,
-    // },
-    // {
-    //   name: "Contact",
-    //   path: "/contact",
-    //   id: "contact",
-    //   isDropdown: false,
-    // },
   ];
-  const mouseLeft = (e) => {
-    console.log("Left");
-  };
-  const mouseEntered = (e) => {
-    console.log("Entered");
-  };
+
+  useEffect(() => {
+    console.log(pathname.split("/"));
+  }, []);
 
   return (
-    <Navbar expand="md" className="navcolor" sticky="top">
+    <Navbar
+      expand="md"
+      className={`navcolor ${pathname === "/" ? "home_nav_style" : ""}`}
+    >
       <Container>
         <Navbar.Brand>
           <Link to={"/"}>
@@ -77,7 +68,7 @@ function NavBar() {
               width="30"
               height="30"
               // className="d-inline-block align-top"
-              className="navbrnd"
+              className={`navbrnd ${pathname === "/" ? "home_nav_brnd" : ""}`}
             />{" "}
           </Link>
         </Navbar.Brand>
@@ -92,9 +83,10 @@ function NavBar() {
                       <NavDropdown
                         title={item.name}
                         id="basic-nav-dropdown"
+                        className={`${
+                          pathname === "/" ? "basic_nav_home" : ""
+                        }`}
                         // renderMenuOnMount={true}
-                        onMouseEnter={() => mouseEntered()}
-                        onMouseLeave={() => mouseLeft()}
                       >
                         {data[item.id].map((cat) => {
                           return (
@@ -147,7 +139,11 @@ function NavBar() {
             })}
           </Nav>
           <NavLink>
-            <HashLink to={`/#contact`} smooth>
+            <HashLink
+              className={`${pathname === "/" ? "home_nav_cnt" : ""}`}
+              to={`/#contact`}
+              smooth
+            >
               Contact
             </HashLink>
           </NavLink>
