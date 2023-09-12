@@ -305,30 +305,29 @@ a#altair_pdt_link {
 
 #btn_alrlink_view {
     position: relative;
+}
 
-    &::before {
-        content: '';
-        position: absolute;
-        width: 96%;
-        height: 2px;
-        border-radius: 4px;
-        background-color: rgba(255, 0, 0, 0.511);
-        bottom: 0;
-        left: 0;
-        transform-origin: right;
-        transform: scaleX(0);
-        transition: transform .3s ease-in-out;
-    }
+#btn_alrlink_view:before {
+    content: '';
+    position: absolute;
+    width: 96%;
+    height: 2px;
+    border-radius: 4px;
+    background-color: rgba(255, 0, 0, 0.511);
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+}
 
-    &:hover {
-        cursor: pointer;
-    }
+#btn_alrlink_view:hover {
+    cursor: pointer;
+}
 
-    &:hover::before {
-        transform-origin: left;
-        transform: scaleX(1);
-    }
-
+#btn_alrlink_view:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
 }
 
 a#btn_alrlink_view {
