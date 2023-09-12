@@ -3,19 +3,13 @@ import React from "react";
 // import cad_1 from "../../assests/cad_1.jpg";
 // import cad_2 from "../../assests/cad_2.jpeg";
 import { Link } from "react-router-dom";
-import {
-  ListGroup,
-  ListGroupItem,
-  Button,
-  Card,
-  Row,
-  Col,
-  Container,
-} from "react-bootstrap";
+import { ListGroup, ListGroupItem } from "react-bootstrap";
 import "./marketing.css";
+import { Helmet } from "react-helmet";
+
 // import Projects from "./data.json";
 
-const Ptc = () => {
+const Ptc = ({ title }) => {
   const services = [
     {
       name: "Creo",
@@ -93,8 +87,13 @@ const Ptc = () => {
     { title: "Multi Body Dynamics", description: ["Rigid", "Flexible"] },
     { title: "CFD", description: ["Thermal Flow", "Internal/External"] },
   ];
+
   return (
     <div className="cad_page">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>{`Triyas | ${title}`}</title>
+      </Helmet>
       <div className="cad_first container">
         <div className="services ">
           <div className="srv_prvd">Softwares we Handle : </div>

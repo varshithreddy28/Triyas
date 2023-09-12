@@ -15,6 +15,7 @@ body {
 }
 
 .containerContact {
+  width: 100%;
   padding: 0 20%;
   /* width: calc(100% - 50px); */
 }

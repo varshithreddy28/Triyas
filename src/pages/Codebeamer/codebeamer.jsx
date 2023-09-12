@@ -5,6 +5,7 @@ import Img1 from "../../assests/codebeamer/img1.webp";
 
 import CreoImg from "../../assests/Triyas_Web.png";
 import Info from "../../components/Products_Information/info";
+import ShowMoreText from "react-show-more-text";
 
 import "./codebeamer.css";
 
@@ -16,23 +17,26 @@ export default function Codebeamer() {
     logo: Logo,
     classHome: "windchill",
     back_img:
-      "https://res.cloudinary.com/dbomu1erj/image/upload/v1691930672/Images_Website/g8m8nqqgsfw6avhgbsqm.jpg",
+      "https://res.cloudinary.com/dbomu1erj/image/upload/v1694196061/Images_Website/hl9u9vdz6l7n2mkpzmgv.jpg",
   };
 
-  const features = [
+  const explore = [
     {
       name: "Explore the benefits of Codebeamer",
       content:
-        "Codebeamer is trusted by the world's top product developers for its scalability across organizations, robust performance and reliability, and customizable workflows. Discover why your team will embrace it!",
+        "Codebeamer is an innovative digital workflow solution that enhances collaboration in development, improves product line efficiency, and ensures regulatory compliance. It extends beyond traditional Application Lifecycle Management (ALM) with configurable product line capabilities and adaptability for complex processes. By connecting development tools seamlessly, it offers a unified platform and automates process control for regulatory standards. Trusted by leading product developers, Codebeamer is scalable, reliable, and customizable, making it an excellent choice for development teams.",
       reversed: true,
       img: Img1,
     },
+  ];
+
+  const features = [
     {
       name: "Requirements Management.",
       content:
         "Transform Market Insights into High-Quality Products at Unprecedented Speed. Achieve Clarity and Alignment Across All Stakeholders to Minimize Costs and Accelerate Delivery. Monitor Objects and Actions Throughout the Entire Delivery Process.",
       reversed: false,
-      img: CreoImg,
+      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1694525205/jgwuutoq1zyai6atik6c.jpg",
     },
     {
       name: "Quality Assurance & Testing.",
@@ -48,8 +52,33 @@ export default function Codebeamer() {
       <Home {...home_content} />
       {/* <ProductsNav naveles={naveles} logo={Logo} /> */}
       {/* <Overview {...overViewContent} /> */}
+      <Info title="About Codebeamer" features={explore} id="codebeamer_about" />
+      <div className="scndcnt container">
+        <div className="whatSaaS">Codebeamer features</div>
+        <div className="lines_pls">
+          <div className="lines"></div>
+        </div>
+        <div className="whatSaaS_ans">
+          <ShowMoreText
+            /* Default options */
+            lines={3}
+            more="Expand"
+            less="Show less"
+            className="content-css"
+            anchorClass="show-more-less-clickable"
+            expanded={false}
+            // width={2000}
+            truncatedEndingComponent={"..... "}
+          >
+            Codebeamer is a complete lifecycle management solution that excels
+            in requirements, risk, and test management. It helps teams capture
+            and track requirements, manage risks, and plan and execute tests
+            efficiently, ensuring a smooth development process.
+          </ShowMoreText>
+        </div>
+      </div>
       <Info
-        title="About Codebeamer"
+        // title="About Codebeamer"
         features={features}
         id="codebeamer_about"
       />

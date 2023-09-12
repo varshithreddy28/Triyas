@@ -19,9 +19,9 @@ export default function Creonew() {
     {
       name: "Creo electrification",
       content:
-        "Utilize Creo for designing with composite materials to achieve products that are both robust and lightweight. Composites allow for precise customization by combining different fabrics to enhance strength, flexibility, and localized impact absorption within the design. The outcome is a highly optimized structure perfectly aligned with your engineering objectives.",
+        "Creo Electrification refers to the suite of features and capabilities within PTC's Creo software that enables engineers and product designers to create and optimize electrified products. This includes electric vehicles, electronic components, and systems that rely on electrical power. It's a critical part of the broader Creo product design and engineering platform.",
       btn: "Discover Routed Systems",
-      img: "https://pdsvision.com/wp-content/uploads/2022/11/PTC-Creo-10-Eletrification.jpg.webp",
+      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1694521029/mfn00bknljxgejknurbd.png",
       inverted: false,
     },
     {
@@ -29,7 +29,7 @@ export default function Creonew() {
       content:
         "Ensuring the safety and efficiency of your product users is paramount. Explore the latest Creo enhancements designed to consider factors like range of movement, field of vision, and user uniqueness. With Visual Field features now offering reflection analysis and manikins supporting multiple reach envelopes, your design process is more user-centric than ever.",
       btn: "Explore Human factors",
-      img: "https://pdsvision.com/wp-content/uploads/2022/11/PTC-Creo-10-Ergonomics.jpg.webp",
+      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1694521543/qvkaroxwy2tlqtotxk5e.png ",
       inverted: true,
     },
     {
@@ -37,7 +37,7 @@ export default function Creonew() {
       content:
         "Meet Creo Ansys Simulation Advanced, the newest addition to our Creo simulation lineup, featuring support for nonlinear materials. Creo Simulation Live has been enhanced with expanded contact simulation choices and improved results options for fluid and structural analyses. We've also enriched Creo Flow Analysis and Creo Simulate with improved animations and enhanced multibody support. Furthermore, our generative design capabilities now include rotational symmetry and the ability to incorporate point mass and remote loads, providing even more design versatility .",
       btn: "Discover Creo Ansys Simulation",
-      img: "https://pdsvision.com/wp-content/uploads/2022/11/PTC-Creo-10-Simulation.jpg.webp",
+      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1694522047/kkpnnkvczfcss24abip7.jpg ",
       inverted: false,
     },
     {
@@ -45,7 +45,7 @@ export default function Creonew() {
       content:
         "In Creo 10, our additive manufacturing capabilities offer users the flexibility to design various beam-based lattice types, including rhombic and formula-driven lattices. On the subtractive manufacturing front, High-Speed Milling now supports barrel tools for both wall and floor 5-axis finishing, optimizing toolpath efficiency and enhancing surface finish quality.",
       btn: "Discover Additive Manufacturing",
-      img: "https://pdsvision.com/wp-content/uploads/2022/11/PTC-Creo-10-Additive-Manufacturing.jpg.webp",
+      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1694521603/vf7jauqudbyvfjysvqsm.png ",
       inverted: true,
     },
   ];

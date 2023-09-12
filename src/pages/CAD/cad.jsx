@@ -13,9 +13,11 @@ import {
   Container,
 } from "react-bootstrap";
 import "./cad.css";
+import { Helmet } from "react-helmet";
+
 import Projects from "./data.json";
 
-const Cad = () => {
+const Cad = ({ title }) => {
   const services = [
     {
       name: "Creo",
@@ -95,6 +97,10 @@ const Cad = () => {
   ];
   return (
     <div className="cad_page">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>{title}</title>
+      </Helmet>
       <div className="cad_first container">
         <div className="services ">
           <div className="srv_prvd">Softwares we Handle : </div>

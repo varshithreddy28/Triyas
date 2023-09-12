@@ -16,10 +16,10 @@ export default function Static_Anylasis() {
     header: "Static Anylasis",
     content:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci nisi officia in doloremque distinctio dolore culpa laudantium facere qui, dolorem voluptatibus ratione quia earum reprehenderit rerum minima enim! Dolorem, voluptate? Praesentium, adipisci ipsam.",
-    logo: Logo,
+    logo: "https://res.cloudinary.com/dbomu1erj/image/upload/v1693286313/Images_Website/Altair/vqpspz2x1x9unpdpn9p3.jpg",
     classHome: "femodelling",
     back_img:
-      "https://img.freepik.com/free-photo/watercolor-background-papaya-whip_53876-101916.jpg?w=996&t=st=1692784259~exp=1692784859~hmac=a27b1bd56c2620100bd57e145263d7ee5da080827b7057df3c719906204459d1",
+      "https://res.cloudinary.com/dbomu1erj/image/upload/v1694196061/Images_Website/hl9u9vdz6l7n2mkpzmgv.jpg",
   };
 
   // const aboutService = {
@@ -34,14 +34,14 @@ export default function Static_Anylasis() {
       content:
         "We excel in solving linear static analysis, a method applied when there is a linear relationship between applied forces and displacements. This is particularly valuable in addressing structural challenges where stresses fall within the linear elastic range of the chosen material.",
       reversed: true,
-      img: CreoImg,
+      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1693293916/Images_Website/Altair/kxh2crglcyuwkmbuucph.jpg",
     },
     {
       name: "Non-linear static analysis",
       content:
         "Nonlinear analysis involves the examination of scenarios in which a nonlinear connection exists between applied forces and displacements. Nonlinear effects can arise from factors such as geometric nonlinearity, material nonlinearity, and contact nonlinearity. These effects contribute to a stiffness matrix that undergoes variation during the application of loads, deviating from a constant value.",
       reversed: false,
-      img: CreoImg,
+      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1692802949/Images_Website/Altair/kttlrwbc6szspg6cgyvo.jpg",
     },
   ];
 

@@ -12,7 +12,7 @@ export default function ThermalAnylasis() {
     header: "Thermal Analysis",
     content:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci nisi officia in doloremque distinctio dolore culpa laudantium facere qui, dolorem voluptatibus ratione quia earum reprehenderit rerum minima enim! Dolorem, voluptate? Praesentium, adipisci ipsam.",
-    logo: Logo,
+    logo: "https://res.cloudinary.com/dbomu1erj/image/upload/v1693295716/Images_Website/Altair/qawspft4ed6o6furrqcz.jpg",
     classHome: "thermal",
     back_img:
       "https://res.cloudinary.com/dbomu1erj/image/upload/v1693418893/Images_Website/djiees1haycnrewehfdt.jpg",
@@ -31,14 +31,14 @@ export default function ThermalAnylasis() {
       content:
         "At Triyas, we specialize in unravelling the mysteries of temperature equilibrium through expert Steady State Thermal Analysis. Our team of skilled engineers possesses an intricate understanding of heat transfer principles, employing advanced simulation tools to predict thermal behaviour. With unwavering precision, we guide designs toward thermal excellence.",
       reversed: true,
-      img: CreoImg,
+      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1694508551/yic88md4n1cms0ravz0p.webp",
     },
     {
       name: "Transient ",
       content:
         "We excel in solving the complexities of dynamic temperature changes through expert Transient State Thermal Analysis. Our team of skilled engineers possesses an in-depth understanding of heat dynamics, utilizing advanced simulation tools to predict transient thermal behaviour. With unwavering precision, we guide designs toward thermal excellence in fluctuating conditions.",
       reversed: false,
-      img: CreoImg,
+      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1694508665/kkovawmnekbcf2wwjjcz.webp",
     },
   ];
 

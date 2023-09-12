@@ -5,11 +5,17 @@ import Services from "../Services/services";
 import Contact from "../Contact/contact";
 import Landing from "../Landingpage/landing";
 import ScrollToTop from "react-scroll-to-top";
+import { Helmet } from "react-helmet";
 
 const Home = () => {
   return (
     <div>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>{`Triyas | Home`}</title>
+      </Helmet>
       <Hero />
+      <ScrollToTop />
       <Services />
       <Contact />
     </div>

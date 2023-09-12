@@ -23,6 +23,7 @@
     justify-content: center;
     align-items: center;
     gap: 1.5em;
+    margin-bottom: 5%;
 }
 
 .service_info_cnt {
@@ -44,10 +45,13 @@
 
 .service_info_img {
     width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .service_info_img img {
-    width: 100%;
+    width: 88%;
     border-radius: 12px;
 }
 

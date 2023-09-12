@@ -140,14 +140,14 @@ export default function Onshape() {
       content:
         "Effortless, Cloud-Based Product Development. No downloads or installations needed. Accessible via any modern web browser. Includes an integrated PDM system for smooth collaboration. Empowers design teams to prioritize creativity over IT concerns.",
       reversed: true,
-      img: CreoImg,
+      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1694523762/dykgjupidkluyc0dhwkl.png",
     },
     {
       name: "Accelerated time-to-market.",
       content:
         "Onshape expedites product development through its accessible, cloud-based platform compatible with any device. Seamless global collaboration enables teams to explore design alternatives simultaneously, eliminating data conflicts. This efficiency accelerates the product development cycle, ensuring a competitive edge in today's fast-paced market.",
       reversed: false,
-      img: CreoImg,
+      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1694523851/kdirzsoxtbqskdocyfry.png",
     },
   ];
 

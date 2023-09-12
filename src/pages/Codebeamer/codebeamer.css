@@ -1,0 +1,10 @@
+@media screen and (max-width:500px) {
+    .home_gen_info.windchill {
+        width: 100%;
+    }
+
+    .contactus {
+        width: 100%;
+        text-align: center;
+    }
+}

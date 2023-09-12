@@ -13,8 +13,8 @@ export default function FeModelling() {
   const home_content = {
     header: "Fe Modelling & Meshing",
     content:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci nisi officia in doloremque distinctio dolore culpa laudantium facere qui, dolorem voluptatibus ratione quia earum reprehenderit rerum minima enim! Dolorem, voluptate? Praesentium, adipisci ipsam.",
-    logo: Logo,
+      "At Triyas, we excel in turning designs into precise digital simulations through advanced FEA modeling and meshing. Our skilled engineers use cutting-edge software for accurate virtual analysis, fostering innovation across various mechanical products.",
+    logo: "https://res.cloudinary.com/dbomu1erj/image/upload/v1693301194/pkdw1ma7rjdjqz994ri0.webp",
     classHome: "femodelling",
     back_img:
       "https://res.cloudinary.com/dbomu1erj/image/upload/v1692779348/Images_Website/un51eonxrpz15eyotrmt.jpg",

@@ -6,51 +6,18 @@ import ProductsNav from "../../components/prodyctsNav/productsnav";
 import Overview from "../../components/Overview/overview";
 import CreoImg from "../../assests/Triyas_Web.png";
 import Info from "../../components/Products_Information/info";
-import OnShapeFeatures from "../../components/OnShapeFeatures/onshapefeatures";
+import ShowMoreText from "react-show-more-text";
+
+import Connect from "../../assests/connect.svg";
+import Setup from "../../assests/setup.svg";
+import Execute from "../../assests/execute.svg";
+import Speed from "../../assests/speed.svg";
+
 //
-import Cloud from "../../assests/windchill/cloud.svg";
-import Security from "../../assests/windchill/security.svg";
-import Updates from "../../assests/windchill/update.svg";
-import Admin from "../../assests/windchill/support.svg";
-import Delivery from "../../assests/windchill/delivery.svg";
 
 import "./slm.css";
-import Value from "../../components/values_windchill/value";
 
 export default function Slm() {
-  const windchillFeatures = [
-    {
-      name: "Modern architecture",
-      content:
-        "Manage data at scale with web architecture built for multi-system orchestration.",
-      imageUrl: Cloud,
-    },
-    {
-      name: "Secure collaboration",
-      content:
-        "Work securely inside and outside the enterprise with IP- and platform-based protections.",
-      imageUrl: Security,
-    },
-    {
-      name: "Streamlined Upgrades",
-      content:
-        "Reduce user disruption by upgrading data in place with time-saving automation.",
-      imageUrl: Updates,
-    },
-    {
-      name: "Admin and Support",
-      content:
-        "Leverage IoT-based “always on” system monitoring and PTC's expert-driven learning programs.",
-      imageUrl: Admin,
-    },
-    {
-      name: "Flexible Delivery",
-      content:
-        "Flexible delivery: Deliver on-premises or in the cloud for greater uptime and security compliance.",
-      imageUrl: Delivery,
-    },
-  ];
-
   const home_content = {
     header: "SERVICE LIFECYCLE MANAGEMENT",
     content: "Shaping the Future of Asset-Centric Services",
@@ -66,8 +33,8 @@ export default function Slm() {
       id: "introduction_windchill",
     },
     {
-      name: "Value",
-      id: "value_windchill",
+      name: "SLM Stages",
+      id: "value_slm",
     },
     {
       name: "Benifits",
@@ -83,32 +50,26 @@ export default function Slm() {
     id: "introduction_windchill",
   };
 
-  const values = [
+  const SaaSAdv = [
     {
-      number: "30%",
-      title: "of businesses run an e-commerce initiative",
+      name: "Link",
+      icon: Connect,
+      cnt: "Establish a connection with installed assets and the customer: Monitor real-time performance and usage, anticipate future events, and build a rapport with the customer.",
     },
     {
-      number: "30X",
-      title:
-        "Profit margin contribution from aftermarket compared with new sales",
+      name: "Orchestrate",
+      icon: Setup,
+      cnt: "Create service procedures and data structures: Build customer involvement and operational workflows, offer essential service information and materials, and define entitlements and associated obligations.",
     },
     {
-      number: "40%",
-      title: "Average savings on translation cost with a CCMS strategy",
+      name: "Implement",
+      icon: Execute,
+      cnt: "Fulfill work and customer obligations: Empower relevant parties, simplify task fulfillment and validation, and capture asset-related data.",
     },
     {
-      number: "25%",
-      title:
-        "The OEM ability to capture business from their customers aftermarket",
-    },
-    {
-      number: "1/3",
-      title: "of all service calls fails to deliver “first time fix”",
-    },
-    {
-      number: "$1M",
-      title: "Lower Translation Costs",
+      name: "Enhance",
+      icon: Speed,
+      cnt: "Prepare for resource requirements: Identify personnel and parts needed, gather necessary resources and information, and ensure adequate revenue coverage.",
     },
   ];
 
@@ -134,13 +95,65 @@ export default function Slm() {
       <Home {...home_content} />
       <ProductsNav naveles={naveles} logo={LogoNav} />
       <Overview {...overViewContent} />
-      <Value
-        title={
-          "Windchill elevates product development for all stakeholders, delivering rapid value."
-        }
-        values={values}
-        id={"value_windchill"}
-      />
+      <div id="value_slm">
+        <div className="scndcnt container">
+          <div className="whatSaaS">What is service lifecycle management?</div>
+          <div className="lines_pls">
+            <div className="lines"></div>
+          </div>
+          <div className="whatSaaS_ans">
+            <ShowMoreText
+              /* Default options */
+              lines={3}
+              more="Expand"
+              less="Show less"
+              className="content-css"
+              anchorClass="show-more-less-clickable"
+              expanded={false}
+              // width={2000}
+              truncatedEndingComponent={"..... "}
+            >
+              Service lifecycle management, often abbreviated as SLM, involves
+              coordinating service parts management, technical communication,
+              field service management, and product support activities to
+              optimize customer equipment's operational time. Businesses utilize
+              SLM to efficiently handle spare parts and inventory, facilitate
+              communication among various teams, supervise service tasks, and
+              ensure smooth product operations, all aimed at ensuring that
+              customers' machinery and assets run with minimal downtime.
+            </ShowMoreText>
+          </div>
+        </div>
+        <div className="third_cnt container">
+          <div className="saas_adv">
+            The four steps in Service Lifecycle Management (SLM)
+          </div>
+          <div className="lines_pls">
+            <div className="lines"></div>
+          </div>
+          <div className="sass_adv_ans">
+            An effective SLM (Service Lifecycle Management) setup involves four
+            key phases: establishing a link with the asset, coordinating the
+            allocation of resources, carrying out the required tasks, and
+            establishing a solid data foundation to enhance operational
+            efficiency.
+          </div>
+
+          <div className="sass_exp container">
+            {SaaSAdv.map((Adv) => {
+              return (
+                <div className="advantage">
+                  <div className="ad_icon">
+                    <img src={Adv.icon} alt="" />
+                  </div>
+                  <div className="ad_header">{Adv.name}</div>
+                  <div className="adv_cont">{Adv.cnt}</div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </div>
       <Info features={features} id="benifits_windchill" />
       {/* <OnShapeFeatures
         title="Framework & Deployment"

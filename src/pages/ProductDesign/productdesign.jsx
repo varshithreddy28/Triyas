@@ -15,8 +15,8 @@ export default function Productdesign() {
   const home_content = {
     header: "Product Design",
     content:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci nisi officia in doloremque distinctio dolore culpa laudantium facere qui, dolorem voluptatibus ratione quia earum reprehenderit rerum minima enim! Dolorem, voluptate? Praesentium, adipisci ipsam.",
-    logo: Logo,
+      "At the heart of our product design philosophy lies a commitment to innovation and excellence. We understand that product design is not just about aesthetics; it's about delivering outstanding user experiences, optimising functionality, and ensuring manufacturability",
+    logo: "https://res.cloudinary.com/dbomu1erj/image/upload/v1694510397/lohkfzwzkobedaftavz1.jpg",
     classHome: "femodelling",
     back_img:
       "https://res.cloudinary.com/dbomu1erj/image/upload/v1693418633/Images_Website/exhybyrsibwge3iur3qr.jpg",
@@ -34,21 +34,21 @@ export default function Productdesign() {
       content:
         "Design Ideation in Mechanical Engineering serves as the creative spark, igniting idea generation during the initial stages of conceptual design. This phase thrives on innovative approaches and strategies that enhance creativity, ultimately shaping the foundation for detailed design development. Ideation methods are meticulously crafted to foster ingenuity, ensuring a seamless transition towards the creation of intricate designs",
       reversed: true,
-      img: CreoImg,
+      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1694510278/kzxysacycruqqkjhavul.webp",
     },
     {
       name: "Detailed Design",
       content:
         "Within Mechanical Engineering, the Detailed Design phase comes to the forefront as designers meticulously craft intricate designs tailored for efficient manufacturing. This crucial stage encompasses the creation of meticulous drawings and specifications, which precisely outline the product's measurements, materials, and manufacturing methodologies. Here, designers delve into concerns of manufacturability, clearances, and operational longevity, ensuring the product's usability without encountering potential hazards.",
       reversed: false,
-      img: CreoImg,
+      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1694509966/oesitzbhyqkb9dks7spn.webp",
     },
     {
       name: "Egineering Prototype",
       content:
         "We specialize in transforming ideas into reality through expertly crafted engineering prototypes. Our team of experienced engineers excels in creating functional prototypes that not only mirror your vision but also stand as a testament to the power of innovation. From intricate mechanical designs to cutting-edge electronics, we breathe life into concepts, ensuring they're well-prepared for the journey ahead.",
       reversed: true,
-      img: CreoImg,
+      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1694510255/flzlmencejdjw2b0gjbb.webp",
     },
   ];
 

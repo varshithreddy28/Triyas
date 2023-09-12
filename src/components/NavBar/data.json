@@ -87,6 +87,14 @@
         {
           "name": "Reverse Engineering",
           "link": "/design/reverseengineering"
+        },
+        {
+          "name": "CAD Customisation",
+          "link": "/design/cadcustomisation"
+        },
+        {
+          "name": "Design Automation",
+          "link": "/design/designautomation"
         }
       ]
     },
@@ -128,40 +136,23 @@
       "name": "Staffing",
       "categories": [
         {
-          "name": "Books",
-          "link": "/cad"
-        },
-        {
-          "name": "Home Appliances",
-          "link": "#"
+          "name": "Staffing Services",
+          "link": "/staffingservices"
         }
       ]
     }
   ],
   "resources": [
     {
-      "name": "Products",
+      "name": "Events",
       "categories": [
         {
-          "name": "Electronics",
-          "link": "/cad"
+          "name": "Altair Events",
+          "link": "/events/altair"
         },
         {
-          "name": "Clothing",
-          "link": "/cad"
-        }
-      ]
-    },
-    {
-      "name": "Services",
-      "categories": [
-        {
-          "name": "Books",
-          "link": "/cad"
-        },
-        {
-          "name": "Home Appliances",
-          "link": "#"
+          "name": "PTC Events",
+          "link": "/events/ptc"
         }
       ]
     }

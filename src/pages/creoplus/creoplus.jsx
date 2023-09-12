@@ -43,7 +43,7 @@ function Creoplus() {
       ],
       video: "https://www.youtube.com/embed/ShKhpi-cgaU",
       reversed: false,
-      img: CreoImg,
+      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1694523655/lj0nuy7qye9xov8nvbkm.jpg",
     },
   ];
 

@@ -121,7 +121,7 @@ export default function Windchills() {
       content:
         "Windchill brings significant benefits to the product development lifecycle, including reduced costs, faster time to market, improved product quality, and enhanced collaboration. Its streamlined processes and data management optimize resources and maximize efficiency, leading to higher customer satisfaction and cost savings through minimized prototyping and increased data re-use. ",
       reversed: true,
-      img: CreoImg,
+      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1694524086/y87cblvrt9aho6zo8m5y.jpg",
     },
   ];
 

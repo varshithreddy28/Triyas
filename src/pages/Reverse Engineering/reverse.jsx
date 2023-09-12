@@ -15,40 +15,34 @@ export default function Reverse() {
   const home_content = {
     header: "Reverse Engineering",
     content:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci nisi officia in doloremque distinctio dolore culpa laudantium facere qui, dolorem voluptatibus ratione quia earum reprehenderit rerum minima enim! Dolorem, voluptate? Praesentium, adipisci ipsam.",
-    logo: Logo,
+      "Reverse Engineering is a process that involves analyzing a product, device, or system to understand its design, structure, and functionality. This is typically done by taking an existing object, deconstructing it, and then creating detailed documentation or a digital model that reflects its original design and functionality.",
+    logo: "https://res.cloudinary.com/dbomu1erj/image/upload/v1694520131/v9iipwmtqfjzykh8jfts.jpg",
     classHome: "reverse_engineering",
     back_img:
       "https://res.cloudinary.com/dbomu1erj/image/upload/v1693418633/Images_Website/exhybyrsibwge3iur3qr.jpg",
   };
 
-  const aboutService = {
-    header: "What does Product Design Mean?",
-    content:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni illum possimus harum voluptatum, dicta nesciunt voluptates, inventore mollitia asperiores eum laborum corporis molestiae veritatis eveniet nobis aut iusto! Porro consequatur delectus quaerat, quisquam illo doloremque omnis est ratione perferendis dolor?",
-  };
-
   const features = [
     {
-      name: "Concept Ideation",
+      name: "Legacy System Upgrades: ",
       content:
-        "Design Ideation in Mechanical Engineering serves as the creative spark, igniting idea generation during the initial stages of conceptual design. This phase thrives on innovative approaches and strategies that enhance creativity, ultimately shaping the foundation for detailed design development. Ideation methods are meticulously crafted to foster ingenuity, ensuring a seamless transition towards the creation of intricate designs",
+        "In situations where older technology or components are in use, our reverse engineering expertise empowers us to seamlessly replace or integrate newer parts while preserving compatibility with existing systems.",
       reversed: true,
-      img: CreoImg,
+      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1694518426/tms7qhqh9h5klfowcv4e.jpg",
     },
     {
-      name: "Detailed Design",
+      name: "Design Optimization: ",
       content:
-        "Within Mechanical Engineering, the Detailed Design phase comes to the forefront as designers meticulously craft intricate designs tailored for efficient manufacturing. This crucial stage encompasses the creation of meticulous drawings and specifications, which precisely outline the product's measurements, materials, and manufacturing methodologies. Here, designers delve into concerns of manufacturability, clearances, and operational longevity, ensuring the product's usability without encountering potential hazards.",
+        "We excel in design optimization, a pivotal process in engineering and product development. Our expertise lies in systematically refining and enhancing the design of products, components, or systems to achieve precise objectives. These objectives encompass heightened efficiency, superior performance, cost reduction, and enhanced sustainability.",
       reversed: false,
-      img: CreoImg,
+      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1694513291/xau2hy31b9asgdgkeks3.jpg",
     },
     {
-      name: "Concept Ideation",
+      name: "Tear-Down Approach: ",
       content:
-        "An engineering prototype is more than just a physical embodiment of a concept. It's a tangible manifestation of imagination, expertise, and meticulous engineering. Whether it's an intricate piece of machinery or a cutting-edge electronic device, an engineering prototype transforms theoretical possibilities into concrete realities. This prototype serves as a testbed, a canvas on which engineers fine-tune their designs, evaluate functionalities, and identify any potential pitfalls.",
+        "Our 'Tear-Down Approach' in reverse engineering showcases our expertise in the systematic and meticulous disassembly and analysis of products, devices, or systems. This specialised approach allows us to gain a profound understanding of their design, constituent elements, materials, and functionality. ",
       reversed: true,
-      img: CreoImg,
+      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1694515257/m6e3c9stlgqfb950xvgm.jpg",
     },
   ];
 
@@ -81,7 +75,7 @@ export default function Reverse() {
   return (
     <div>
       <Home {...home_content} />
-      <What {...aboutService} />
+      {/* <What {...aboutService} /> */}
       <Info features={features} />
 
       {/* <Points features={features_points} /> */}

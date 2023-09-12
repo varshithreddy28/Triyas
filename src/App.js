@@ -39,6 +39,12 @@ import Cae from "./pages/caeservices/cae";
 import Bottomnav from "./components/BottomNav/bottomnav";
 
 import ScrolltoTop from "./components/ScrolltoTop/scrolltotop";
+import CADCustomisation from "./pages/cadCustomization/cadcust";
+import DesignAutomation from "./pages/designAutomation/designAuto";
+import Staffing from "./pages/Staffing Services/staffing";
+import Gap from "./components/Gap/gap";
+import AltairEvents from "./pages/Altair Events/altrevnts";
+import PTCEvents from "./pages/PTC Events/ptcevents";
 
 function App() {
   return (
@@ -53,14 +59,14 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact />} /> */}
           {/* Just for Demo */}
-          <Route path="/cad" element={<Cad />} />
-          <Route path="/ptc" element={<Ptc />} />
-          <Route path="/designservices" element={<Cloud />} />
-          <Route path="/caeservices" element={<Cae />} />
+          <Route path="cad" element={<Cad title="Triyas | CAD" />} />
+          <Route path="ptc" element={<Ptc title="PTC" />} />
+          <Route path="designservices" element={<Cloud />} />
+          <Route path="caeservices" element={<Cae />} />
 
-          <Route path="/cad/creo" element={<Creo />} />
-          <Route path="/cad/creoplus" element={<Creoplus />} />
-          <Route path="/cad/onshape" element={<Onshape />} />
+          <Route path="cad/creo" element={<Creo />} />
+          <Route path="cad/creoplus" element={<Creoplus />} />
+          <Route path="cad/onshape" element={<Onshape />} />
           <Route path="/plm/windchill" element={<Windchill />} />
           <Route path="/arvr/vuforia" element={<Vuforia />} />
           <Route path="/iot/thingworx" element={<Thingwox />} />
@@ -70,9 +76,20 @@ function App() {
           <Route path="/alm/codebeamer" element={<Codebeamer />} />
           <Route path="/slm" element={<Slm />} />
           {/* Services */}
+          {/* Design */}
           <Route path="/design/productdesign" element={<Productdesign />} />
           <Route path="/design/3dmodelling" element={<Modeling3D />} />
           <Route path="/design/reverseengineering" element={<Reverse />} />
+          <Route
+            path="/design/cadcustomisation"
+            element={<CADCustomisation />}
+          />
+          <Route
+            path="/design/designautomation"
+            element={<DesignAutomation />}
+          />
+
+          {/* CAE */}
           <Route path="/cae/femodelling" element={<FeModelling />} />
           <Route path="/cae/staticanalysis" element={<Static_Anylasis />} />
           <Route path="/cae/thermalanalysis" element={<ThermalAnylasis />} />
@@ -80,7 +97,15 @@ function App() {
           <Route path="/cae/explicitanalysis" element={<ExplicitAnylasis />} />
           <Route path="/cae/multibodydynamics" element={<MultiBody />} />
           <Route path="/cae/cfd" element={<CFD />} />
+
+          {/* Staffing */}
+          <Route path="/staffingservices" element={<Staffing />} />
+
+          {/* Resources */}
+          <Route path="/events/altair" element={<AltairEvents />} />
+          <Route path="/events/ptc" element={<PTCEvents />} />
         </Routes>
+        <Gap />
         <Bottomnav />
       </Router>
     </div>
