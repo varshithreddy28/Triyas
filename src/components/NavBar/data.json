@@ -81,7 +81,7 @@
           "link": "/design/productdesign"
         },
         {
-          "name": "3D CAD modelling and Drafting",
+          "name": "3D CAD Modeling and Drafting",
           "link": "/design/3dmodelling"
         },
         {
@@ -102,7 +102,7 @@
       "name": "CAE Services",
       "categories": [
         {
-          "name": "FE Modelling & Meshing",
+          "name": "FE Modeling & Meshing",
           "link": "/cae/femodelling"
         },
         {

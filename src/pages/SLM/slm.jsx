@@ -4,7 +4,7 @@ import Logo from "../../assests/slm_logo.jpg";
 import LogoNav from "../../assests/Triyas_Web.png";
 import ProductsNav from "../../components/prodyctsNav/productsnav";
 import Overview from "../../components/Overview/overview";
-import CreoImg from "../../assests/Triyas_Web.png";
+import ScrollToTop from "react-scroll-to-top";
 import Info from "../../components/Products_Information/info";
 import ShowMoreText from "react-show-more-text";
 
@@ -37,13 +37,13 @@ export default function Slm() {
       id: "value_slm",
     },
     {
-      name: "Benifits",
+      name: "Benefits",
       id: "benifits_windchill",
     },
   ];
 
   const overViewContent = {
-    header: "Increase revenue and profitability from service",
+    header: "Increase Revenue and Profitability from Service",
     content:
       "For complex products, manufacturing, construction machinery and transport vehicles it is crucial to be able to deliver top quality service, as well as considering the potential profitability of spare part sales. This puts high demand on maintenance in terms of diagnosis as well as correct, complete and easily accessible product information. It also stresses the need for a process approach.",
     video: "https://www.youtube-nocookie.com/embed/zB9vn2anJrw?controls=0",
@@ -75,24 +75,25 @@ export default function Slm() {
 
   const features = [
     {
-      name: "Transform your after-sales service organization",
+      name: "Transform your after-sales service Organization",
       content:
         "Challenges like missing parts, outdated documentation, and low fix rates hinder after-sales growth. Transformation is needed in managing parts, delivering current service information, and predicting/preventing product failures.",
       reversed: true,
-      img: CreoImg,
+      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1695015971/Images_Website/Altair/sdeidcnkmtmvbrqpap1t.jpg",
     },
     {
-      name: "A strategic approach to Aftermarket",
+      name: "A Strategic Approach to Aftermarket",
       content:
         "Service Lifecycle Management (SLM) aligns service parts, technical communication, field service, and product support for enhanced operations. It's a combination of processes, tools, and methods customized for each case. Key benefits include visualizing enterprise data for service efficiency and utilizing real-time product data for proactive issue resolution, minimizing downtime.",
       reversed: false,
-      img: CreoImg,
+      img: "https://res-console.cloudinary.com/dbomu1erj/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/SW1hZ2VzX1dlYnNpdGUvQWx0YWlyL3U3dWZxYWlraGEzZ3FwNWVmdTB3/template_primary",
     },
   ];
 
   return (
     <div>
       <Home {...home_content} />
+      <ScrollToTop />
       <ProductsNav naveles={naveles} logo={LogoNav} />
       <Overview {...overViewContent} />
       <div id="value_slm">

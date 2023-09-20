@@ -1,21 +1,17 @@
 import React from "react";
 import Home from "../../components/Services home/home";
-import Logo from "../../assests/services/productdesign_left.jpg";
-import ProductsNav from "../../components/prodyctsNav/productsnav";
-import Overview from "../../components/Overview/overview";
-import CreoImg from "../../assests/Triyas_Web.png";
+import ScrolltoTop from "react-scroll-to-top";
+
 import Info from "../../components/Services Para/info";
 import OnShapeFeatures from "../../components/OnShapeFeatures/onshapefeatures";
 
 import "./staticanylasis.css";
-import What from "../../components/Service What/what";
-import Points from "../../components/Service Points/points";
 
 export default function Static_Anylasis() {
   const home_content = {
-    header: "Static Anylasis",
+    header: "Static Analysis",
     content:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci nisi officia in doloremque distinctio dolore culpa laudantium facere qui, dolorem voluptatibus ratione quia earum reprehenderit rerum minima enim! Dolorem, voluptate? Praesentium, adipisci ipsam.",
+      "We offer cutting-edge engineering solutions that include static analysis using Finite Element Analysis (FEA). Static analysis is a crucial tool for understanding how structures and mechanical components perform under constant loads and boundary conditions.",
     logo: "https://res.cloudinary.com/dbomu1erj/image/upload/v1693286313/Images_Website/Altair/vqpspz2x1x9unpdpn9p3.jpg",
     classHome: "femodelling",
     back_img:
@@ -30,14 +26,14 @@ export default function Static_Anylasis() {
 
   const features = [
     {
-      name: "Linear static analysis",
+      name: "Linear Static Analysis",
       content:
         "We excel in solving linear static analysis, a method applied when there is a linear relationship between applied forces and displacements. This is particularly valuable in addressing structural challenges where stresses fall within the linear elastic range of the chosen material.",
       reversed: true,
       img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1693293916/Images_Website/Altair/kxh2crglcyuwkmbuucph.jpg",
     },
     {
-      name: "Non-linear static analysis",
+      name: "Non-linear Static Analysis",
       content:
         "Nonlinear analysis involves the examination of scenarios in which a nonlinear connection exists between applied forces and displacements. Nonlinear effects can arise from factors such as geometric nonlinearity, material nonlinearity, and contact nonlinearity. These effects contribute to a stiffness matrix that undergoes variation during the application of loads, deviating from a constant value.",
       reversed: false,
@@ -48,6 +44,7 @@ export default function Static_Anylasis() {
   return (
     <div>
       <Home {...home_content} />
+      <ScrolltoTop />
       <Info features={features} />
 
       {/* <Points features={features_points} /> */}

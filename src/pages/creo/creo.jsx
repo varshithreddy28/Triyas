@@ -10,9 +10,10 @@ import TableCreo from "../../components/creoTable/tablecreo";
 import Creonew from "../../components/creonew/creonew";
 import CreoLogoNav from "../../assests/creo_logo.png";
 import ProductsNav from "../../components/prodyctsNav/productsnav";
+import ScrolltoTop from "react-scroll-to-top";
 
 export default function Creo() {
-  const benifits_info = `PTC Creo Parametric is a comprehensive 3D CAD solution that provides engineers with a seamless journey from concept to product validation. With a rich set of powerful features, engineers can precisely simulate and optimize their designs, taking into account factors such as weight, performance, cost, and sustainability. The software accommodates a wide range of materials and manufacturing processes. Furthermore, it goes beyond traditional engineering practices by replacing 2D drawings with fully-annotated 3D models, simplifying the manufacturing, inspection, and servicing of parts and assemblies`;
+  const benifits_info = `PTC Creo Parametric is a comprehensive 3D CAD solution that provides engineers with a seamless journey from concept to product validation. With a rich set of powerful features, engineers can precisely simulate and optimize their designs, taking into account factors such as weight, performance, cost, and sustainability. The software accommodates a wide range of materials and manufacturing processes. Furthermore, it goes beyond traditional engineering practices by replacing 2D drawings with fully-annotated 3D models, simplifying the manufacturing, inspection, and servicing of parts and assemblies.`;
 
   const creobenifits = [
     {
@@ -86,6 +87,7 @@ export default function Creo() {
           </div>
         </div>
       </div>
+      <ScrolltoTop />
       <div className="thrd_cnt">
         <ProductsNav naveles={naveles} logo={CreoLogoNav} />
       </div>

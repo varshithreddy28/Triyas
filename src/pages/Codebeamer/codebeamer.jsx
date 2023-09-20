@@ -2,8 +2,8 @@ import React from "react";
 import Home from "../../components/Home_pdts/home";
 import Logo from "../../assests/codebemer_logo.png";
 import Img1 from "../../assests/codebeamer/img1.webp";
+import ScrolltoTop from "react-scroll-to-top";
 
-import CreoImg from "../../assests/Triyas_Web.png";
 import Info from "../../components/Products_Information/info";
 import ShowMoreText from "react-show-more-text";
 
@@ -36,22 +36,21 @@ export default function Codebeamer() {
       content:
         "Transform Market Insights into High-Quality Products at Unprecedented Speed. Achieve Clarity and Alignment Across All Stakeholders to Minimize Costs and Accelerate Delivery. Monitor Objects and Actions Throughout the Entire Delivery Process.",
       reversed: false,
-      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1694525205/jgwuutoq1zyai6atik6c.jpg",
+      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1695016557/Images_Website/Altair/ugmceefer0i3spr7wqdz.png",
     },
     {
       name: "Quality Assurance & Testing.",
       content:
         "Incorporate Quality Management into Your Development Processes, Building Trust in Your Products. Effectively Monitor and Manage QA Activities Across the Entire Lifecycle, Accelerating Product Verification.",
       reversed: true,
-      img: CreoImg,
+      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1695016254/Images_Website/Altair/feyyley1fuiodbjuyhwk.jpg",
     },
   ];
 
   return (
     <div>
       <Home {...home_content} />
-      {/* <ProductsNav naveles={naveles} logo={Logo} /> */}
-      {/* <Overview {...overViewContent} /> */}
+      <ScrolltoTop />
       <Info title="About Codebeamer" features={explore} id="codebeamer_about" />
       <div className="scndcnt container">
         <div className="whatSaaS">Codebeamer features</div>

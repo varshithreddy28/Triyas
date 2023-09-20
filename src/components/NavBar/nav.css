@@ -61,6 +61,7 @@ button#dropdown-button-drop-end {
   justify-content: space-between;
   align-items: baseline;
   border-radius: 0;
+  font-size: 1.05em;
 }
 
 button.show {
@@ -86,6 +87,7 @@ a.dropdown-item a {
 
 nav.navcolor.navbar.navbar-expand-md.navbar-light {
   background-color: white;
+  z-index: 500;
 }
 
 a.dropdown-item:hover {
@@ -140,7 +142,7 @@ nav.navcolor.home_nav_style.navbar.navbar-expand-md.navbar-light {
 
 .basic_nav_home.nav-item.dropdown a {
   color: black;
-  font-size: 1.1em;
+  font-size: 1.05em;
 }
 
 a.home_nav_cnt {

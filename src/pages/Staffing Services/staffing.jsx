@@ -6,8 +6,7 @@ import What from "../../components/Service What/what";
 import RightArrow from "../../assests/rightarrow.svg";
 
 //
-import Productivity from "../../assests/productivity.svg";
-import Users from "../../assests/users.svg";
+import ScrolltoTop from "react-scroll-to-top";
 import Industial from "../../assests/services/staff1.svg";
 import Talent from "../../assests/services/staff2.svg";
 import Onsite from "../../assests/services/staff3.svg";
@@ -79,9 +78,9 @@ export default function Staffing() {
 
   const features = [
     {
-      name: "We are having Expertise in:",
+      name: "We are having Expertise in",
       cnt: "We specialize in engineering, simulation, and product sales, offering expertise in these key areas.",
-      points: ["Engineering", "Simulation", "Product Sales"],
+      points: ["Engineering Design", "Product Simulation", "Product Sales"],
       reversed: true,
       img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1694548166/Images_Website/izobabtni5cmucv9os9q.jpg",
     },
@@ -110,9 +109,10 @@ export default function Staffing() {
   return (
     <div>
       <Home {...home_content} />
+      <ScrolltoTop />
       <What {...aboutService} />
       <div className="features container">
-        <div className="features_header">Our Specializations:</div>
+        <div className="features_header">Our Specializations</div>
         {features.map((feature) => {
           return (
             <div className={feature.reversed ? "featured_rev" : "feature"}>

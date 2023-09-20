@@ -1,7 +1,10 @@
 import React from "react";
 import CompanyLogo from "../../assests/Triyas_Web.png";
 import { BiLogoLinkedin, BiLogoFacebook } from "react-icons/bi";
-import { BsTwitter } from "react-icons/bs";
+import { BsTwitter, BsYoutube } from "react-icons/bs";
+import { GrMail } from "react-icons/gr";
+import PTC from "../../assests/ptcpartner.svg";
+import Altair from "../../assests/altairlogo.webp";
 
 import "./bottomnav.css";
 
@@ -10,7 +13,7 @@ export default function Bottomnav() {
     {
       name: "Linked In",
       logo: <BiLogoLinkedin />,
-      link: "https://www.google.com/",
+      link: "https://in.linkedin.com/company/triyas",
     },
     {
       name: "Twitter",
@@ -20,7 +23,12 @@ export default function Bottomnav() {
     {
       name: "Facebook",
       logo: <BiLogoFacebook />,
-      link: "https://www.google.com/",
+      link: "https://www.facebook.com/solidworksreseller",
+    },
+    {
+      name: "Mail",
+      logo: <GrMail />,
+      link: "varshithreddybobbili28@gmail.com",
     },
   ];
   const mail = [
@@ -40,33 +48,30 @@ export default function Bottomnav() {
   return (
     <div>
       <div className="bottom_nav">
-        <div className="company_logo">
-          <img src={CompanyLogo} alt="" srcset="" />
-        </div>
         <div className="visit">
-          <div className="visitHeader">VISIT</div>
+          {/* <div className="company_logo">
+            <img src={CompanyLogo} alt="" srcset="" />
+          </div> */}
+          <div className="visitHeader">LOCATION</div>
           <div className="plot_num">Plot Number 682</div>
           <div className="plaza">Babukhan Rasheed Plaza</div>
           <div className="rd_no">Road #36, Jubliee Hills</div>
           <div className="place">Hyderbad 500 033</div>
           <div className="cntry">India</div>
         </div>
-        <div className="follow_nav">
-          <div className="visitHeader">FOLLOW</div>
-          <div className="follow">
-            {social.map((ele) => {
-              return (
-                <div className="follow_cmpy">
-                  {/* <img src={ele.logo} alt="" /> */}
-                  {ele.logo}
-
-                  <a href={ele.link}>{ele.name}</a>
-                </div>
-              );
-            })}
+        <div className="chnlpartner_tot">
+          <div className="visitHeader">Channel Partners of</div>
+          <div className="chnlpartnr_img">
+            <div className="img_prtr">
+              <img src={PTC} alt="" />
+            </div>
+            <div className="img_prtr">
+              <img src={Altair} alt="" />
+            </div>
           </div>
         </div>
-        <div className="contact_btm_nav">
+
+        {/* <div className="contact_btm_nav">
           <div className="visitHeader">Contact us :</div>
           {mail.map((ele) => {
             return (
@@ -78,6 +83,25 @@ export default function Bottomnav() {
               </div>
             );
           })}
+        </div> */}
+        <div className="follow_nav">
+          <div className="visitHeader">SOCIAL PROFILE</div>
+          <div className="follow">
+            {social.map((ele) => {
+              return (
+                <div className="follow_cmpy">
+                  {/* <img src={ele.logo} alt="" /> */}
+                  {ele.logo}
+                  <a
+                    href={ele.name === "Mail" ? `mailto:${ele.link}` : ele.link}
+                    target="_blank"
+                  >
+                    {ele.name}
+                  </a>
+                </div>
+              );
+            })}
+          </div>
         </div>
       </div>
     </div>

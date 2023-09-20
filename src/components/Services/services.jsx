@@ -58,10 +58,18 @@ function Services() {
   return (
     <div id="services">
       <div className="home_body">
-        <div className="services_heading">
+        <div
+          className="services_heading"
+          data-aos="fade-down"
+          data-aos-duration="800"
+        >
           We offer the Following Services and Products :
         </div>
-        <div className="services_all">
+        <div
+          className="services_all"
+          data-aos="fade-up"
+          data-aos-duration="800"
+        >
           {services.map((service) => {
             return (
               <div className="service_card">

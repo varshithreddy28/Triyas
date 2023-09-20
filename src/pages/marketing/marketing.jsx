@@ -95,7 +95,7 @@ const Ptc = ({ title }) => {
         <title>{`Triyas | ${title}`}</title>
       </Helmet>
       <div className="cad_first container">
-        <div className="services ">
+        <div className="services " data-aos="fade-left">
           <div className="srv_prvd">Softwares we Handle : </div>
           <ListGroup>
             {services.map((service) => {
@@ -110,7 +110,7 @@ const Ptc = ({ title }) => {
             {/* <ListGroupItem>...</ListGroupItem> */}
           </ListGroup>
         </div>
-        <div className="atT">
+        <div className="atT" data-aos="fade-right">
           <div className="atTriyas">
             At Triyas we Provide high-quality CAD services tailored to meet the
             needs of mechanical, automotive, architecture, and structural

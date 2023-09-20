@@ -4,7 +4,7 @@ import Logo from "../../assests/Windchill_logo.png";
 import onshapeBg from "../../assests/onshape_bg.jpg";
 import ProductsNav from "../../components/prodyctsNav/productsnav";
 import Overview from "../../components/Overview/overview";
-import CreoImg from "../../assests/Triyas_Web.png";
+import ScrollToTop from "react-scroll-to-top";
 import Info from "../../components/Products_Information/info";
 import OnShapeFeatures from "../../components/OnShapeFeatures/onshapefeatures";
 //
@@ -71,7 +71,7 @@ export default function Windchills() {
       id: "value_windchill",
     },
     {
-      name: "Benifits",
+      name: "Benefits",
       id: "benifits_windchill",
     },
     {
@@ -117,7 +117,7 @@ export default function Windchills() {
 
   const features = [
     {
-      name: "Benifits of Implementing PLM System",
+      name: "Benefits of Implementing PLM System",
       content:
         "Windchill brings significant benefits to the product development lifecycle, including reduced costs, faster time to market, improved product quality, and enhanced collaboration. Its streamlined processes and data management optimize resources and maximize efficiency, leading to higher customer satisfaction and cost savings through minimized prototyping and increased data re-use. ",
       reversed: true,
@@ -128,6 +128,7 @@ export default function Windchills() {
   return (
     <div>
       <Home {...home_content} />
+      <ScrollToTop />
       <ProductsNav naveles={naveles} logo={Logo} />
       <Overview {...overViewContent} />
       <Value

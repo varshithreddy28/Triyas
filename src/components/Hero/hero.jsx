@@ -9,7 +9,11 @@ export default function Hero() {
   return (
     <div id="hero_home">
       <div className="hero">
-        <div className="hero_cnt">
+        <div
+          className="hero_cnt"
+          data-aos="fade-up-right"
+          data-aos-duration="800"
+        >
           <div className="hero_tag">Transforming Your Ideas into Reality</div>
           <div className="hero_line_header">
             <div className="hero_line"></div>
@@ -37,7 +41,11 @@ export default function Hero() {
             </HashLink>
           </div>
         </div>
-        <div className="hero_img">
+        <div
+          className="hero_img"
+          data-aos="fade-up-left"
+          data-aos-duration="800"
+        >
           <img src={Right} alt="" />
         </div>
       </div>

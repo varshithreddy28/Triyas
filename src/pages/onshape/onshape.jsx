@@ -4,7 +4,7 @@ import Logo from "../../assests/onshape_logo.png";
 import onshapeBg from "../../assests/onshape_bg.jpg";
 import ProductsNav from "../../components/prodyctsNav/productsnav";
 import Overview from "../../components/Overview/overview";
-import CreoImg from "../../assests/Triyas_Web.png";
+import ScrollToTop from "react-scroll-to-top";
 import Info from "../../components/Products_Information/info";
 import OnShapeFeatures from "../../components/OnShapeFeatures/onshapefeatures";
 //
@@ -143,7 +143,7 @@ export default function Onshape() {
       img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1694523762/dykgjupidkluyc0dhwkl.png",
     },
     {
-      name: "Accelerated time-to-market.",
+      name: "Accelerated Time-to-Market.",
       content:
         "Onshape expedites product development through its accessible, cloud-based platform compatible with any device. Seamless global collaboration enables teams to explore design alternatives simultaneously, eliminating data conflicts. This efficiency accelerates the product development cycle, ensuring a competitive edge in today's fast-paced market.",
       reversed: false,
@@ -153,7 +153,7 @@ export default function Onshape() {
 
   const framework = [
     {
-      name: "Mitigate risks and safeguard intellectual property (IP).",
+      name: "Mitigate risks and safeguard Intellectual Property (IP).",
       content:
         "Onshape's database-driven architecture guarantees secure design data with precise access controls for every team member, minimizing the risk of unauthorized duplication and data breaches. Comprehensive version history facilitates effortless review and changes, fortifying the safeguarding of intellectual property.",
       reversed: true,
@@ -164,14 +164,15 @@ export default function Onshape() {
   return (
     <div>
       <Home {...home_content} />
+      <ScrollToTop />
       <ProductsNav naveles={naveles} logo={Logo} />
       <Overview {...overViewContent} />
-      <Info
-        title="Feature's of OnShape"
-        features={features}
-        id="platform_onshape"
+      <Info features={features} id="platform_onshape" />
+      <OnShapeFeatures
+        features={onshapeFeatures}
+        id="features"
+        title={"On Shape Feature's"}
       />
-      <OnShapeFeatures features={onshapeFeatures} id="features" />
       <Info features={framework} id="framework_onshape" />
     </div>
   );

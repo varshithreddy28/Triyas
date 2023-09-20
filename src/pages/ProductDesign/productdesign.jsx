@@ -1,21 +1,16 @@
 import React from "react";
 import Home from "../../components/Services home/home";
-import Logo from "../../assests/services/productdesign_left.jpg";
-import ProductsNav from "../../components/prodyctsNav/productsnav";
-import Overview from "../../components/Overview/overview";
-import CreoImg from "../../assests/Triyas_Web.png";
+import ScrolltoTop from "react-scroll-to-top";
 import Info from "../../components/Services Para/info";
 import OnShapeFeatures from "../../components/OnShapeFeatures/onshapefeatures";
 
 import "./productdesign.css";
-import What from "../../components/Service What/what";
-import Points from "../../components/Service Points/points";
 
 export default function Productdesign() {
   const home_content = {
     header: "Product Design",
     content:
-      "At the heart of our product design philosophy lies a commitment to innovation and excellence. We understand that product design is not just about aesthetics; it's about delivering outstanding user experiences, optimising functionality, and ensuring manufacturability",
+      "At the heart of our product design philosophy lies a commitment to innovation and excellence. We understand that product design is not just about aesthetics; it's about delivering outstanding user experiences, optimising functionality, and ensuring manufacturability.",
     logo: "https://res.cloudinary.com/dbomu1erj/image/upload/v1694510397/lohkfzwzkobedaftavz1.jpg",
     classHome: "femodelling",
     back_img:
@@ -32,7 +27,7 @@ export default function Productdesign() {
     {
       name: "Concept Ideation",
       content:
-        "Design Ideation in Mechanical Engineering serves as the creative spark, igniting idea generation during the initial stages of conceptual design. This phase thrives on innovative approaches and strategies that enhance creativity, ultimately shaping the foundation for detailed design development. Ideation methods are meticulously crafted to foster ingenuity, ensuring a seamless transition towards the creation of intricate designs",
+        "Design Ideation in Mechanical Engineering serves as the creative spark, igniting idea generation during the initial stages of conceptual design. This phase thrives on innovative approaches and strategies that enhance creativity, ultimately shaping the foundation for detailed design development. Ideation methods are meticulously crafted to foster ingenuity, ensuring a seamless transition towards the creation of intricate designs.",
       reversed: true,
       img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1694510278/kzxysacycruqqkjhavul.webp",
     },
@@ -82,6 +77,7 @@ export default function Productdesign() {
     <div>
       <Home {...home_content} />
       {/* <What {...aboutService} /> */}
+      <ScrolltoTop />
       <Info features={features} />
 
       {/* <Points features={features_points} /> */}

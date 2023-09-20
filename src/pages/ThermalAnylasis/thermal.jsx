@@ -1,7 +1,7 @@
 import React from "react";
 import Home from "../../components/Services home/home";
-import Logo from "../../assests/services/productdesign_left.jpg";
-import CreoImg from "../../assests/Triyas_Web.png";
+import ScrolltoTop from "react-scroll-to-top";
+
 import Info from "../../components/Services Para/info";
 
 import "./thermal.css";
@@ -11,7 +11,7 @@ export default function ThermalAnylasis() {
   const home_content = {
     header: "Thermal Analysis",
     content:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci nisi officia in doloremque distinctio dolore culpa laudantium facere qui, dolorem voluptatibus ratione quia earum reprehenderit rerum minima enim! Dolorem, voluptate? Praesentium, adipisci ipsam.",
+      "In engineering and product design, we excel in thermal analysis, comprehending heat transfer via conduction, convection, and radiation to optimise product thermal performance.",
     logo: "https://res.cloudinary.com/dbomu1erj/image/upload/v1693295716/Images_Website/Altair/qawspft4ed6o6furrqcz.jpg",
     classHome: "thermal",
     back_img:
@@ -27,16 +27,16 @@ export default function ThermalAnylasis() {
 
   const features = [
     {
-      name: "Steady state",
+      name: "Steady State",
       content:
-        "At Triyas, we specialize in unravelling the mysteries of temperature equilibrium through expert Steady State Thermal Analysis. Our team of skilled engineers possesses an intricate understanding of heat transfer principles, employing advanced simulation tools to predict thermal behaviour. With unwavering precision, we guide designs toward thermal excellence.",
+        "At Triyas, we specialize in unravelling the mysteries of temperature equilibrium through expert Steady State Thermal Analysis. Our team of skilled engineers possess an intricate understanding of heat transfer principles, employing advanced simulation tools to predict thermal behaviour. With unwavering precision, we guide designs toward thermal excellence.",
       reversed: true,
       img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1694508551/yic88md4n1cms0ravz0p.webp",
     },
     {
       name: "Transient ",
       content:
-        "We excel in solving the complexities of dynamic temperature changes through expert Transient State Thermal Analysis. Our team of skilled engineers possesses an in-depth understanding of heat dynamics, utilizing advanced simulation tools to predict transient thermal behaviour. With unwavering precision, we guide designs toward thermal excellence in fluctuating conditions.",
+        "We excel in solving the complexities of dynamic temperature changes through expert Transient State Thermal Analysis. Our team of skilled engineers hold an in-depth understanding of heat dynamics, utilizing advanced simulation tools to predict transient thermal behaviour. With unwavering precision, we guide designs toward thermal excellence in fluctuating conditions.",
       reversed: false,
       img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1694508665/kkovawmnekbcf2wwjjcz.webp",
     },
@@ -71,6 +71,7 @@ export default function ThermalAnylasis() {
   return (
     <div>
       <Home {...home_content} />
+      <ScrolltoTop />
       <What {...aboutService} />
       <Info features={features} />
 

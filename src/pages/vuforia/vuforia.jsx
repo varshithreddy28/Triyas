@@ -4,18 +4,15 @@ import Logo from "../../assests/vuforia_logo.webp";
 import NavLogo from "../../assests/vuforia_logo.png";
 import ProductsNav from "../../components/prodyctsNav/productsnav";
 import Overview from "../../components/Overview/overview";
-import CreoImg from "../../assests/Triyas_Web.png";
+import ScrollToTop from "react-scroll-to-top";
 import Info from "../../components/Products_Information/info";
 import OnShapeFeatures from "../../components/OnShapeFeatures/onshapefeatures";
 //
 import Cloud from "../../assests/vuforia_1.svg";
 import Security from "../../assests/windchill/security.svg";
 import Updates from "../../assests/vuforia_2.svg";
-import Admin from "../../assests/windchill/support.svg";
-import Delivery from "../../assests/windchill/delivery.svg";
 
 import "./vuforia.css";
-import Value from "../../components/values_windchill/value";
 
 export default function Windchills() {
   const windchillFeatures = [
@@ -84,7 +81,7 @@ export default function Windchills() {
       content:
         "Efficiently create immersive AR experiences that leverage existing 3D and IoT data—and improve worker safety, proficiency, and agility.",
       reversed: false,
-      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1694524385/mm2ayddjiqf8lmala1a5.png",
+      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1695132305/Images_Website/ahbb7cfql5cdszgcskjy.png",
     },
     {
       name: "Vuforia Engine",
@@ -105,6 +102,7 @@ export default function Windchills() {
   return (
     <div>
       <Home {...home_content} />
+      <ScrollToTop />
       <ProductsNav naveles={naveles} logo={NavLogo} />
       <Overview {...overViewContent} />
       <OnShapeFeatures

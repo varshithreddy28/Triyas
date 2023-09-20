@@ -11,7 +11,11 @@ export default function Info({ title, features, id }) {
             <div
               className={feature.reversed ? "service_info_rev" : "service_info"}
             >
-              <div className="service_info_cnt">
+              <div
+                className="service_info_cnt"
+                data-aos={feature.reversed ? "fade-left" : "fade-right"}
+                data-aos-duration="800"
+              >
                 <div className="service_info_title_header">{feature.name}</div>
                 <div className="service_info_cnt_txt">
                   {/* <ShowMoreText
@@ -28,7 +32,11 @@ export default function Info({ title, features, id }) {
                   {/* </ShowMoreText> */}
                 </div>
               </div>
-              <div className="service_info_img">
+              <div
+                className="service_info_img"
+                data-aos={feature.reversed ? "fade-right" : "fade-left"}
+                data-aos-duration="800"
+              >
                 <img src={feature.img} alt="" />
               </div>
             </div>

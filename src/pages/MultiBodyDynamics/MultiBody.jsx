@@ -1,7 +1,7 @@
 import React from "react";
 import Home from "../../components/Services home/home";
-import Logo from "../../assests/services/productdesign_left.jpg";
-import CreoImg from "../../assests/Triyas_Web.png";
+import ScrolltoTop from "react-scroll-to-top";
+
 import Info from "../../components/Services Para/info";
 
 import "./MultiBody.css";
@@ -11,7 +11,7 @@ export default function MultiBody() {
   const home_content = {
     header: "MultiBody Dynamics",
     content:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci nisi officia in doloremque distinctio dolore culpa laudantium facere qui, dolorem voluptatibus ratione quia earum reprehenderit rerum minima enim! Dolorem, voluptate? Praesentium, adipisci ipsam.",
+      "We possess the capability to conduct multi-body dynamics simulations, a crucial tool for assessing the complex interactions between interconnected mechanical components. This enables us to optimize designs for superior performance, durability, and safety across various industries, from automotive to robotics.",
     logo: "https://res.cloudinary.com/dbomu1erj/image/upload/v1694509090/yuw00ind125oopksb5al.jpg",
     classHome: "femodelling",
     back_img:
@@ -38,6 +38,7 @@ export default function MultiBody() {
   return (
     <div>
       <Home {...home_content} />
+      <ScrolltoTop />
       <Info features={features} />
 
       {/* <Points features={features_points} /> */}

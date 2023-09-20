@@ -34,7 +34,7 @@ const Cae = () => {
       url: "/cae/lineardynamics",
     },
     {
-      name: "Explicit Anylasis",
+      name: "Explicit Analysis",
       url: "/cae/explicitanalysis",
     },
     {

@@ -16,7 +16,7 @@ export default function Pdts({ search, isSearched }) {
 
   const products = [
     {
-      name: "Simsolid",
+      name: "SimSolid",
       img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1692802761/Images_Website/Altair/isrqaphc5xmen1rkxz0b.jpg",
       keywords: ["HyperWorks", "Structural Analysis"],
       discreption:
@@ -24,7 +24,7 @@ export default function Pdts({ search, isSearched }) {
       link: "https://altair.com/simsolid",
     },
     {
-      name: "Simlab",
+      name: "SimLab",
       img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1692802486/Images_Website/Altair/pabrqnjiqk2dy8b6xocj.jpg",
       keywords: ["Fluids & Thermal", "Structural Analysis", "Multiphysics"],
       discreption:
@@ -32,7 +32,7 @@ export default function Pdts({ search, isSearched }) {
       link: "https://altair.com/simlab",
     },
     {
-      name: "Optistruct",
+      name: "OptiStruct",
       img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1692802949/Images_Website/Altair/kttlrwbc6szspg6cgyvo.jpg",
       keywords: ["SimLab", "Structural Analysis"],
       discreption:
@@ -49,7 +49,7 @@ export default function Pdts({ search, isSearched }) {
     },
     {
       name: "Inspire Cast",
-      img: DemoImg,
+      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1695014796/Images_Website/Altair/kivyufg8qniikrojgouh.png",
       keywords: ["Manufacturing"],
       discreption:
         "Inspire Cast is a user-friendly casting simulation software for quality components. It helps visualize and rectify casting defects early, saving downstream costs.",
@@ -57,7 +57,7 @@ export default function Pdts({ search, isSearched }) {
     },
     {
       name: " Inspire Extrude",
-      img: DemoImg,
+      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1695014863/Images_Website/Altair/qtiply69vzzzc7udbdt5.png",
       keywords: ["Manufacturing"],
       discreption:
         "Inspire Extrude Metal is an accessible simulation tool for all. It enhances understanding of profile features and process variables, reduces costs, and improves quality and yield.",
@@ -73,7 +73,7 @@ export default function Pdts({ search, isSearched }) {
     },
     {
       name: "Inspire Print3D",
-      img: DemoImg,
+      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1695014928/Images_Website/Altair/q7si6mmeoionym9wnnps.jpg",
       keywords: ["Manufacturing"],
       discreption:
         "Inspire Print3D expedites the design and simulation of efficient 3D-printed parts. It aids engineers in understanding design changes, reducing costs, and improving manufacturability.",
@@ -81,7 +81,7 @@ export default function Pdts({ search, isSearched }) {
     },
     {
       name: "HyperMesh",
-      img: DemoImg,
+      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1695014998/Images_Website/Altair/rva8nz5frfhyht6wejg1.webp",
       keywords: ["OptiStruct", "Structural Analysis"],
       discreption:
         "Altair HyperMesh, a leading product for finite element modeling, has evolved into Altair HyperWorks. It offers an enhanced user experience, legacy functionality, and compatibility with previous HyperMesh versions.",
@@ -97,7 +97,7 @@ export default function Pdts({ search, isSearched }) {
     },
     {
       name: "MotionSolve",
-      img: DemoImg,
+      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1695015069/Images_Website/Altair/dz2r1uxdfjtdqjj1nklg.jpg",
       keywords: ["Structural Analysis"],
       discreption:
         "MotionSolve is a powerful tool for simulating and optimizing multi-body systems and mechanical assemblies. It aids in product design and performance evaluation.",
@@ -113,7 +113,7 @@ export default function Pdts({ search, isSearched }) {
     },
     {
       name: "HyperLife",
-      img: DemoImg,
+      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1695015144/Images_Website/Altair/zhr45q4kmyzahhqozkli.jpg",
       keywords: ["Structural Analysis"],
       discreption:
         "HyperLife is a durability analysis tool that predicts product life under various loading conditions. It helps optimize product design for longevity and reliability.",
@@ -137,7 +137,7 @@ export default function Pdts({ search, isSearched }) {
     },
     {
       name: "EDEM",
-      img: DemoImg,
+      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1695015242/Images_Website/Altair/f6egrh66mztmxruc9hfc.jpg",
       keywords: ["Manufacturing"],
       discreption:
         "EDEM is a discrete element method software application for bulk material simulation. It's used for optimizing equipment design and analyzing the behavior of granular materials.",
@@ -148,7 +148,7 @@ export default function Pdts({ search, isSearched }) {
       img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1692945134/Images_Website/Altair/fgoxv48n38t1ikx364qo.webp",
       keywords: ["Fluids & Thermal", "Acusolve"],
       discreption:
-        "Altair offers comprehensive tools for computational fluid dynamics (CFD) modeling. AcuSolve enables robust, scalable, and accurate analysis of flow, heat transfer, and turbulence, expediting results analysis and physics exploration.",
+        "Feko is a leader in high-frequency electromagnetic simulation, serving industries like aerospace and automotive to enhance product design and reduce time-to-market.",
       link: "https://altair.com/resource/introduction-to-acusolve",
     },
     {
@@ -254,9 +254,9 @@ export default function Pdts({ search, isSearched }) {
     }
   });
 
-  for (const obj in products) {
-    console.log(obj);
-  }
+  // for (const obj in products) {
+  //   console.log(obj);
+  // }
 
   return (
     <div className="container">

@@ -1,5 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
+import { useEffect } from "react";
 import NavBar from "./components/NavBar/nav.jsx";
 import {
   Route,
@@ -46,7 +47,14 @@ import Gap from "./components/Gap/gap";
 import AltairEvents from "./pages/Altair Events/altrevnts";
 import PTCEvents from "./pages/PTC Events/ptcevents";
 
+// AOS
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 function App() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div className="app">
       <Router>

@@ -1,7 +1,6 @@
 import React from "react";
 import Home from "../../components/Services home/home";
-import Logo from "../../assests/services/productdesign_left.jpg";
-import CreoImg from "../../assests/Triyas_Web.png";
+import ScrolltoTop from "react-scroll-to-top";
 import Info from "../../components/Services Para/info";
 
 import "./cfd.css";
@@ -29,14 +28,14 @@ export default function CFD() {
     {
       name: "Internal",
       content:
-        "We possess the expertise to delve into the intricate movements of fluids within confined spaces, offering a window into their behavior that empowers our clients' designs. Our Internal Flow Analysis capabilities extend to a range of applications, including pipes, ducts, and channels, where fluid dynamics shape the efficiency and performance of your systems. With advanced numerical simulations and sophisticated calculations, our skilled engineers navigate the complexities of fluid behavior. We explore how velocities, pressures, and temperatures evolve as fluids traverse intricate geometries, providing insights that drive optimization for efficiency, safety, and overall performance.",
+        "We possess the expertise to delve into the intricate movements of fluids within confined spaces, offering a window into their behavior that empowers our client's designs. Our Internal Flow Analysis capabilities extend to a range of applications, including pipes, ducts, and channels, where fluid dynamics shape the efficiency and performance of your systems. With advanced numerical simulations and sophisticated calculations, our skilled engineers navigate the complexities of fluid behavior. We explore how velocities, pressures, and temperatures evolve as fluids traverse intricate geometries, providing insights that drive optimization for efficiency, safety, and overall performance.",
       reversed: false,
       img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1694509308/k3jai5qgfjq2myga4yka.jpg",
     },
     {
       name: "External",
       content:
-        "We bear the expertise to decipher the intricate moment of fluids—air or 	liquids—interacting with surfaces, structures, or objects within an open 	environment. Our External Flow Analysis capabilities extend to understanding how 	velocities, pressures, and temperatures evolve as fluids gracefully flow over external 	contours.",
+        "We bear the expertise to decipher the intricate moment of air or liquid interacting with surfaces, structures, or objects within an open 	environment. Our External Flow Analysis capabilities extend to understanding how 	velocities, pressures, and temperatures evolve as fluids gracefully flow over external 	contours.",
       reversed: true,
       img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1694509367/jsdwe1ekdqqvjoraghp1.jpg",
     },
@@ -45,6 +44,7 @@ export default function CFD() {
   return (
     <div>
       <Home {...home_content} />
+      <ScrolltoTop />
       <Info features={features} />
 
       {/* <Points features={features_points} /> */}

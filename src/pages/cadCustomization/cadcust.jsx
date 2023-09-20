@@ -3,6 +3,7 @@ import Home from "../../components/Services home/home";
 import Logo from "../../assests/services/productdesign_left.jpg";
 import CreoImg from "../../assests/Triyas_Web.png";
 import Info from "../../components/Services Para/info";
+import ScrolltoTop from "react-scroll-to-top";
 
 import "./cadcust.css";
 import What from "../../components/Service What/what";
@@ -20,35 +21,35 @@ export default function CADCustomisation() {
 
   const features = [
     {
-      name: "Customization and Automation:",
+      name: "Customization and Automation",
       content:
         "Enhance your CAD software's functionality by adding custom forms, toolbars, and menus. Boost efficiency by automating repetitive design tasks, freeing up valuable time. Tailor your software to meet your specific needs, improving your workflow and productivity.",
       reversed: true,
       img: CreoImg,
     },
     {
-      name: "Intelligent CAD Software:",
+      name: "Intelligent CAD Software",
       content:
         "Elevate your CAD software's capabilities by infusing it with your unique design rules and logic. Minimize the risk of human errors, ensuring that your designs are consistently accurate and reliable. Achieve a higher level of precision and efficiency in your CAD work, thanks to intelligent automation.",
       reversed: false,
       img: CreoImg,
     },
     {
-      name: "Streamlined Processes:",
+      name: "Streamlined Processes",
       content:
         "Effortlessly automate the generation of Bill of Materials (BOM) and drawings, significantly reducing manual effort and saving valuable time. Seamlessly export drawing data to Microsoft Excel and create drawings directly from Excel data, simplifying complex tasks.",
       reversed: true,
       img: CreoImg,
     },
     {
-      name: "Efficiency and Quality:",
+      name: "Efficiency and Quality",
       content:
         "Drastically reduce workloads by automating and removing the burden of repetitive and tedious tasks, freeing up valuable time and resources. Ensure your designs are consistently accurate and compliant with industry standards, resulting in high-quality outcomes.",
       reversed: false,
       img: CreoImg,
     },
     {
-      name: "Integration and Adaptability:",
+      name: "Integration and Adaptability",
       content:
         "Foster seamless collaboration by integrating your software with other applications, harnessing the power of cutting-edge technologies for enhanced functionality. Tailor inspection checklists to your exact requirements, ensuring a flexible and adaptable quality control process that meets your unique needs.",
       reversed: true,
@@ -59,6 +60,7 @@ export default function CADCustomisation() {
   return (
     <div>
       <Home {...home_content} />
+      <ScrolltoTop />
       <Info features={features} />
 
       {/* <Points features={features_points} /> */}

@@ -7,13 +7,14 @@ import Productivity from "../../assests/productivity.svg";
 import Users from "../../assests/users.svg";
 import RightArrow from "../../assests/rightarrow.svg";
 import CreoImg from "../../assests/creoplus_img.jpg";
+import ScrollToTop from "react-scroll-to-top";
 
 function Creoplus() {
   const SaaSAdv = [
     {
       name: "Increased Productivity & Innovation",
       icon: Productivity,
-      cnt: "SaaS customers can anticipate boosted productivity and innovation through swift access to the latest CAD features, utilization of cloud-computing technologies, and seamless real-time design collaboration",
+      cnt: "SaaS customers can anticipate boosted productivity and innovation through swift access to the latest CAD features, utilization of cloud-computing technologies, and seamless real-time design collaboration.",
     },
     {
       name: "Better User Experience",
@@ -24,7 +25,7 @@ function Creoplus() {
 
   const features = [
     {
-      name: "Real-time collaboration",
+      name: "Real-Time Collaboration",
       cnt: "Creo+ facilitates real-time collaboration with multiple contributors, both within and beyond your organization.",
       points: [
         "Enhance Collaboration and Communication.",
@@ -35,7 +36,7 @@ function Creoplus() {
       img: CreoImg,
     },
     {
-      name: "Simplified CAD administration",
+      name: "Simplified CAD Administration",
       cnt: "Simplify the administration and rollout of Creo throughout your organisation using PTC Control Center.",
       points: [
         "Centralised Management and Deployment.",
@@ -43,7 +44,7 @@ function Creoplus() {
       ],
       video: "https://www.youtube.com/embed/ShKhpi-cgaU",
       reversed: false,
-      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1694523655/lj0nuy7qye9xov8nvbkm.jpg",
+      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1695132439/Images_Website/p1nx18s7eqrq8mqrg4wa.jpg",
     },
   ];
 
@@ -51,7 +52,11 @@ function Creoplus() {
     <div className="creoplus">
       <div className="first_cnt_plus">
         <div className="glassefct">
-          <div className="creo_info container">
+          <div
+            className="creo_info container"
+            data-aos="fade-up-right"
+            data-aos-duration="800"
+          >
             <div className="creo_header">
               <div className="creo_img_block">
                 <img
@@ -77,12 +82,21 @@ function Creoplus() {
               </button>
             </div>
           </div>
-          <div className="creo_img">
+          <div
+            className="creo_img"
+            data-aos="fade-up-left"
+            data-aos-duration="800"
+          >
             <img src={CreoLogo} loading="lazy" alt="Creo Logo" srcset="" />
           </div>
         </div>
       </div>
-      <div className="scndcnt container">
+      <ScrollToTop />
+      <div
+        className="scndcnt container"
+        data-aos="fade-up"
+        data-aos-duration="800"
+      >
         <div className="whatSaaS">What does SaaS mean for CAD?</div>
         <div className="lines_pls">
           <div className="lines"></div>
@@ -113,7 +127,11 @@ function Creoplus() {
           </ShowMoreText>
         </div>
       </div>
-      <div className="third_cnt container">
+      <div
+        className="third_cnt container"
+        data-aos="fade-up"
+        data-aos-duration="800"
+      >
         <div className="saas_adv">What are the CAD advantages of SaaS?</div>
         <div className="lines_pls">
           <div className="lines"></div>
@@ -139,7 +157,11 @@ function Creoplus() {
           })}
         </div>
       </div>
-      <div className="intro_creo_plus container">
+      <div
+        className="intro_creo_plus container"
+        data-aos="fade-up"
+        data-aos-duration="800"
+      >
         <div className="into_cnt">
           <div className="into_header">Introducing Creo+</div>
           <div className="intro_cnt">
@@ -169,7 +191,11 @@ function Creoplus() {
         {features.map((feature) => {
           return (
             <div className={feature.reversed ? "featured_rev" : "feature"}>
-              <div className="feature_cnt">
+              <div
+                className="feature_cnt"
+                data-aos="fade-right"
+                data-aos-duration="800"
+              >
                 <div className="feature_header">{feature.name}</div>
                 <div className="feature_cnt_txt">{feature.cnt}</div>
                 <div className="feature_pnts">
@@ -183,7 +209,11 @@ function Creoplus() {
                   })}
                 </div>
               </div>
-              <div className="feature_img">
+              <div
+                className="feature_img"
+                data-aos="fade-left"
+                data-aos-duration="800"
+              >
                 <img src={feature.img} alt="" />
               </div>
             </div>

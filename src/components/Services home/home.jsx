@@ -15,7 +15,11 @@ export default function Home({ header, content, logo, back_img, classHome }) {
     <div>
       <div style={home_compo_style} className="service_home_compo">
         <div className="service_home_glassefct">
-          <div className="service_home_info container">
+          <div
+            className="service_home_info container"
+            data-aos="fade-up-right"
+            data-aos-duration="800"
+          >
             <div className="service_home_header">
               <div className={`service_home_img_block ${classHome}`}>
                 <img
@@ -38,7 +42,11 @@ export default function Home({ header, content, logo, back_img, classHome }) {
               </button>
             </div>
           </div>
-          <div className={`service_home_compo_img ${classHome}`}>
+          <div
+            className={`service_home_compo_img ${classHome}`}
+            data-aos="fade-up-left"
+            data-aos-duration="800"
+          >
             <img src={logo} loading="lazy" alt="Creo Logo" srcset="" />
           </div>
         </div>

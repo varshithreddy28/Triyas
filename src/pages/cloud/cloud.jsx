@@ -28,40 +28,10 @@ const Cloud = () => {
       url: "/design/reverseengineering",
     },
   ];
-
-  const capabilities = [
-    {
-      title: "3D CAD Modelling and Drafting",
-      description: [
-        "3D Modelling",
-        "Manufacturing drawings",
-        "Design calculations",
-        "Legacy Conversion",
-        "Preparation of bill of materials",
-      ],
-    },
-
-    {
-      title: "Reverse Engineering",
-      description: [
-        "Design optimization through existing product design",
-        "Designing of new part to replace legacy parts",
-        "Reverse engineering through tear down",
-      ],
-    },
-    {
-      title: "Product Design",
-      description: [
-        "Concept Ideation",
-        "Concept design detailing",
-        "Engineering prototype",
-      ],
-    },
-  ];
   return (
     <div className="cad_page">
       <div className="cad_first container">
-        <div className="services ">
+        <div className="services " data-aos="fade-left">
           <div className="srv_prvd">Softwares we Handle : </div>
           <ListGroup>
             {services.map((service) => {
@@ -75,7 +45,7 @@ const Cloud = () => {
             })}
           </ListGroup>
         </div>
-        <div className="atT">
+        <div className="atT" data-aos="fade-right">
           <div className="atTriyas">
             At Triyas we Provide high-quality CAD services tailored to meet the
             needs of mechanical, automotive, architecture, and structural
