@@ -86,7 +86,7 @@ export default function Slm() {
       content:
         "Service Lifecycle Management (SLM) aligns service parts, technical communication, field service, and product support for enhanced operations. It's a combination of processes, tools, and methods customized for each case. Key benefits include visualizing enterprise data for service efficiency and utilizing real-time product data for proactive issue resolution, minimizing downtime.",
       reversed: false,
-      img: "https://res-console.cloudinary.com/dbomu1erj/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/SW1hZ2VzX1dlYnNpdGUvQWx0YWlyL3U3dWZxYWlraGEzZ3FwNWVmdTB3/template_primary",
+      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1695292599/Images_Website/jiepw0xs5w4kthda30e2.jpg",
     },
   ];
 
@@ -121,7 +121,7 @@ export default function Slm() {
               SLM to efficiently handle spare parts and inventory, facilitate
               communication among various teams, supervise service tasks, and
               ensure smooth product operations, all aimed at ensuring that
-              customers' machinery and assets run with minimal downtime.
+              customer's machinery and assets run with minimal downtime.
             </ShowMoreText>
           </div>
         </div>

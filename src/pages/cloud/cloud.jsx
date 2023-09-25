@@ -20,7 +20,7 @@ const Cloud = () => {
       url: "/design/productdesign",
     },
     {
-      name: "3D Cad Modelling and Drafting",
+      name: "3D Cad Modeling and Drafting",
       url: "/design/3dmodelling",
     },
     {
@@ -32,7 +32,7 @@ const Cloud = () => {
     <div className="cad_page">
       <div className="cad_first container">
         <div className="services " data-aos="fade-left">
-          <div className="srv_prvd">Softwares we Handle : </div>
+          <div className="srv_prvd">Services we Handle:</div>
           <ListGroup>
             {services.map((service) => {
               return (
@@ -47,9 +47,10 @@ const Cloud = () => {
         </div>
         <div className="atT" data-aos="fade-right">
           <div className="atTriyas">
-            At Triyas we Provide high-quality CAD services tailored to meet the
-            needs of mechanical, automotive, architecture, and structural
-            engineering companies.
+            Our comprehensive range of offerings covers a wide spectrum,
+            assisting both individuals and businesses in the creation and
+            development of various products, enhancing problem-solving
+            capabilities, and cultivating technical expertise.
           </div>
         </div>
       </div>

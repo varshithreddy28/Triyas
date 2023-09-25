@@ -8,6 +8,7 @@ import Users from "../../assests/users.svg";
 import RightArrow from "../../assests/rightarrow.svg";
 import CreoImg from "../../assests/creoplus_img.jpg";
 import ScrollToTop from "react-scroll-to-top";
+import TableCreoPlus from "../../components/creoplsTable/table";
 
 function Creoplus() {
   const SaaSAdv = [
@@ -40,7 +41,7 @@ function Creoplus() {
       cnt: "Simplify the administration and rollout of Creo throughout your organisation using PTC Control Center.",
       points: [
         "Centralised Management and Deployment.",
-        "Significantly reduce the time dedicated to software installation and upgrades.",
+        "Minimize software installation and upgrades time.",
       ],
       video: "https://www.youtube.com/embed/ShKhpi-cgaU",
       reversed: false,
@@ -220,6 +221,7 @@ function Creoplus() {
           );
         })}
       </div>
+      <TableCreoPlus />
     </div>
   );
 }

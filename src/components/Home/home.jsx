@@ -10,10 +10,6 @@ import { Helmet } from "react-helmet";
 const Home = () => {
   return (
     <div>
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>{`Triyas | Home`}</title>
-      </Helmet>
       <Hero />
       <ScrollToTop />
       <Services />

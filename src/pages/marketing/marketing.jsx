@@ -20,7 +20,7 @@ const Ptc = ({ title }) => {
       url: "/cad/creoplus",
     },
     {
-      name: "On Shape",
+      name: "OnShape",
       url: "/cad/onshape",
     },
 
@@ -96,7 +96,7 @@ const Ptc = ({ title }) => {
       </Helmet>
       <div className="cad_first container">
         <div className="services " data-aos="fade-left">
-          <div className="srv_prvd">Softwares we Handle : </div>
+          <div className="srv_prvd">Services we Handle : </div>
           <ListGroup>
             {services.map((service) => {
               return (
@@ -112,9 +112,10 @@ const Ptc = ({ title }) => {
         </div>
         <div className="atT" data-aos="fade-right">
           <div className="atTriyas">
-            At Triyas we Provide high-quality CAD services tailored to meet the
-            needs of mechanical, automotive, architecture, and structural
-            engineering companies.
+            PTC is a globally recognized company known for its expertise in
+            delivering solutions in the fields of Product Lifecycle Management
+            (PLM), Computer-Aided Design (CAD), Internet of Things (IoT), and
+            Augmented Reality (AR).
           </div>
           {/* <div className="abtstaff"> */}
           {/* <div className="abtppl">

@@ -1,18 +1,18 @@
 img.checkmark {
   width: 1em;
   /* height: 100%; */
-  padding-top: 12%;
+  /* padding-top: 12%; */
 }
+
 td {
   text-align: center;
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* flex-direction: row; */
+  vertical-align: middle;
 }
+
 .creo_table.container {
   padding-top: 14%;
 }
+
 .table_header {
   font-size: 2.5em;
   text-align: center;
@@ -21,18 +21,22 @@ td {
   font-weight: bold;
   color: #35656d;
 }
+
 th {
   text-align: center;
 }
+
 @media screen and (max-width: 500px) {
   .table_header {
     font-size: 1.75em;
   }
 }
+
 @media screen and (max-width: 350px) {
   td {
     font-size: 0.75em;
   }
+
   th {
     font-size: 0.8em;
   }

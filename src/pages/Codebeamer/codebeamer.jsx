@@ -32,16 +32,16 @@ export default function Codebeamer() {
 
   const features = [
     {
-      name: "Requirements Management.",
+      name: "Requirements Management",
       content:
-        "Transform Market Insights into High-Quality Products at Unprecedented Speed. Achieve Clarity and Alignment Across All Stakeholders to Minimize Costs and Accelerate Delivery. Monitor Objects and Actions Throughout the Entire Delivery Process.",
+        "Transform market insights into high-quality products at unprecedented speed. Achieve clarity and alignment across all stakeholders to minimize costs and accelerate delivery. Monitor objects and actions throughout the entire delivery process.",
       reversed: false,
       img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1695016557/Images_Website/Altair/ugmceefer0i3spr7wqdz.png",
     },
     {
-      name: "Quality Assurance & Testing.",
+      name: "Quality Assurance & Testing",
       content:
-        "Incorporate Quality Management into Your Development Processes, Building Trust in Your Products. Effectively Monitor and Manage QA Activities Across the Entire Lifecycle, Accelerating Product Verification.",
+        "Incorporate quality management into your development processes, building trust in your products. Effectively monitor and manage QA activities across the entire lifecycle, accelerating product verification.",
       reversed: true,
       img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1695016254/Images_Website/Altair/feyyley1fuiodbjuyhwk.jpg",
     },

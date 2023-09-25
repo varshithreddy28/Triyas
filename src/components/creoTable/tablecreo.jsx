@@ -6,11 +6,20 @@ import Checkmark from "../../assests/checkmark.svg";
 function TableCreo() {
   const tableHeader = [
     "View Creo Packages:",
-    "Creo Design Essentials",
-    "Creo Design Advanced",
-    "Creo Design Advanced Professional",
-    "Creo Design Premium",
-    "Creo Design Premium Professional",
+    "Design Essentials",
+    "Design Advanced",
+    "Design Advanced Professional",
+    "Design Premium",
+    "Design Premium Professional",
+  ];
+
+  const tableHeaderCP = [
+    "View Creo+ Packages:",
+    "Design Essentials",
+    "Design Advanced",
+    "Design Advanced Professional",
+    "Design Premium",
+    "Design Premium Professional",
   ];
 
   const tableContent = [
@@ -19,11 +28,11 @@ function TableCreo() {
       available: [true, true, true, true, true],
     },
     {
-      name: "Augmented Reality Design Process Visualization",
+      name: "Augmented Reality Design Visualization",
       available: [true, true, true, true, true],
     },
     {
-      name: "Top-Down Design Process & Concurrent Engineering",
+      name: "Top-Down Design & Concurrent Engineering",
       available: [false, true, true, true, true],
     },
     {
@@ -35,15 +44,15 @@ function TableCreo() {
       available: [false, false, true, true, true],
     },
     {
-      name: "GD&T & Tolerance Analysi",
+      name: "GD&T & Tolerance Analysis",
       available: [false, false, true, true, true],
     },
     {
-      name: "Mold Design Process & Mold Machining",
+      name: "Mold Design & Mold Machining",
       available: [false, false, true, true, true],
     },
     {
-      name: "Extended Collaboration",
+      name: "Advanced Multi-CAD Collaboration",
       available: [false, false, false, true, true],
     },
     {
@@ -69,14 +78,6 @@ function TableCreo() {
     {
       name: "Metal Printing & Complete Machining",
       available: [false, false, false, false, true],
-    },
-    {
-      name: "PTC Control Center",
-      available: [true, true, true, false, false],
-    },
-    {
-      name: "Real-Time Collaboration with Creo+",
-      available: [true, true, true, false, false],
     },
   ];
 
@@ -127,6 +128,7 @@ function TableCreo() {
             );
           })}
         </tbody>
+        {/*  */}
       </Table>
     </div>
   );

@@ -39,7 +39,7 @@ export default function Productdesign() {
       img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1694509966/oesitzbhyqkb9dks7spn.webp",
     },
     {
-      name: "Egineering Prototype",
+      name: "Engineering Prototype",
       content:
         "We specialize in transforming ideas into reality through expertly crafted engineering prototypes. Our team of experienced engineers excels in creating functional prototypes that not only mirror your vision but also stand as a testament to the power of innovation. From intricate mechanical designs to cutting-edge electronics, we breathe life into concepts, ensuring they're well-prepared for the journey ahead.",
       reversed: true,

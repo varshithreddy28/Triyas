@@ -67,7 +67,7 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact />} /> */}
           {/* Just for Demo */}
-          <Route path="cad" element={<Cad title="Triyas | CAD" />} />
+          {/* <Route path="cad" element={<Cad title="Triyas | CAD" />} /> */}
           <Route path="ptc" element={<Ptc title="PTC" />} />
           <Route path="designservices" element={<Cloud />} />
           <Route path="caeservices" element={<Cae />} />

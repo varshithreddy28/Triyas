@@ -55,8 +55,8 @@ export default function Bottomnav() {
           <div className="visitHeader">LOCATION</div>
           <div className="plot_num">Plot Number 682</div>
           <div className="plaza">Babukhan Rasheed Plaza</div>
-          <div className="rd_no">Road #36, Jubliee Hills</div>
-          <div className="place">Hyderbad 500 033</div>
+          <div className="rd_no">Road #36, Jubilee Hills</div>
+          <div className="place">Hyderabad 500 033</div>
           <div className="cntry">India</div>
         </div>
         <div className="chnlpartner_tot">

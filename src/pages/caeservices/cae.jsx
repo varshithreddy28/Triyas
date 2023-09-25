@@ -18,7 +18,7 @@ import "./cae.css";
 const Cae = () => {
   const services = [
     {
-      name: "Fe Modelling & Meshing",
+      name: "Fe Modeling & Meshing",
       url: "/cae/femodelling",
     },
     {
@@ -66,7 +66,7 @@ const Cae = () => {
     <div className="cad_page">
       <div className="cad_first container">
         <div className="services ">
-          <div className="srv_prvd">Softwares we Handle : </div>
+          <div className="srv_prvd">Services we Handle </div>
           <ListGroup>
             {services.map((service) => {
               return (
@@ -82,9 +82,10 @@ const Cae = () => {
         </div>
         <div className="atT">
           <div className="atTriyas">
-            At Triyas we Provide high-quality CAD services tailored to meet the
-            needs of mechanical, automotive, architecture, and structural
-            engineering companies.
+            Our specialization lies in harnessing advanced software and
+            simulations to thoroughly analyze, enhance, and validate engineering
+            designs. We provide an extensive array of services that cater to
+            these needs.
           </div>
         </div>
       </div>

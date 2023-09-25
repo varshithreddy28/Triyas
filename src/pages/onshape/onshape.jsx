@@ -171,7 +171,7 @@ export default function Onshape() {
       <OnShapeFeatures
         features={onshapeFeatures}
         id="features"
-        title={"On Shape Feature's"}
+        title={"Onshape Features"}
       />
       <Info features={framework} id="framework_onshape" />
     </div>
