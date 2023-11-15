@@ -1,5 +1,5 @@
 div#about_altair {
-    margin: 4% 0;
+    /* margin: 4% 0; */
 }
 
 div#about_altair {
@@ -8,6 +8,15 @@ div#about_altair {
     align-items: center;
     flex-direction: row-reverse;
     height: 100vh;
+    gap: 2%;
+    background-color: #fff;
+}
+
+.satisfac {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 2%;
 }
 
 @media screen and (max-width: 700px) {

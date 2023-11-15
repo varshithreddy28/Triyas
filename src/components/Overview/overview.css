@@ -1,8 +1,9 @@
 .overview_compo {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1.25fr 0.75fr;
     gap: 2em;
     overflow-x: auto;
+    background-color: #f8fafc;
 }
 
 .overview_cnt {
@@ -22,10 +23,11 @@
 .video_overview {
     display: flex;
     align-items: center;
+    padding-right: 4%;
 }
 
 iframe.overview_yt_video {
-    height: 56%;
+    height: 50%;
 }
 
 iframe {
@@ -36,8 +38,15 @@ iframe {
     text-align: justify;
 }
 
-@media screen and (max-width: 760px) {
-    .overview_compo.container {
+.sjf {
+    background-color: #F3F7FE;
+    padding: 4%;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 4em;
+}
+
+@media screen and (max-width: 800px) {
+    .overview_compo {
         /* grid-template-columns: 1fr; */
         display: flex;
         flex-direction: column;
@@ -78,7 +87,7 @@ iframe {
 }
 
 @media screen and (max-width: 340px) {
-    .overview_compo.container {
+    .overview_compo {
         margin-top: 10%;
     }
 }

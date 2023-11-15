@@ -1,0 +1,61 @@
+.loading-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #2084c2;
+    color: white;
+    gap: 4%;
+}
+
+.custom-loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader-dot {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 0 10px;
+    animation: bounce 1s infinite alternate;
+}
+
+.dot1 {
+    animation-delay: 0.1s;
+}
+
+.dot2 {
+    animation-delay: 0.2s;
+}
+
+.dot3 {
+    animation-delay: 0.3s;
+}
+
+.dot4 {
+    animation-delay: 0.4s;
+}
+
+.dot5 {
+    animation-delay: 0.5s;
+}
+
+.loading-message {
+    text-align: center;
+    font-size: 1.15em;
+    letter-spacing: 1px;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-20px);
+    }
+}

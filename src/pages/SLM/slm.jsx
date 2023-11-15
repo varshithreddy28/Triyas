@@ -21,10 +21,10 @@ export default function Slm() {
   const home_content = {
     header: "SERVICE LIFECYCLE MANAGEMENT",
     content: "Shaping the Future of Asset-Centric Services",
-    logo: Logo,
-    classHome: "slm_home",
+    // logo: Logo,
+    // classHome: "slm_home",
     back_img:
-      "https://res.cloudinary.com/dbomu1erj/image/upload/v1691933945/Images_Website/dakg6uzfnfx502yzmuxg.png",
+      "https://res.cloudinary.com/dbomu1erj/image/upload/v1699864866/Images_Website/Products/xudmhcst3avsdoxjdtcg.png",
   };
 
   const naveles = [
@@ -79,14 +79,14 @@ export default function Slm() {
       content:
         "Challenges like missing parts, outdated documentation, and low fix rates hinder after-sales growth. Transformation is needed in managing parts, delivering current service information, and predicting/preventing product failures.",
       reversed: true,
-      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1695015971/Images_Website/Altair/sdeidcnkmtmvbrqpap1t.jpg",
+      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1699867577/Images_Website/Products/ekrtk0pb3rmynb0g8uob.png",
     },
     {
       name: "A Strategic Approach to Aftermarket",
       content:
         "Service Lifecycle Management (SLM) aligns service parts, technical communication, field service, and product support for enhanced operations. It's a combination of processes, tools, and methods customized for each case. Key benefits include visualizing enterprise data for service efficiency and utilizing real-time product data for proactive issue resolution, minimizing downtime.",
       reversed: false,
-      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1695292599/Images_Website/jiepw0xs5w4kthda30e2.jpg",
+      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1699867660/Images_Website/Products/sqg5lepej36fcelyfajz.png",
     },
   ];
 
@@ -96,7 +96,7 @@ export default function Slm() {
       <ScrollToTop />
       <ProductsNav naveles={naveles} logo={LogoNav} />
       <Overview {...overViewContent} />
-      <div id="value_slm">
+      <div id="value_slm" style={{ backgroundColor: '#f8fafc' }}>
         <div className="scndcnt container">
           <div className="whatSaaS">What is service lifecycle management?</div>
           <div className="lines_pls">
@@ -140,19 +140,23 @@ export default function Slm() {
             efficiency.
           </div>
 
-          <div className="sass_exp container">
-            {SaaSAdv.map((Adv) => {
-              return (
-                <div className="advantage">
-                  <div className="ad_icon">
-                    <img src={Adv.icon} alt="" />
+          <div className="sass_newUp">
+
+            <div className="sass_exp container">
+              {SaaSAdv.map((Adv) => {
+                return (
+                  <div className="advantage">
+                    <div className="ad_icon">
+                      <img src={Adv.icon} alt="" />
+                    </div>
+                    <div className="ad_header">{Adv.name}</div>
+                    <div className="adv_cont">{Adv.cnt}</div>
                   </div>
-                  <div className="ad_header">{Adv.name}</div>
-                  <div className="adv_cont">{Adv.cnt}</div>
-                </div>
-              );
-            })}
+                );
+              })}
+            </div>
           </div>
+
         </div>
       </div>
       <Info features={features} id="benifits_windchill" />

@@ -6,7 +6,7 @@ import Overview from "../../components/Overview/overview";
 import OnShapeFeatures from "../../components/OnShapeFeatures/onshapefeatures";
 //
 import Cloud from "../../assests/windchill/cloud.svg";
-import Security from "../../assests/windchill/security.svg";
+import Security from "../../assests/windchill/revloution.svg";
 import Updates from "../../assests/windchill/update.svg";
 import Admin from "../../assests/windchill/support.svg";
 import Delivery from "../../assests/windchill/delivery.svg";
@@ -52,9 +52,9 @@ export default function Thingwox() {
     content:
       "Embrace digital transformation effortlessly with ThingWorx, the purpose-built IIoT platform designed to tackle your business obstacles.",
     logo: Logo,
-    classHome: "windchill",
+    classHome: "",
     back_img:
-      "https://res.cloudinary.com/dbomu1erj/image/upload/v1691084381/Images_Website/s2kg55j1a7neexrrk6sg.png",
+      "https://res.cloudinary.com/dbomu1erj/image/upload/v1699790597/Images_Website/omnos9sdtcf5if3i0xwg.png",
   };
 
   const overViewContent = {
@@ -76,7 +76,8 @@ export default function Thingwox() {
         title="Unlock the full potential of your IIoT capabilities"
         className=""
         features={windchillFeatures}
-        id="framework_windchill"
+        id=""
+        lines={true}
       />
       {/* <Info features={framework} id="framework_onshape" /> */}
     </div>

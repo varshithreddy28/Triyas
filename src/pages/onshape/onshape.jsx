@@ -5,7 +5,8 @@ import onshapeBg from "../../assests/onshape_bg.jpg";
 import ProductsNav from "../../components/prodyctsNav/productsnav";
 import Overview from "../../components/Overview/overview";
 import ScrollToTop from "react-scroll-to-top";
-import Info from "../../components/Products_Information/info";
+// import Info from "../../components/Products_Information/info";
+import Info from "../../components/HomeComp/homeComp";
 import OnShapeFeatures from "../../components/OnShapeFeatures/onshapefeatures";
 //
 import Data from "../../assests/onshape/datamanagement.svg";
@@ -28,7 +29,7 @@ export default function Onshape() {
       name: "Data Management",
       content:
         "Integrated version control and release management tools eliminate the necessity of a separate PDM system. Everyone collaborates on the most current design data continuously. Each user's edits are automatically recorded and can be reversed at any time, offering limitless undo/redo capabilities and a well-documented audit trail. Branching and merging support the simultaneous development of multiple product ideas.",
-      imageUrl: Data,
+      imageUrl: "https://res.cloudinary.com/dbomu1erj/image/upload/v1699815732/Images_Website/Products/jqpoock4zocfi8w8j5xk.svg",
     },
     {
       name: "Collaboration",
@@ -104,7 +105,7 @@ export default function Onshape() {
       "Accelerated Product Design through Improved Collaboration and Cost Efficiency.",
     logo: Logo,
     back_img:
-      "https://www.onshape.com/global-assets/img/resource-center-heroes/zz-migrated-content-archive/1470x848/whats-new-in-the-onshape-app-store-05-18-17_1470x848.jpg",
+      "https://res.cloudinary.com/dbomu1erj/image/upload/v1699790597/Images_Website/omnos9sdtcf5if3i0xwg.png",
   };
 
   const naveles = [
@@ -140,14 +141,17 @@ export default function Onshape() {
       content:
         "Effortless, Cloud-Based Product Development. No downloads or installations needed. Accessible via any modern web browser. Includes an integrated PDM system for smooth collaboration. Empowers design teams to prioritize creativity over IT concerns.",
       reversed: true,
-      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1694523762/dykgjupidkluyc0dhwkl.png",
+      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1699814568/Images_Website/zznnnuthrhie9xq3ob8n.png",
+      gotoUrl: null,
     },
     {
       name: "Accelerated Time-to-Market.",
       content:
         "Onshape expedites product development through its accessible, cloud-based platform compatible with any device. Seamless global collaboration enables teams to explore design alternatives simultaneously, eliminating data conflicts. This efficiency accelerates the product development cycle, ensuring a competitive edge in today's fast-paced market.",
       reversed: false,
-      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1694523851/kdirzsoxtbqskdocyfry.png",
+      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1699814658/Images_Website/xnnk4eqemf4qkvjldzhm.png",
+      gotoUrl: null
+
     },
   ];
 
@@ -157,7 +161,7 @@ export default function Onshape() {
       content:
         "Onshape's database-driven architecture guarantees secure design data with precise access controls for every team member, minimizing the risk of unauthorized duplication and data breaches. Comprehensive version history facilitates effortless review and changes, fortifying the safeguarding of intellectual property.",
       reversed: true,
-      img: "https://pdsvision.com/wp-content/uploads/2022/12/Onshape-explode.jpg",
+      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1699817621/Images_Website/Products/upcrjwo2ud1gfksxfzsk.jpg",
     },
   ];
 

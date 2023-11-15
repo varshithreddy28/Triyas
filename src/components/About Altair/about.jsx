@@ -1,6 +1,9 @@
 import React from "react";
 import "./about.css";
 import People from "../../assests/altair_bg2.png";
+import Satisfaction from '../../assests/satisfaction.svg'
+import Years from '../../assests/YearsExicellence.svg'
+
 
 function AboutAltair() {
   return (
@@ -16,11 +19,17 @@ function AboutAltair() {
         </div>
         <div className="data_details">
           <div className="years_header">
-            <span className="years">5+</span>
+            <div className="satisfac">
+              <img src={Years} alt="" />
+              <span className="years">5+</span>
+            </div>
             <span className="year_text">Years of Excellence</span>
           </div>
           <div className="cients_header">
-            <span className="clients">25+</span>
+            <div className="satisfac">
+              <img src={Satisfaction} alt="" />
+              <span className="clients">25+</span>
+            </div>
             <span className="clients_text">Client's Satisfaction</span>
           </div>
         </div>

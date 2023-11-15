@@ -1,5 +1,5 @@
 .first_cnt_plus {
-    background-image: url("../../assests/creoplus_bg.jpg");
+    background-image: url("../../assests/creo+_bg.jpg");
     background-size: cover;
     background-repeat: round;
     height: 96vh;
@@ -7,7 +7,7 @@
     z-index: 1;
 }
 
-.first_cnt_plus::before {
+/* .first_cnt_plus::before {
     content: "";
     position: absolute;
     top: 0;
@@ -17,7 +17,7 @@
     background-color: rgb(122 117 117 / 0%);
     backdrop-filter: blur(8px);
     z-index: -1;
-}
+} */
 
 .creo_img img {
     width: 94%;
@@ -30,7 +30,12 @@
     letter-spacing: 1px;
     text-align: center;
     margin-top: 2em;
-    color: #35656d;
+    color: #655DBB;
+}
+
+.content-css {
+    font-size: 18px;
+    color: #64748B;
 }
 
 .whatSaaS_ans {
@@ -51,13 +56,19 @@
     letter-spacing: 1px;
     text-align: center;
     margin-top: 2em;
-    color: #35656d;
+    color: #655DBB;
+}
+
+.creoplus {
+    background-color: #f8fafc;
 }
 
 .sass_adv_ans {
     padding: 2.5% 12%;
-    text-align: center;
+    text-align: justify;
     font-size: 1.15em;
+    font-size: 18px;
+    color: #64748B;
 }
 
 .sass_exp.container {
@@ -67,7 +78,13 @@
 }
 
 .ad_icon img {
-    width: 34%;
+    width: 18%;
+}
+
+.advantage {
+    padding: 2%;
+    border: 2px solid #CBD5E1;
+    border-radius: 12px;
 }
 
 .ad_icon {
@@ -77,16 +94,17 @@
 
 .ad_header {
     text-align: center;
-    font-size: 1.25em;
+    font-size: 18px;
     letter-spacing: 1px;
-    color: #2d5960db;
+    color: #374151;
     font-weight: 500;
     margin: 1.5% 0;
 }
 
 .adv_cont {
-    font-size: 1em;
+    font-size: 14px;
     text-align: center;
+    color: #64748B;
 }
 
 .intro_creo_plus {
@@ -106,7 +124,12 @@
     font-size: 2em;
     letter-spacing: 1px;
     font-weight: 550;
-    color: #35656d;
+    color: #655DBB;
+}
+
+.intro_cnt {
+    color: #64748B;
+    font-size: 16px;
 }
 
 iframe.creo_plus_video {
@@ -159,24 +182,28 @@ iframe {
 }
 
 .feature_header {
-    font-size: 2em;
-    font-weight: 550;
+    font-size: 28px;
     letter-spacing: 1px;
-    color: #35656d;
+    font-weight: 550;
+    background: linear-gradient(90.12deg, #4E54C8 2.09%, #8F94FB 99.08%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 700;
 }
 
 .feature_cnt_txt {
     margin: 2% 0;
-    font-size: 1.15em;
+    font-size: 18px;
+    color: #64748B;
 }
 
 span.pnt_txt {
-    font-size: 1.15em;
+    font-size: 18px;
+    color: #64748B;
     letter-spacing: 1px;
 }
 
 .pnt {
-    display: flex;
     align-items: center;
 }
 
@@ -187,6 +214,10 @@ span.pnt_txt {
     color: #356d3c;
     font-weight: 600;
     letter-spacing: 1px;
+}
+
+::marker {
+    color: #64748B;
 }
 
 /*  */

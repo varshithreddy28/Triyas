@@ -83,10 +83,9 @@ function NavBar() {
                       <NavDropdown
                         title={item.name}
                         id="basic-nav-dropdown"
-                        className={`${
-                          pathname === "/" ? "basic_nav_home" : ""
-                        }`}
-                        // renderMenuOnMount={true}
+                        className={`${pathname === "/" ? "basic_nav_home" : ""
+                          }`}
+                      // renderMenuOnMount={true}
                       >
                         {data[item.id].map((cat) => {
                           return (
@@ -97,7 +96,7 @@ function NavBar() {
                               drop="end"
                               // variant="secondary"
                               title={` ${cat.name} `}
-                              // renderMenuOnMount={true}
+                            // renderMenuOnMount={true}
                             >
                               {cat.categories.map((subcat) => {
                                 return (
@@ -127,7 +126,7 @@ function NavBar() {
                         };
                       }}
                       className="list_item"
-                      // to={item.path}
+                    // to={item.path}
                     >
                       <HashLink to={`/#${item.id}`} smooth>
                         {item.name}

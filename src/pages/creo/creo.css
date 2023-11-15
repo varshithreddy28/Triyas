@@ -6,7 +6,7 @@
 }
 
 .first_cnt {
-  background-image: url("../../assests/cd_creo_bg.webp");
+  background-image: url("https: //res.cloudinary.com/dbomu1erj/image/upload/v1699261434/Images_Website/b1xr5zc4ju40dsx7gvg4.png");
   background-size: cover;
   background-repeat: round;
   height: 96vh;
@@ -26,28 +26,12 @@
   z-index: -1;
 }
 
-.creo_info {
-  width: 60%;
-  color: white;
-  display: flex;
-  flex-direction: column;
-}
-
-.creo_img {
-  width: 40%;
-}
-
-.creo_img img {
-  width: 100%;
-  filter: drop-shadow(8px 0px 10px #ffffff);
-}
-
 .glassefct {
   display: flex;
   width: 100%;
-  justify-content: center;
   align-items: center;
   height: 100%;
+  padding: 0 4%;
   /* backdrop-filter: blur(6px) saturate(181%);
   -webkit-backdrop-filter: blur(6px) saturate(181%);
   background-color: rgba(255, 255, 255, 0.1); */
@@ -99,9 +83,7 @@
 
 img.creo_img_abt {
   width: 12%;
-  /* height: 15%; */
-  color: #20717d;
-  filter: drop-shadow(12px 0px 4px);
+
 }
 
 .ben_header {

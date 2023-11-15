@@ -10,6 +10,7 @@ export default function Info({ title, features, id }) {
           // class="aos-init"
           data-aos="fade-up"
           data-aos-duration="800"
+          style={{ color: '#655DBB' }}
         >
           {title}
         </div>

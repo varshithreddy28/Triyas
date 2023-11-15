@@ -4,6 +4,10 @@ import "react-toastify/dist/ReactToastify.css";
 import "./contact.css";
 // import { SMTPClient } from "emailjs";
 import emailjs from "@emailjs/browser";
+import Add1 from '../../assests/Home/add1.svg'
+import Add2 from '../../assests/Home/add2.svg'
+import Add3 from '../../assests/Home/add3.svg'
+
 
 const Contact = ({ theme }) => {
   // const { REACT_APP_SERVICE } = process.env;
@@ -77,92 +81,130 @@ const Contact = ({ theme }) => {
 
   return (
     <div className="contactPage" id="contact">
-      <div className="containerContact">
-        <div id="contactHeader">Contact Us</div>
+      <div className="containerContact container">
+        <ToastContainer
+          position="top-right"
+          autoClose={5000}
+          hideProgressBar={false}
+          newestOnTop={false}
+          closeOnClick
+          rtl={false}
+          pauseOnFocusLoss
+          draggable
+          pauseOnHover
+        />
         <div className="contactForm">
-          <ToastContainer
-            position="top-right"
-            autoClose={5000}
-            hideProgressBar={false}
-            newestOnTop={false}
-            closeOnClick
-            rtl={false}
-            pauseOnFocusLoss
-            draggable
-            pauseOnHover
-          />
-          {/* <form data-aos="fade-up" action="" onSubmit={handelSubmit}> */}
-          <form data-aos="fade-up" action="" onSubmit={handelSubmit}>
-            <div className="contactdetails">
-              <div className="inputLabel">
-                {/* <label htmlFor="name">Name</label> */}
-                <input
-                  type="text"
-                  placeholder="Name"
-                  id="name"
-                  name="name"
-                  onChange={handelChange}
-                  value={details.name}
-                  // required="true"
-                />
+
+          <div className="cmpyAddress">
+
+            <div className="cmpydtls">
+              <div className="ourAddress">
+                Our Address
               </div>
-              <div className="inputLabel">
-                {/* <label htmlFor="email">Email</label> */}
-                <input
-                  type="email"
-                  placeholder="Email"
-                  id="email"
-                  name="email"
-                  onChange={handelChange}
-                  value={details.email}
-                />
+              <div className="dfvg">
+
+                <div className="cmpadd">
+                  <div className="cntimgs">
+                    <img src={Add1} alt="" />
+                  </div>
+                  <div className="cmpydtt">
+                    Plot Number 682 Babukhan Rasheed Plaza Road #36 , Jubilee Hills Hyderabad 500033 India
+                  </div>
+                </div>
+                <div className="cmpadd cmpadd2">
+                  <div className="cntimgs">
+                    <img src={Add2} alt="" />
+                  </div>
+                  <div className="cmpydtt">
+                    91- 84789387109
+                  </div>
+                </div>
+                <div className="cmpadd cmpadd2">
+                  <div className="cntimgs">
+                    <img src={Add3} alt="" />
+                  </div>
+                  <div className="cmpydtt">
+                    triyas@gmail.com
+                  </div>
+                </div>
               </div>
+
             </div>
-            <div className="contactdetails">
-              <div className="inputLabel">
-                {/* <label htmlFor="name">Name</label> */}
-                <input
-                  type="number"
-                  placeholder="Phone Number"
-                  id="Phone Number"
-                  name="phno"
-                  onChange={handelChange}
-                  value={details.phno}
-                  // required="true"
-                />
-              </div>
-              <div className="inputLabel">
-                {/* <label htmlFor="email">Email</label> */}
-                <input
-                  type="text"
-                  placeholder="Company"
-                  id="company"
-                  name="company"
-                  onChange={handelChange}
-                  value={details.company}
-                />
-              </div>
+            <div className="compyCnt">
+              <div id="contactHeader">Connect With Us!</div>
+              <form data-aos="fade-up" action="" onSubmit={handelSubmit}>
+                <div className="contactdetails">
+                  <div className="inputLabel">
+                    {/* <label htmlFor="name">Name</label> */}
+                    <input
+                      type="text"
+                      placeholder="Name"
+                      id="name"
+                      name="name"
+                      onChange={handelChange}
+                      value={details.name}
+                    // required="true"
+                    />
+                  </div>
+                  <div className="inputLabel">
+                    {/* <label htmlFor="email">Email</label> */}
+                    <input
+                      type="email"
+                      placeholder="Email"
+                      id="email"
+                      name="email"
+                      onChange={handelChange}
+                      value={details.email}
+                    />
+                  </div>
+                </div>
+                <div className="contactdetails">
+                  <div className="inputLabel">
+                    {/* <label htmlFor="name">Name</label> */}
+                    <input
+                      type="number"
+                      placeholder="Phone Number"
+                      id="Phone Number"
+                      name="phno"
+                      onChange={handelChange}
+                      value={details.phno}
+                    // required="true"
+                    />
+                  </div>
+                  <div className="inputLabel">
+                    {/* <label htmlFor="email">Email</label> */}
+                    <input
+                      type="text"
+                      placeholder="Company"
+                      id="company"
+                      name="company"
+                      onChange={handelChange}
+                      value={details.company}
+                    />
+                  </div>
+                </div>
+                <div className="message">
+                  <div className="inputLabel">
+                    {/* <label htmlFor="message">Message</label> */}
+                    <textarea
+                      type="text"
+                      placeholder="Message"
+                      id="message"
+                      name="message"
+                      onChange={handelChange}
+                      rows={5}
+                      value={details.message}
+                    />
+                  </div>
+                </div>
+                <div className="submitbtn">
+                  <button type="submit">
+                    {mailSent ? "Submit" : "Sending..."}
+                  </button>
+                </div>
+              </form>
             </div>
-            <div className="message">
-              <div className="inputLabel">
-                {/* <label htmlFor="message">Message</label> */}
-                <textarea
-                  type="text"
-                  placeholder="Message"
-                  id="message"
-                  name="message"
-                  onChange={handelChange}
-                  rows={5}
-                  value={details.message}
-                />
-              </div>
-            </div>
-            <div className="submitbtn">
-              <button type="submit">
-                {mailSent ? "Submit" : "Sending..."}
-              </button>
-            </div>
-          </form>
+          </div>
         </div>
       </div>
     </div>

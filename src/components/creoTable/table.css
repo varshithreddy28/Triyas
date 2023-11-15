@@ -10,7 +10,8 @@ td {
 }
 
 .creo_table.container {
-  padding-top: 14%;
+  padding-top: 8%;
+  background: linear-gradient(180deg, #ACCBEE 0%, #16222A 100%);
 }
 
 .table_header {
@@ -19,7 +20,7 @@ td {
   padding: 2% 0;
   letter-spacing: 3px;
   font-weight: bold;
-  color: #35656d;
+  color: #FFFFFF;
 }
 
 th {

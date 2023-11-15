@@ -4,7 +4,7 @@ import ShowMoreText from "react-show-more-text";
 
 export default function What({ header, content }) {
   return (
-    <div>
+    <div style={{ backgroundColor: '#f8fafc' }}>
       <div className="service_what container">
         <div className="what_header">{header}</div>
         <div className="service_parent_line">

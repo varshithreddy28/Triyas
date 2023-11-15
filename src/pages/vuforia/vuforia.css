@@ -7,7 +7,7 @@
 }
 
 div#value_windchill {
-
+    background-color: #f8fafc;
     padding-top: 12%;
 }
 
@@ -18,7 +18,7 @@ div#introduction_windchill {
 /*  */
 .onshape_features.container.features_vuforia {
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 2em;
+    gap: 1em;
 }
 
 .fea_headers.features_vuforia {
@@ -34,6 +34,14 @@ div#introduction_windchill {
 } */
 div#products_vuforia {
     padding-top: 12%;
+    background-color: #f8fafc;
+}
+
+.products_vuforia.info_title_header {
+    background: linear-gradient(90.12deg, #4E54C8 2.09%, #8F94FB 99.08%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 600;
 }
 
 @media screen and (max-width:780px) {

@@ -12,10 +12,10 @@ export default function ThermalAnylasis() {
     header: "Thermal Analysis",
     content:
       "In engineering and product design, we excel in thermal analysis, comprehending heat transfer via conduction, convection, and radiation to optimise product thermal performance.",
-    logo: "https://res.cloudinary.com/dbomu1erj/image/upload/v1693295716/Images_Website/Altair/qawspft4ed6o6furrqcz.jpg",
-    classHome: "thermal",
+    // logo: "https://res.cloudinary.com/dbomu1erj/image/upload/v1693295716/Images_Website/Altair/qawspft4ed6o6furrqcz.jpg",
+    // classHome: "thermal",
     back_img:
-      "https://res.cloudinary.com/dbomu1erj/image/upload/v1693418893/Images_Website/djiees1haycnrewehfdt.jpg",
+      "https://res.cloudinary.com/dbomu1erj/image/upload/v1699871026/Images_Website/Products/y9gpwftevednlpqeugvl.png",
   };
 
   const aboutService = {
@@ -31,14 +31,14 @@ export default function ThermalAnylasis() {
       content:
         "At Triyas, we specialize in unravelling the mysteries of temperature equilibrium through expert Steady State Thermal Analysis. Our team of skilled engineers possess an intricate understanding of heat transfer principles, employing advanced simulation tools to predict thermal behaviour. With unwavering precision, we guide designs toward thermal excellence.",
       reversed: true,
-      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1694508551/yic88md4n1cms0ravz0p.webp",
+      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1699871274/Images_Website/Products/aiczsegvxcw4h5p0mrva.jpg",
     },
     {
       name: "Transient ",
       content:
         "We excel in solving the complexities of dynamic temperature changes through expert Transient State Thermal Analysis. Our team of skilled engineers hold an in-depth understanding of heat dynamics, utilizing advanced simulation tools to predict transient thermal behaviour. With unwavering precision, we guide designs toward thermal excellence in fluctuating conditions.",
       reversed: false,
-      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1694508665/kkovawmnekbcf2wwjjcz.webp",
+      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1699871312/Images_Website/Products/bvfrhoaxuezbcvm032eq.jpg",
     },
   ];
 

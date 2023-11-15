@@ -1,92 +1,73 @@
 import React from "react";
 import "./services.css";
-import Adobe from "../../assests/altairpdts.svg";
-import Marketing from "../../assests/ptcpdts.svg";
-import Cloud from "../../assests/designpdts.svg";
-import CAE from "../../assests/caepdts.svg";
-import AR from "../../assests/arpdts.svg";
-import Iot from "../../assests/electronicpdts.svg";
+import Info from "../../components/HomeComp/homeComp";
+import Top from '../../assests/Home/Top.svg'
+import SecRight from '../../assests/Home/LeftOne.svg'
+import ThirdRight from '../../assests/Home/RightOne.svg'
+import BtmOne from '../../assests/Home/BottomOne.svg'
 
 import { Link } from "react-router-dom";
 
 function Services() {
-  const services = [
-    {
-      name: "Altair Products",
-      discreption:
-        "Altair's software suite offers an expansive and versatile open-architecture solution that spans simulation, data analytics, and high-performance computing.",
-      url: "/simulation/altair",
-      icon: Adobe,
-    },
-    {
-      name: "PTC Products",
-      discreption:
-        "PTC is a renowned worldwide company that specializes in providing solutions in PLM, CAD, IoT, and AR.",
-      url: "/ptc",
-      icon: Marketing,
-    },
+  const features = [
     {
       name: "Design Services",
-      discreption:
-        "We encompass a broad spectrum of offerings aiding individuals and businesses in crafting and developing diverse products, problem solving skills, and technical Expertise",
-      url: "/designservices",
-      icon: Cloud,
-    },
-    {
+      content:
+        "We encompass a broad spectrum of offerings, aiding individuals and businesses in crafting and developing diverse products, problem-solving skills, and technical expertise. Our mission is to empower innovation, improving products, and drive success across a multitude of industries.",
+      reversed: true,
+      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1698493370/Images_Website/efn1b1k2cahq2rjrhei2.svg",
+      designImg: SecRight,
+      gotoUrl: 'ptc'
+    }, {
       name: "CAE Services",
-      discreption:
-        "We specialize in using advanced software and simulations to analyze, improve, and validate engineering designs, offering a wide range of services.",
-      url: "/caeservices",
-      icon: CAE,
+      content:
+        "We encompass a broad spectrum of offerings, aiding individuals and businesses in crafting and developing diverse products, problem-solving skills, and technical expertise. Our mission is to empower innovation, improving products, and drive success across a multitude of industries.",
+      reversed: false,
+      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1698493370/Images_Website/efn1b1k2cahq2rjrhei2.svg",
+      designImg: ThirdRight,
+      gotoUrl: 'caeservices'
     },
     {
-      name: "AR & VR",
-      discreption:
-        "We specialize in creating captivating and interactive experiences that bridge the gap between the physical and digital worlds. ",
-      url: "/arvr/vuforia",
-      icon: AR,
+      name: "PLM Services",
+      content:
+        "PLM (Product Lifecycle Management) services streamline product development, enhance collaboration, ensure data accuracy, and boost quality, covering the entire product journey from concept to retirement, crucial for modern businesses' success.",
+      reversed: true,
+      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1698494099/Images_Website/ygsk10rkolpk9ju753wo.svg",
+      designImg: BtmOne,
+      gotoUrl: 'http://localhost:3000/'
+
     },
     {
-      name: "Industrial IoT",
-      discreption:
-        "We're at the forefront of the Industrial Internet of Things (IIoT) revolution, helping businesses unlock the potential of connected devices and data-driven insights.",
-      url: "/iot/thingworx",
-      icon: Iot,
-    },
+      name: "Software Services",
+      content:
+        "We specialize in creating captivating and interactive experiences that bridge the gap between the physical and digital worlds. Our cutting-edge solutions harness the power of emerging technologies, redefining engagement, education, and customer interaction to inspire lasting connections.",
+      reversed: false,
+      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1698494173/Images_Website/babwuvbewqvxtp9ucyra.svg",
+      gotoUrl: ''
+
+    }
   ];
 
   return (
-    <div id="services">
+    <div id="services" style={{ backgroundColor: "#f8fafc" }}>
       <div className="home_body">
         <div
-          className="services_heading"
+          className="dfgss"
           data-aos="fade-down"
           data-aos-duration="800"
         >
-          We offer the Following Services and Products :
+          <img className="hmimg1" src={Top} alt="" srcset="" />
+          <div className="services_heading">
+
+            We offer the following Services and Products
+          </div>
+          <div id="serpdtstxt">
+            <span id="gghh">
+              Uncover a diverse array of services and products that cater to your needs. Our extensive offerings ensure you find the solutions you're looking for, all in one place.
+            </span>
+          </div>
         </div>
-        <div
-          className="services_all"
-          data-aos="fade-up"
-          data-aos-duration="800"
-        >
-          {services.map((service) => {
-            return (
-              <div className="service_card">
-                <div className="service_icon">
-                  <img src={service.icon} alt="Service Icon" srcset="" />
-                </div>
-                <div className="service_name">{service.name}</div>
-                <div className="service_disc">{service.discreption}</div>
-                <div className="service url">
-                  <Link to={service.url}>
-                    <button className="service_btn">View</button>
-                  </Link>
-                </div>
-              </div>
-            );
-          })}
-        </div>
+        <Info features={features} id="" />
       </div>
     </div>
   );

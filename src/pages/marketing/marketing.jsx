@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import { ListGroup, ListGroupItem } from "react-bootstrap";
 import "./marketing.css";
 import { Helmet } from "react-helmet";
+import { AiOutlineRight } from "react-icons/ai";
 
 // import Projects from "./data.json";
 
@@ -94,15 +95,16 @@ const Ptc = ({ title }) => {
         <meta charSet="utf-8" />
         <title>{`Triyas | ${title}`}</title>
       </Helmet>
-      <div className="cad_first container">
+      <div className="cad_firstA container">
         <div className="services " data-aos="fade-left">
           <div className="srv_prvd">Services we Handle : </div>
           <ListGroup>
             {services.map((service) => {
               return (
                 <ListGroupItem className="serviT">
-                  <Link to={service.url}>
-                    <span className="hand"> 👉🏻</span> {service.name}
+                  <Link to={service.url} className="aiOutLineAlign">
+                    {service.name}
+                    <span className="hand"> <AiOutlineRight /></span>
                   </Link>
                 </ListGroupItem>
               );

@@ -4,6 +4,7 @@ import Home from "../../components/Services home/home";
 import "./staffing.css";
 import What from "../../components/Service What/what";
 import RightArrow from "../../assests/rightarrow.svg";
+import Ellipse from '../../assests/Ellipse.svg'
 
 //
 import ScrolltoTop from "react-scroll-to-top";
@@ -64,10 +65,10 @@ export default function Staffing() {
     header: "Staffing Services",
     content:
       "We understand that finding the right talent for your organization is crucial to its success. We are dedicated to helping you discover the best candidates to drive your business forward. Our staffing services cover a wide range of industries and job categories, ensuring we meet your unique staffing needs. ",
-    logo: "https://res.cloudinary.com/dbomu1erj/image/upload/v1694547749/Images_Website/u1pfvpttynvf2qqh3jve.jpg",
-    classHome: "femodelling",
+    // logo: "https://res.cloudinary.com/dbomu1erj/image/upload/v1694547749/Images_Website/u1pfvpttynvf2qqh3jve.jpg",
+    // classHome: "femodelling",
     back_img:
-      "https://res.cloudinary.com/dbomu1erj/image/upload/v1694547525/Images_Website/g8qibrh8zywsyxu0ohtu.jpg",
+      "https://res.cloudinary.com/dbomu1erj/image/upload/v1699872052/Images_Website/Products/w5c0yl4xra8sty1j0qxv.png",
   };
 
   const aboutService = {
@@ -111,7 +112,7 @@ export default function Staffing() {
       <Home {...home_content} />
       <ScrolltoTop />
       <What {...aboutService} />
-      <div className="features container">
+      <div className="features container" style={{ backgroundColor: "#f8fafc" }}>
         <div className="features_header">Our Specializations</div>
         {features.map((feature) => {
           return (
@@ -138,17 +139,17 @@ export default function Staffing() {
         })}
       </div>
 
-      <div className="third_cnt container">
-        <div className="saas_adv ">Advantages of Partnering with Us</div>
+      <div className="third_cnt container" style={{ backgroundColor: "#f8fafc" }}>
+        <div className="saas_adv " style={{ marginTop: 0, paddingTop: "4%" }}>Advantages of Partnering with Us</div>
         <div className="lines_pls staffingServ">
           <div className="lines"></div>
         </div>
 
-        <div className="sass_exp container ">
+        <div className="sass_exp container_new">
           {SaaSAdv.map((Adv) => {
             return (
               <div className="advantage">
-                <div className="ad_icon">
+                <div className="ad_icon ad_icon_new">
                   <img src={Adv.icon} alt="" />
                 </div>
                 <div className="ad_header">{Adv.name}</div>

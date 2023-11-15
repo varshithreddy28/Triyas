@@ -22,12 +22,15 @@ export default function Home({ header, content, logo, back_img, classHome }) {
           >
             <div className="home_header">
               <div className={`home_img_block ${classHome}`}>
-                <img
-                  src={logo}
-                  className="home_scndimg"
-                  alt="Home Logo"
-                  srcset=""
-                />
+                {
+                  logo &&
+                  <img
+                    src={logo}
+                    className="home_scndimg"
+                    alt="Home Logo"
+                    srcset=""
+                  />
+                }
               </div>
               <div className={`head_home ${classHome}`}>{header}</div>
             </div>
@@ -42,10 +45,16 @@ export default function Home({ header, content, logo, back_img, classHome }) {
           </div>
           <div
             className={`home_compo_img ${classHome}`}
-            data-aos="fade-up-left"
-            data-aos-duration="800"
           >
-            <img src={logo} loading="lazy" alt="Creo Logo" srcset="" />
+            <div className=""
+            // data-aos="fade-up-left"
+            // data-aos-duration="800"
+            >
+              {
+                logo &&
+                <img src={logo} loading="lazy" alt="Creo Logo" srcset="" />
+              }
+            </div>
           </div>
         </div>
       </div>

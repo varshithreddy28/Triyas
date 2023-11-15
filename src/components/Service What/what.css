@@ -3,7 +3,7 @@
 }
 
 .what_header {
-    font-size: 2.65em;
+    font-size: 2em;
     text-align: center;
     letter-spacing: 1px;
     font-weight: 500;
@@ -15,7 +15,7 @@ span#service_line {
     align-items: center; */
     /* color: black; */
     width: 38%;
-    height: 4px;
+    height: 2px;
     background-color: black;
     border-radius: 1em;
 }
@@ -35,14 +35,16 @@ span#service_line {
 
 .service_content_sm {
     text-align: justify;
+    color: #64748B;
+    font-size: 18px;
 }
 
 .what_header {
-    color: #006493;
+    color: #655DBB;
 }
 
 span#service_line {
-    background-color: #22daec96;
+    background-color: #655DBB;
     margin-top: -4px;
 }
 

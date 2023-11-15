@@ -47,7 +47,10 @@ export default function Home({ header, content, logo, back_img, classHome }) {
             data-aos="fade-up-left"
             data-aos-duration="800"
           >
-            <img src={logo} loading="lazy" alt="Creo Logo" srcset="" />
+            {
+              logo &&
+              <img src={logo} loading="lazy" alt="Creo Logo" srcset="" />
+            }
           </div>
         </div>
       </div>

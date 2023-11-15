@@ -8,6 +8,7 @@
 
 div#value_windchill {
     padding-top: 12%;
+
 }
 
 div#introduction_windchill {
@@ -38,6 +39,7 @@ div#introduction_windchill {
 
 div#benifits_windchill {
     padding-top: 12%;
+    background-color: #f8fafc;
 }
 
 @media screen and (max-width:800px) {

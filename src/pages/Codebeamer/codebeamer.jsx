@@ -15,9 +15,9 @@ export default function Codebeamer() {
     content:
       "Codebeamer is an Application Lifecycle Management (ALM) platform for modern product and software development. See how Codebeamer can help your organization to simplify complex product and software engineering at scale.",
     logo: Logo,
-    classHome: "windchill",
+    // classHome: "windchill",
     back_img:
-      "https://res.cloudinary.com/dbomu1erj/image/upload/v1694196061/Images_Website/hl9u9vdz6l7n2mkpzmgv.jpg",
+      "https://res.cloudinary.com/dbomu1erj/image/upload/v1699867780/Images_Website/Products/s4tevvhvnobeucndbxwc.png",
   };
 
   const explore = [
@@ -36,19 +36,19 @@ export default function Codebeamer() {
       content:
         "Transform market insights into high-quality products at unprecedented speed. Achieve clarity and alignment across all stakeholders to minimize costs and accelerate delivery. Monitor objects and actions throughout the entire delivery process.",
       reversed: false,
-      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1695016557/Images_Website/Altair/ugmceefer0i3spr7wqdz.png",
+      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1699867832/Images_Website/Products/ucuxup3wddy8arirunj1.png",
     },
     {
       name: "Quality Assurance & Testing",
       content:
         "Incorporate quality management into your development processes, building trust in your products. Effectively monitor and manage QA activities across the entire lifecycle, accelerating product verification.",
       reversed: true,
-      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1695016254/Images_Website/Altair/feyyley1fuiodbjuyhwk.jpg",
+      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1699867867/Images_Website/Products/hwzqzyf4rllvkix1bq6o.png",
     },
   ];
 
   return (
-    <div>
+    <div style={{ backgroundColor: '#f8fafc' }}>
       <Home {...home_content} />
       <ScrolltoTop />
       <Info title="About Codebeamer" features={explore} id="codebeamer_about" />

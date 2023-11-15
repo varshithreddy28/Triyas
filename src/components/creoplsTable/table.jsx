@@ -32,7 +32,7 @@ function TableCreoPlus() {
         <thead>
           <tr>
             {tableHeaderCP.map((header) => {
-              return <th>{header}</th>;
+              return <th style={{ backgroundColor: 'white', color: '#475569', fontWeight: '700' }}>{header}</th>;
             })}
           </tr>
         </thead>
@@ -40,10 +40,10 @@ function TableCreoPlus() {
           {creopls.map((content) => {
             return (
               <tr>
-                <td>{content.name}</td>
+                <td style={{ backgroundColor: 'transparent', color: 'white', fontWeight: '500' }}>{content.name}</td>
                 {content.available.map((isAvble) => {
                   return (
-                    <td>
+                    <td style={{ backgroundColor: 'transparent', color: 'white', fontWeight: '500' }}>
                       {isAvble ? (
                         <img
                           className="checkmark"

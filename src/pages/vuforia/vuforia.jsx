@@ -74,21 +74,21 @@ export default function Windchills() {
       content:
         "Discover the easiest way to create step- by - step AR instructions and Al - enhanced inspections that enable frontline workers to get their jobs done more quickly and accurately.",
       reversed: true,
-      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1694524307/xpaviehmugozyjlaspp3.jpg",
+      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1699862406/Images_Website/Products/udnfhnc1aolhbj9hv86u.png",
     },
     {
       name: "Vuforia Studio",
       content:
         "Efficiently create immersive AR experiences that leverage existing 3D and IoT data—and improve worker safety, proficiency, and agility.",
       reversed: false,
-      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1695132305/Images_Website/ahbb7cfql5cdszgcskjy.png",
+      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1699862620/Images_Website/Products/z3rfuvx6wrulhy5tolkm.png",
     },
     {
       name: "Vuforia Engine",
       content:
         "Learn why over one million developers have chosen the advanced computer vision, calibrated performance, and cross- platform reach ofVuforia Engine, making it the most popular AR software on the planet.",
       reversed: true,
-      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1694524531/eqbg3n4ea3jrylqyqdgm.jpg",
+      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1699862665/Images_Website/Products/uyoml9enfetxjgabl1pp.png",
     },
     {
       name: "Vuforia Chalk",

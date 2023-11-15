@@ -9,11 +9,18 @@ export default function Creonew() {
 
   const creo_features = [
     {
+      name: "Usability and Productivity",
+      content: "introducing our finest Creo yet. Experience a wide array of enhancements designed to boost daily productivity. These improvements encompass advanced tools for CAD model management and manipulation, expanded capabilities for composite product design, and enhancements in areas like electrification, ergonomics design, model-based definition (MBD), simulation, and both additive and subtractive manufacturing.",
+      btn: "Discover Creo Composites",
+      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1699265152/Images_Website/s7arwf7eosooacx8laqc.svg",
+      inverted: false,
+    },
+    {
       name: "Creo Composites",
       content:
         "Utilize Creo for designing with composite materials to achieve products that are both robust and lightweight. Composites allow for precise customization by combining different fabrics to enhance strength, flexibility, and localized impact absorption within the design. The outcome is a highly optimized structure perfectly aligned with your engineering objectives.",
       btn: "Discover Creo Composites",
-      img: "https://pdsvision.com/wp-content/uploads/2022/11/PTC-Creo-10-Composites.jpg.webp",
+      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1699265205/Images_Website/thgxwtwhhduawcg9d67c.svg",
       inverted: true,
     },
     {
@@ -21,7 +28,7 @@ export default function Creonew() {
       content:
         "Creo Electrification refers to the suite of features and capabilities within PTC's Creo software that enables engineers and product designers to create and optimize electrified products. This includes electric vehicles, electronic components, and systems that rely on electrical power. It's a critical part of the broader Creo product design and engineering platform.",
       btn: "Discover Routed Systems",
-      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1694521029/mfn00bknljxgejknurbd.png",
+      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1699265243/Images_Website/c2zfotvu3xbiq7dnsnwh.svg",
       inverted: false,
     },
     {
@@ -29,7 +36,7 @@ export default function Creonew() {
       content:
         "Ensuring the safety and efficiency of your product users is paramount. Explore the latest Creo enhancements designed to consider factors like range of movement, field of vision, and user uniqueness. With Visual Field features now offering reflection analysis and manikins supporting multiple reach envelopes, your design process is more user-centric than ever.",
       btn: "Explore Human factors",
-      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1694521543/qvkaroxwy2tlqtotxk5e.png ",
+      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1699265300/Images_Website/rzfd4gb83zqodkjwuqy7.svg",
       inverted: true,
     },
     {
@@ -37,7 +44,7 @@ export default function Creonew() {
       content:
         "Meet Creo Ansys Simulation Advanced, the newest addition to our Creo simulation lineup, featuring support for nonlinear materials. Creo Simulation Live has been enhanced with expanded contact simulation choices and improved results options for fluid and structural analyses. We've also enriched Creo Flow Analysis and Creo Simulate with improved animations and enhanced multibody support. Furthermore, our generative design capabilities now include rotational symmetry and the ability to incorporate point mass and remote loads, providing even more design versatility .",
       btn: "Discover Creo Ansys Simulation",
-      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1694522047/kkpnnkvczfcss24abip7.jpg ",
+      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1699265340/Images_Website/mjw9kuslb5iolzugonxr.svg",
       inverted: false,
     },
     {
@@ -45,7 +52,7 @@ export default function Creonew() {
       content:
         "In Creo 10, our additive manufacturing capabilities offer users the flexibility to design various beam-based lattice types, including rhombic and formula-driven lattices. On the subtractive manufacturing front, High-Speed Milling now supports barrel tools for both wall and floor 5-axis finishing, optimizing toolpath efficiency and enhancing surface finish quality.",
       btn: "Discover Additive Manufacturing",
-      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1694521603/vf7jauqudbyvfjysvqsm.png ",
+      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1699265385/Images_Website/z0m90wxyrqdv8938x3sm.svg",
       inverted: true,
     },
   ];
@@ -84,7 +91,7 @@ export default function Creonew() {
         </div>
         <div className="lines"></div>
       </div>
-      <div className="frth_cnt container">
+      {/* <div className="frth_cnt container">
         <div className="wnew_cnt">
           <div className="wnewheader">Usability and Productivity</div>
           <div className="wnewtcnt">
@@ -141,7 +148,7 @@ export default function Creonew() {
             allowfullscreen
           ></iframe>
         </div>
-      </div>
+      </div> */}
       {creo_features.map((feature) => {
         return (
           <div className="container">
@@ -198,7 +205,7 @@ export default function Creonew() {
                 </div>
               </div>
             ) : (
-              <div className="compositions">
+              <div className="compositions notInv">
                 <div className="compo_cnt">
                   <div className="new_header">{feature.name}</div>
                   <div className="new_cnt">{feature.content}</div>

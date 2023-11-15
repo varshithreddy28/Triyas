@@ -7,7 +7,7 @@
     z-index: 1;
 }
 
-.home_compo::before {
+/* .home_compo::before {
     content: "";
     position: absolute;
     top: 0;
@@ -17,7 +17,7 @@
     background-color: rgb(122 117 117 / 0%);
     backdrop-filter: blur(8px);
     z-index: -1;
-}
+} */
 
 .home_glassefct {
     display: flex;
@@ -38,7 +38,7 @@
 }
 
 .home_header {
-    font-size: 3em;
+    font-size: 2.5em;
     font-weight: 500;
 }
 
@@ -54,16 +54,17 @@
     margin-top: 0.25em;
 }
 
+
 .contactus button a {
     color: white;
 }
 
 .contactus button {
     padding: 10px 24px;
-    border: 2px solid darkgreen;
+    border: none;
     border-radius: 10px;
     margin-top: 1.5em;
-    background-color: black;
+    background-color: #0EA5E9;
     color: white;
     font-weight: 500;
     letter-spacing: 1px;
@@ -74,8 +75,8 @@
 }
 
 .home_compo_img img {
-    width: 100%;
-    filter: drop-shadow(8px 0px 10px #ffffff);
+    width: 40%;
+    /* filter: drop-shadow(8px 0px 10px #ffffff); */
 }
 
 img.home_compo_img_abt {
@@ -83,6 +84,38 @@ img.home_compo_img_abt {
     /* height: 15%; */
     color: #20717d;
     filter: drop-shadow(12px 0px 4px);
+}
+
+
+
+/* new */
+.home_compo_img {
+    margin-top: auto;
+}
+
+.home_compo_img {
+    width: 40%;
+    display: flex;
+    justify-content: end;
+    text-align-last: right;
+    margin-bottom: 4%;
+}
+
+@media screen and (max-width: 600px) {
+    .home_info.container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .head_home {
+        font-size: xx-large;
+    }
+
+    .home_gen_info {
+        font-size: medium;
+        font-weight: 400;
+    }
 }
 
 @media screen and (max-width: 770px) {
@@ -110,23 +143,6 @@ img.home_compo_img_abt {
 
     .home_gen_info {
         /* font-size: medium; */
-        font-weight: 400;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .home_info.container {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    .head_home {
-        font-size: xx-large;
-    }
-
-    .home_gen_info {
-        font-size: medium;
         font-weight: 400;
     }
 }

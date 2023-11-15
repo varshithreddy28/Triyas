@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import NavBar from "./components/NavBar/nav.jsx";
 import {
   Route,
@@ -50,11 +50,53 @@ import PTCEvents from "./pages/PTC Events/ptcevents";
 // AOS
 import AOS from "aos";
 import "aos/dist/aos.css";
+// Redux
+import { useDispatch, useSelector } from "react-redux";
+import axios from "axios";
+import Alert from "react-bootstrap/Alert";
+
+// Actions
+import { addPTCEvents } from "./features/eventFeatures";
 
 function App() {
+  const [ptcEvents, setPtcEvents] = useState([]);
+  const [apiError, setApiError] = useState(false);
+  const [apiErrorMsg, setApiErrorMsg] = useState("");
+
+  const dispatch = useDispatch();
+  const API = "https://triyas-api.onrender.com/api/getEvents";
+  const eventsStore = useSelector((state) => state.eventsSlice.ptcEvents);
+
   useEffect(() => {
     AOS.init();
   }, []);
+
+  useEffect(() => {
+    console.log("I am fetching the Events!!!");
+    async function fetchData() {
+      try {
+        const { data, status } = await axios.get(API);
+        if (status === 200) setPtcEvents(data[1].ptc);
+        else {
+          setApiErrorMsg(data);
+          throw Error("Error");
+        }
+        // console.log(data);
+      } catch (error) {
+        setApiError(true);
+        console.log(error);
+      }
+    }
+    fetchData();
+  }, []);
+
+  useEffect(() => {
+    for (let i = 0; i < ptcEvents.length; i++) {
+      const element = ptcEvents[i];
+      if (eventsStore.length <= 0) dispatch(addPTCEvents(element));
+    }
+  }, [ptcEvents]);
+
   return (
     <div className="app">
       <Router>
@@ -113,7 +155,7 @@ function App() {
           <Route path="/events/altair" element={<AltairEvents />} />
           <Route path="/events/ptc" element={<PTCEvents />} />
         </Routes>
-        <Gap />
+        {/* <Gap /> */}
         <Bottomnav />
       </Router>
     </div>

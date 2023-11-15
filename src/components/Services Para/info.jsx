@@ -16,8 +16,8 @@ export default function Info({ title, features, id }) {
                 data-aos={feature.reversed ? "fade-left" : "fade-right"}
                 data-aos-duration="800"
               >
-                <div className="service_info_title_header">{feature.name}</div>
-                <div className="service_info_cnt_txt">
+                <div className={feature.reversed ? "service_info_title_header" : "service_info_title_header_rev"}>{feature.name}</div>
+                <div className={feature.reversed ? "service_info_cnt_txt" : "service_info_cnt_txt_rev"}>
                   {/* <ShowMoreText
                     lines={4}
                     more="Expand"

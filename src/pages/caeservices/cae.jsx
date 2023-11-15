@@ -3,6 +3,8 @@ import React from "react";
 // import cad_1 from "../../assests/cad_1.jpg";
 // import cad_2 from "../../assests/cad_2.jpeg";
 import { Link } from "react-router-dom";
+import { AiOutlineRight } from "react-icons/ai";
+
 import {
   ListGroup,
   ListGroupItem,
@@ -71,8 +73,9 @@ const Cae = () => {
             {services.map((service) => {
               return (
                 <ListGroupItem className="serviT">
-                  <Link to={service.url}>
-                    <span className="hand"> 👉🏻</span> {service.name}
+                  <Link to={service.url} className="aiOutLineAlign">
+                    {service.name}
+                    <span className="hand"> <AiOutlineRight /></span>
                   </Link>
                 </ListGroupItem>
               );

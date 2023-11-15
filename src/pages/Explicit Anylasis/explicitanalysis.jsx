@@ -11,10 +11,10 @@ export default function ExplicitAnylasis() {
     header: "Explicit Analysis",
     content:
       "Our expertise includes explicit finite element analysis, a method for simulating highly dynamic and transient events with precision and reliability.",
-    logo: "https://res.cloudinary.com/dbomu1erj/image/upload/v1695201959/Images_Website/wvmerikl2d7hzijo55zc.jpg",
-    classHome: "explicit",
+    // logo: "https://res.cloudinary.com/dbomu1erj/image/upload/v1695201959/Images_Website/wvmerikl2d7hzijo55zc.jpg",
+    // classHome: "explicit",
     back_img:
-      "https://res.cloudinary.com/dbomu1erj/image/upload/v1693419051/Images_Website/dyv0kees8qsjhjqkkqmw.jpg",
+      "https://res.cloudinary.com/dbomu1erj/image/upload/v1699871651/Images_Website/Products/qv8w0w69zcwrtebxriod.png",
   };
 
   // const aboutService = {

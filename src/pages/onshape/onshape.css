@@ -9,3 +9,10 @@ div#platform_onshape {
 div#features {
     padding-top: 12%;
 }
+
+.framework_onshape.info_title_header {
+    background: linear-gradient(90.12deg, #4E54C8 2.09%, #8F94FB 99.08%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 600;
+}

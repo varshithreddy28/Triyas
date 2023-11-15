@@ -1,8 +1,74 @@
 #hero_home {
-    background-image: url("../../assests/homebg2.png");
+    background-image: url("../../assests/homeF.png");
     background-size: cover;
     height: 100vh;
     background-position: bottom;
+}
+
+#hero_home2 {
+    background-image: url("../../assests/homeF2.png");
+    background-size: cover;
+    height: 100vh;
+    background-position: bottom;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#hero_home3 {
+    background-image: url("../../assests/homeF3.png");
+    background-size: cover;
+    height: 100vh;
+    background-position: bottom;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#hero_home4 {
+    background-image: url("../../assests/homeF4.png");
+    background-size: cover;
+    height: 100vh;
+    background-position: bottom;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#hero_home5 {
+    background-image: url("../../assests/homeF5.png");
+    background-size: cover;
+    height: 100vh;
+    background-position: bottom;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.hero_altrCnt {
+    margin-left: 14%;
+}
+
+.altairProdH {
+    /* width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+    color: white;
+    font-size: 38px;
+    letter-spacing: 3px;
+    margin-bottom: 1%;
+    font-weight: 600;
+}
+
+.altrProdCnt {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
 }
 
 .hero {
@@ -27,15 +93,15 @@
 }
 
 .hero_img img {
-    width: 90%;
+    width: 80%;
 }
 
 .hero_tag {
-    font-size: 2.5em;
+    font-size: 2em;
     width: 70%;
     letter-spacing: 1px;
-    font-weight: 500;
-    color: #2084c2;
+    font-weight: 700;
+    color: #0369A1;
 }
 
 .hero_line {
@@ -53,14 +119,16 @@
 }
 
 .hero_1 {
-    font-size: 1.5em;
+    margin-top: 4%;
+    font-size: 1.4em;
+    color: #475569;
     /* margin-top: 8%; */
     /* font-weight: 550; */
 }
 
 #expertise {
-    color: #2084c2;
-    font-size: 1.2em;
+    color: #16A34A;
+    /* font-size: 1.1em; */
 }
 
 .services_hero {

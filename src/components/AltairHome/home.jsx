@@ -38,7 +38,7 @@ export default function Home() {
           </div>
         </div>
         <div className="alt_right">
-          <img src={AltairSide} alt="" />
+          <img src={"https://res.cloudinary.com/dbomu1erj/image/upload/v1699964062/Images_Website/Products/gtxspwr5qqaydzphor7n.png"} alt="" />
         </div>
       </div>
     </div>

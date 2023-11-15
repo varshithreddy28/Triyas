@@ -9,10 +9,11 @@ a.nav-link.active {
 }
 
 .creo_nav.container {
-  background-color: white;
+  background-color: #f1f5f9;
   display: flex;
   align-items: center;
   height: 12vh;
+  box-shadow: 0px 1px 3px 0px #2C2C2C29;
 }
 
 .creo_logo {
@@ -42,16 +43,19 @@ a.nav-link.active {
 
 .nav_ele {
   padding: 8px 8px;
-  font-weight: 450;
+  font-weight: 500;
   /* letter-spacing: 1px; */
+  color: #9CA3AF;
+
 }
 
 .nav_ele:hover {
-  background-color: #42b7ffc9;
+  /* background-color: #42b7ffc9;
   border-radius: 8px;
   color: white;
+  transition: 0.5s; */
+  color: #655DBB;
   /* transition: all 0.5s ease-out; */
-  transition: 0.5s;
 }
 
 @media screen and (max-width: 770px) {

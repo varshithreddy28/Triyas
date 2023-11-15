@@ -24,7 +24,7 @@
   /* padding-top: 5%; */
   gap: 2%;
   flex-direction: row-reverse;
-  background-image: url("../../assests//bg-1.jpg");
+  background-image: url("../../assests/bgB.png");
   background-size: cover;
   background-repeat: round;
 }
@@ -49,18 +49,18 @@
 
 .srv_prvd {
   /* width: 50%; */
-  color: #000000e0;
+  color: #FFFFFF;
   /* color: #f30659; */
-  font-size: xx-large;
+  font-size: x-large;
   font-weight: 500;
-  text-align: center;
+  text-align: left;
   margin: 0.75em 0;
   font-style: oblique;
 }
 
 .atTriyas {
-  font-size: x-large;
-  color: #454545;
+  font-size: 20px;
+  color: #FFFFFF;
 }
 
 .serviT.list-group-item {

@@ -2,16 +2,19 @@
   {
     "name": "Altair Event 1",
     "imgSrc": "https://trustradiusnew.wpengine.com/wp-content/uploads/istock-1135159626-scaled-1500x844.jpg",
-    "url": "https://www.google.com/"
+    "url": "https://www.google.com/",
+    "company": "Altair"
   },
   {
     "name": "Altair Event 2",
     "imgSrc": "https://images.unsplash.com/photo-1514771206769-bd41b0138cc0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-    "url": "https://www.google.com/"
+    "url": "https://www.google.com/",
+    "company": "Altair"
   },
   {
     "name": "Altair Event 3",
     "imgSrc": "https://plus.unsplash.com/premium_photo-1661758351472-52ed02e99496?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-    "url": "https://www.google.com/"
+    "url": "https://www.google.com/",
+    "company": "Altair"
   }
 ]

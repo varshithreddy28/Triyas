@@ -13,12 +13,12 @@ import TableCreoPlus from "../../components/creoplsTable/table";
 function Creoplus() {
   const SaaSAdv = [
     {
-      name: "Increased Productivity & Innovation",
+      name: "Real-time design",
       icon: Productivity,
       cnt: "SaaS customers can anticipate boosted productivity and innovation through swift access to the latest CAD features, utilization of cloud-computing technologies, and seamless real-time design collaboration.",
     },
     {
-      name: "Better User Experience",
+      name: "Accessibility and availability.",
       icon: Users,
       cnt: "With CAD software under a SaaS model, automatic updates ensure a consistently improved user experience for all. Additionally, CAD SaaS offers enhanced accessibility and availability.",
     },
@@ -34,7 +34,7 @@ function Creoplus() {
       ],
       video: "https://www.youtube.com/embed/MGKj9C-3v3I",
       reversed: true,
-      img: CreoImg,
+      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1699269848/Images_Website/qe9dka3fuzkaav4qy1xn.jpg",
     },
     {
       name: "Simplified CAD Administration",
@@ -45,7 +45,7 @@ function Creoplus() {
       ],
       video: "https://www.youtube.com/embed/ShKhpi-cgaU",
       reversed: false,
-      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1695132439/Images_Website/p1nx18s7eqrq8mqrg4wa.jpg",
+      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1699269848/Images_Website/qe9dka3fuzkaav4qy1xn.jpg",
     },
   ];
 
@@ -54,19 +54,19 @@ function Creoplus() {
       <div className="first_cnt_plus">
         <div className="glassefct">
           <div
-            className="creo_info container"
+            className="creo_info "
             data-aos="fade-up-right"
             data-aos-duration="800"
           >
             <div className="creo_header">
-              <div className="creo_img_block">
+              {/* <div className="creo_img_block">
                 <img
                   src={CreoLogo}
                   className="creo_scndimg"
                   alt="Creo Logo"
                   srcset=""
                 />
-              </div>
+              </div> */}
               <div className="head_creo">Creo+ SaaS CAD</div>
             </div>
             <div className="creo_gen_info">
@@ -75,7 +75,7 @@ function Creoplus() {
               cloud-based tools for improved collaboration and streamlined CAD
               administration.
             </div>
-            <div className="contactus">
+            <div className="contactusCreo">
               <button>
                 <HashLink to={`/#contact`} smooth>
                   Get an Estimated Quote
@@ -83,13 +83,13 @@ function Creoplus() {
               </button>
             </div>
           </div>
-          <div
+          {/* <div
             className="creo_img"
             data-aos="fade-up-left"
             data-aos-duration="800"
           >
             <img src={CreoLogo} loading="lazy" alt="Creo Logo" srcset="" />
-          </div>
+          </div> */}
         </div>
       </div>
       <ScrollToTop />
@@ -99,9 +99,7 @@ function Creoplus() {
         data-aos-duration="800"
       >
         <div className="whatSaaS">What does SaaS mean for CAD?</div>
-        <div className="lines_pls">
-          <div className="lines"></div>
-        </div>
+
         <div className="whatSaaS_ans">
           <ShowMoreText
             /* Default options */
@@ -134,9 +132,7 @@ function Creoplus() {
         data-aos-duration="800"
       >
         <div className="saas_adv">What are the CAD advantages of SaaS?</div>
-        <div className="lines_pls">
-          <div className="lines"></div>
-        </div>
+
         <div className="sass_adv_ans">
           Software as a Service (SaaS) presents abundant opportunities for
           businesses, particularly in the realm of CAD solutions. Ultimately,
@@ -200,14 +196,17 @@ function Creoplus() {
                 <div className="feature_header">{feature.name}</div>
                 <div className="feature_cnt_txt">{feature.cnt}</div>
                 <div className="feature_pnts">
-                  {feature.points.map((pnt) => {
-                    return (
-                      <div className="pnt">
-                        <img src={RightArrow} alt="" srcset="" />
-                        <span className="pnt_txt">{pnt}</span>
-                      </div>
-                    );
-                  })}
+                  <ul>
+
+                    {feature.points.map((pnt) => {
+                      return (
+                        <li className="pnt">
+                          {/* <img src={RightArrow} alt="" srcset="" /> */}
+                          <span className="pnt_txt">{pnt}</span>
+                        </li>
+                      );
+                    })}
+                  </ul>
                 </div>
               </div>
               <div

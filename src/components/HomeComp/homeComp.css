@@ -1,0 +1,140 @@
+.homeCntCmp .info_title_header {
+    text-align: end;
+}
+
+.homeCntCmp .info_cnt_txt {
+    text-align: right;
+    color: #64748B;
+}
+
+.homeCntCmp,
+.homeCntCmp1 {
+    margin-top: 20%;
+}
+
+.addRght {
+    position: absolute;
+    right: 0;
+    margin-top: inherit;
+}
+
+.addLeft {
+    position: absolute;
+    left: 0;
+    margin-top: inherit;
+}
+
+/* Button */
+
+.homeCntCmp .btnV {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+button#view_homPdt {
+    background: #0EA5E9;
+    color: #fff;
+    border: none;
+    position: relative;
+    /* height: 60px; */
+    font-size: 18px;
+    padding: 8px 22px;
+    cursor: pointer;
+    transition: 800ms ease all;
+    outline: none;
+    border-radius: 6px;
+    letter-spacing: 1px;
+}
+
+.platform_onshape.info_title_header {
+    background: linear-gradient(90.12deg, #4E54C8 2.09%, #8F94FB 99.08%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 600;
+}
+
+button#view_homPdt:hover {
+    background: #fff;
+    color: #0EA5E9;
+}
+
+button#view_homPdt:before,
+button#view_homPdt:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 2px;
+    width: 0;
+    background: #0EA5E9;
+    transition: 400ms ease all;
+}
+
+button#view_homPdt:after {
+    right: inherit;
+    top: inherit;
+    left: 0;
+    bottom: 0;
+}
+
+button#view_homPdt:hover:before,
+button#view_homPdt:hover:after {
+    width: 100%;
+    transition: 800ms ease all;
+}
+
+/*  */
+@media screen and (max-width: 600px) {
+    .info.homeCntCmp {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .info.homeCntCmp1 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .info_cnt.homeCmp.aos-animate {
+        width: 100%;
+    }
+
+    .homeCntCmp .info_title_header {
+        text-align: center;
+    }
+
+
+    .homeCntCmp1 .info_title_header {
+        text-align: center;
+    }
+
+    .homeCntCmp .info_cnt_txt {
+        text-align: justify;
+        color: #64748B;
+    }
+
+    .homeCntCmp1 .info_cnt_txt {
+        text-align: justify;
+        color: #64748B;
+    }
+
+    .info_img.homeCmp.aos-animate {
+        width: 90%;
+    }
+
+    img.hmimg3 {
+        display: none;
+    }
+
+    img.hmimg2 {
+        display: none;
+    }
+
+    #gghh {
+        width: 100%;
+        padding: 0 4%;
+    }
+}

@@ -3,10 +3,15 @@ import CompanyLogo from "../../assests/Triyas_Web.png";
 import { BiLogoLinkedin, BiLogoFacebook } from "react-icons/bi";
 import { BsTwitter, BsYoutube } from "react-icons/bs";
 import { GrMail } from "react-icons/gr";
-import PTC from "../../assests/ptcpartner.svg";
 import Altair from "../../assests/altairlogo.webp";
+import LinkedIn from '../../assests/Home/LinkedIn svg.svg'
+import X from '../../assests/Home/X.svg'
+import FaceBook from '../../assests/Home/Facebook.svg'
+
+import PTC from '../../assests/Home/PTCLogo.svg'
 
 import "./bottomnav.css";
+import { Link } from "react-router-dom";
 
 export default function Bottomnav() {
   const social = [
@@ -46,28 +51,82 @@ export default function Bottomnav() {
     },
   ];
   return (
-    <div>
-      <div className="bottom_nav">
-        <div className="visit">
-          {/* <div className="company_logo">
-            <img src={CompanyLogo} alt="" srcset="" />
-          </div> */}
-          <div className="visitHeader">LOCATION</div>
-          <div className="plot_num">Plot Number 682</div>
-          <div className="plaza">Babukhan Rasheed Plaza</div>
-          <div className="rd_no">Road #36, Jubilee Hills</div>
-          <div className="place">Hyderabad 500 033</div>
-          <div className="cntry">India</div>
+    <div className="jhdfg ">
+      <div className="bottom_nav container">
+        <div className="cmpyLogo ">
+          <img className="cmpyImgL" src={CompanyLogo} alt="Company Logo" srcset="" />
         </div>
-        <div className="chnlpartner_tot">
-          <div className="visitHeader">Channel Partners of</div>
-          <div className="chnlpartnr_img">
-            <div className="img_prtr">
-              <img src={PTC} alt="" />
+
+        <div className="cmpySolu">
+          <div className="borderH"></div>
+          <div className="sol1">
+            <div className="solTlt">
+              About Triyas
             </div>
-            <div className="img_prtr">
-              <img src={Altair} alt="" />
+            <div className="solTlt">
+              Simulations
             </div>
+            <div className="solTlt">
+              Support
+            </div>
+            <div className="solTlt">
+              Creo
+            </div>
+            <div className="solTlt">
+              Creo+
+            </div>
+          </div>
+          <div className="sol1">
+            <div className="solTlt">
+              CAD Services
+            </div>
+            <div className="solTlt">
+              CAE Services
+            </div>
+            <div className="solTlt">
+              Staffing Services
+            </div>
+            <div className="solTlt">
+              Design
+            </div>
+            <div className="solTlt">
+              OnShape
+            </div>
+          </div>
+          <div className="sol1">
+
+            <div className="solTlt">
+              Altair Events
+            </div>
+            <div className="solTlt">
+              PTC Events
+            </div>
+            <div className="solTlt">
+              AR & VR
+            </div>
+          </div>
+          <div className="borderHL"></div>
+
+        </div>
+
+        <div className="cmpyChnlPrts">
+          <div className="chnlPrtrH">
+            Channel Partners
+          </div>
+          <div className="chnls">
+            <img className="chnlsN" src={"https://res.cloudinary.com/dbomu1erj/image/upload/v1699204281/Images_Website/d59h3pmzscqkgs8ai3z0.svg"} alt="PTC Logo" />
+            <img className="chnlsN" src={"https://res.cloudinary.com/dbomu1erj/image/upload/v1699204433/Images_Website/i24jxxvq3jxx63jerjgf.svg"} alt="Altair Logo" />
+          </div>
+          <div className="socilaLinks">
+            <a href="http://google.com" target="_blank" rel="noopener noreferrer">
+              <img src={LinkedIn} alt="LinkedIn" srcset="Linkedin Logo" />
+            </a>
+            <a href="http://google.com" target="_blank" rel="noopener noreferrer">
+              <img src={X} alt="LinkedIn" srcset="Linkedin Logo" />
+            </a>
+            <a href="http://google.com" target="_blank" rel="noopener noreferrer">
+              <img src={FaceBook} alt="LinkedIn" srcset="Linkedin Logo" />
+            </a>
           </div>
         </div>
 
@@ -84,25 +143,7 @@ export default function Bottomnav() {
             );
           })}
         </div> */}
-        <div className="follow_nav">
-          <div className="visitHeader">SOCIAL PROFILE</div>
-          <div className="follow">
-            {social.map((ele) => {
-              return (
-                <div className="follow_cmpy">
-                  {/* <img src={ele.logo} alt="" /> */}
-                  {ele.logo}
-                  <a
-                    href={ele.name === "Mail" ? `mailto:${ele.link}` : ele.link}
-                    target="_blank"
-                  >
-                    {ele.name}
-                  </a>
-                </div>
-              );
-            })}
-          </div>
-        </div>
+
       </div>
     </div>
   );

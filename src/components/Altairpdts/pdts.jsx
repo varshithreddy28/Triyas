@@ -6,7 +6,7 @@ import { HashLink } from "react-router-hash-link";
 import Modal from "../Modal/Modal";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 // import ScrollToTop from "react-scroll-to-top";
-import { BsArrowRight } from "react-icons/bs";
+import { AiOutlineRight } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
 export default function Pdts({ search, isSearched }) {
@@ -259,7 +259,7 @@ export default function Pdts({ search, isSearched }) {
   // }
 
   return (
-    <div className="container">
+    <div className="container" style={{ backgroundColor: '#f8fafc' }}>
       <div className="pdts_header">Altair Product's : </div>
       {/* <ScrollToTop /> */}
       <div className="altair_pdts container">
@@ -285,7 +285,7 @@ export default function Pdts({ search, isSearched }) {
                       }
                     >
                       More Details
-                      <BsArrowRight />
+                      <AiOutlineRight />
                     </Link>
                     <Modal
                       open={modelOpen}
@@ -298,7 +298,7 @@ export default function Pdts({ search, isSearched }) {
                     <a onClick={() => setModelState()} id="btn_alrlink_view">
                       {/* {`Altair ${product.name} in Detail `} */}
                       More Details
-                      <BsArrowRight />
+                      <AiOutlineRight />
                     </a>
                     <Modal
                       open={modelOpen}

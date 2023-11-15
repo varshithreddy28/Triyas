@@ -2,9 +2,9 @@ import React from "react";
 import "./creo.css";
 import CreoLogo from "../../assests/cero_logo2.webp";
 import { HashLink } from "react-router-hash-link";
-import Performance from "../../assests/performance.svg";
-import Cash from "../../assests/cash.svg";
-import Time from "../../assests/time.svg";
+import I3 from "../../assests/creoI3.svg";
+import I1 from "../../assests/creoI1.svg";
+import I2 from "../../assests/creoI2.svg";
 import CreoPkg from "../../assests/creo_packages.webp";
 import TableCreo from "../../components/creoTable/tablecreo";
 import Creonew from "../../components/creonew/creonew";
@@ -18,17 +18,17 @@ export default function Creo() {
   const creobenifits = [
     {
       name: "Lower cost",
-      img: Cash,
+      img: I1,
       disc: "Our CAD tools provide several benefits for cost savings, including reducing material, labor, and overhead expenses. Take advantage of our part optimization tools to minimize material costs and streamline assembly processes.",
     },
     {
       name: "Performance",
-      img: Performance,
+      img: I2,
       disc: "Set your products apart with outstanding performance. Optimize your designs for weight, reliability, and sustainability, while harnessing the full potential of cutting-edge additive and composite manufacturing processes.",
     },
     {
       name: "Time to Market",
-      img: Time,
+      img: I3,
       disc: "PTC Creo accelerates product development. Ensure design quality from the start to prevent costly redesigns and rework. Streamline downstream processes with annotated 3D models.",
     },
   ];
@@ -56,16 +56,16 @@ export default function Creo() {
     <div className="creo_page">
       <div className="first_cnt">
         <div className="glassefct">
-          <div className="creo_info container">
+          <div className="creo_info">
             <div className="creo_header">
-              <div className="creo_img_block">
+              {/* <div className="creo_img_block">
                 <img
                   src={CreoLogo}
                   className="creo_scndimg"
                   alt="Creo Logo"
                   srcset=""
                 />
-              </div>
+              </div> */}
               <div className="head_creo">Creo Parametric</div>
             </div>
             <div className="creo_gen_info">
@@ -74,7 +74,7 @@ export default function Creo() {
               iterations, reduce costs, enhance quality, and capture a larger
               market share.
             </div>
-            <div className="contactus">
+            <div className="contactusCreo">
               <button>
                 <HashLink to={`/#contact`} smooth>
                   Get an Estimated Quote
@@ -82,9 +82,9 @@ export default function Creo() {
               </button>
             </div>
           </div>
-          <div className="creo_img">
+          {/* <div className="creo_img">
             <img src={CreoLogo} loading="lazy" alt="Creo Logo" srcset="" />
-          </div>
+          </div> */}
         </div>
       </div>
       <ScrolltoTop />
@@ -92,15 +92,26 @@ export default function Creo() {
         <ProductsNav naveles={naveles} logo={CreoLogoNav} />
       </div>
       <div id="creo_benifits">
-        <div className="scnd_cnt container">
-          <div className="benifits">The benefits of PTC Creo?</div>
-          <div className="creo_cnt">{benifits_info}</div>
-          <div className="ben_crio">
+        <div className="scnd_cnt">
+          <div className="beniUp">
+            <div className="beniCnt container">
+
+              <div className="benifits">The benefits of PTC Creo?</div>
+              <div className="creo_cnt">{benifits_info}</div>
+            </div>
+            <div className="beniImg">
+              <img src="https://res.cloudinary.com/dbomu1erj/image/upload/v1699263124/Images_Website/lyykrdsyeyd3t8kqv84x.png" alt="Image" />
+            </div>
+          </div>
+          <div className="ben_crio container">
             {creobenifits.map((element) => {
               return (
                 <div className="performance">
                   <div className="ben_img">
-                    <img src={element.img} className="creo_img_abt" alt="" />
+                    <div className="borderImg">
+
+                      <img src={element.img} className="creo_img_abt" alt="" />
+                    </div>
                     <div className="ben_header">{element.name}</div>
                   </div>
                   <div className="ben_info">{element.disc}</div>
@@ -114,7 +125,11 @@ export default function Creo() {
         <Creonew />
       </div>
       <div id="packages">
+        <div className="extrImg">
+          <img className="extraImgCls" src="https://res.cloudinary.com/dbomu1erj/image/upload/v1699266626/Images_Website/hdvvl58dtdiybq5hymrl.svg" alt="" />
+        </div>
         <div className="fth_cnt container">
+
           <div className="fth_txt_cnt">
             <div className="fth_header">
               PTC Creo 3D CAD packages – Design the products for the future

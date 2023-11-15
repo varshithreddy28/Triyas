@@ -1,12 +1,7 @@
-body {
-  height: 100vh;
-  /* background-color: black; */
-}
-
 .contactPage {
   width: 100%;
   height: 100vh;
-  background-image: url("../../assests/contactbg.png");
+  background-image: url("../../assests/Home/ContactBg.svg");
   background-size: cover;
   /* background-color: rgb(255, 0, 234); */
   display: flex;
@@ -16,15 +11,37 @@ body {
 
 .containerContact {
   width: 100%;
-  padding: 0 20%;
+  padding: 0 6%;
   /* width: calc(100% - 50px); */
 }
 
+.cmpyAddress {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.cmpydtls {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.compyCnt {
+  width: 60%;
+}
+
+.ourAddress,
 #contactHeader {
-  padding: 1em 0;
-  text-align: center;
-  font-family: var(--headdingfont);
-  font-size: xxx-large;
+  color: #374151;
+  font-weight: 800;
+  font-size: 2.25em;
+  margin-bottom: 4%;
+}
+
+.cmpadd.cmpadd2 {
+  margin-top: 5%;
 }
 
 /* .inputLabel {
@@ -40,9 +57,9 @@ body {
 
 input[type="text"] {
   width: -webkit-fill-available;
-  margin-bottom: 1.4em;
-  background: #3c3e43;
-  padding: 16px;
+  margin-bottom: 1em;
+  /* background: #3c3e43; */
+  padding: 8px;
   border-radius: 4px;
   border: none;
   color: white;
@@ -50,19 +67,19 @@ input[type="text"] {
 
 input[type="email"] {
   width: -webkit-fill-available;
-  background: #3c3e43;
-  padding: 16px;
+  margin-bottom: 1em;
+  /* background: #3c3e43; */
+  padding: 8px;
   border-radius: 4px;
   border: none;
   color: white;
-  /* margin-bottom: 1.4em; */
 }
 
 textarea[type="text"] {
   width: -webkit-fill-available;
-  margin-bottom: 1.4em;
-  background: #3c3e43;
-  padding: 16px;
+  margin-bottom: 1em;
+  /* background: #3c3e43; */
+  padding: 8px;
   border-radius: 4px;
   border: none;
   color: white;
@@ -73,11 +90,27 @@ textarea[type="text"] {
   float: right;
   padding: 10px 28px;
   border: none;
-  background-color: #04f8e2;
+  background-color: #075985;
   border-radius: 6px;
-  color: black;
+  color: white;
   font-weight: 500;
   letter-spacing: 1px;
+}
+
+.cmpadd {
+  display: flex;
+  /* margin-top: 10%; */
+  width: 60%;
+  gap: 10%;
+  align-items: center;
+}
+
+.cntimgs {
+  background: aliceblue;
+  /* width: 60%; */
+  /* height: 3em; */
+  padding: 0.5em;
+  border-radius: 50%;
 }
 
 @media only screen and (max-width: 950px) {
@@ -86,28 +119,26 @@ textarea[type="text"] {
   }
 }
 
-@media only screen and (max-width: 600px) {
-  .contactdetails {
-    display: block;
-    margin-bottom: 1.4em;
-  }
-
-  .containerContact {
-    width: 100%;
-    padding: 4%;
-    margin-top: 2%;
-  }
-
+@media only screen and (max-width: 768px) {
   .contactPage {
     height: auto;
+    padding: 4% 0;
   }
 
-  #contactHeader {
-    font-size: xx-large;
+  .cmpyAddress {
+    flex-wrap: wrap;
   }
 
-  .containerContact {
-    padding: 0 4%;
+  .cmpydtls {
+    width: 100%;
+  }
+
+  .compyCnt {
+    width: 100%;
+  }
+
+  .compyCnt {
+    margin-top: 4%;
   }
 }
 

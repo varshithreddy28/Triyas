@@ -16,7 +16,7 @@
     width: 100%;
     justify-content: center;
     align-items: center;
-    gap: 1.5em;
+    gap: 3em;
     flex-direction: row-reverse;
     margin-bottom: 5%;
 }
@@ -26,7 +26,7 @@
     width: 100%;
     justify-content: center;
     align-items: center;
-    gap: 1.5em;
+    gap: 3em;
     margin-bottom: 5%;
 }
 
@@ -36,9 +36,12 @@
 
 .info_title_header {
     font-size: 2em;
-    font-weight: 550;
+    font-weight: 600;
     letter-spacing: 1px;
-    color: #35656d;
+    background: linear-gradient(90.12deg, #4E54C8 2.09%, #8F94FB 99.08%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
 }
 
 .info_cnt_txt {
@@ -55,6 +58,7 @@
     width: 100%;
     border-radius: 12px;
 }
+
 
 @media screen and (max-width: 340px) {
     .info_header {

@@ -11,10 +11,10 @@ export default function Linear() {
     header: "Linear Dynamics",
     content:
       "In mechanical engineering, Linear Dynamics unravels the laws governing how objects respond to forces, enabling precise analysis of dynamic behavior in linear systems.",
-    logo: "https://res.cloudinary.com/dbomu1erj/image/upload/v1694508727/atfmtebo6wi1y3ff7ytd.png",
+    // logo: "https://res.cloudinary.com/dbomu1erj/image/upload/v1694508727/atfmtebo6wi1y3ff7ytd.png",
     classHome: "windchill",
     back_img:
-      "https://res.cloudinary.com/dbomu1erj/image/upload/v1692715789/Images_Website/lx6k0prglqxwhoto5izd.jpg",
+      "https://res.cloudinary.com/dbomu1erj/image/upload/v1699871361/Images_Website/Products/tqzb0raycyu8wqwi0kuh.jpg",
   };
 
   const aboutService = {
@@ -30,28 +30,28 @@ export default function Linear() {
       content:
         "At Triyas, we expertise in unveiling the symphony of frequencies within mechanical systems through expert frequency analysis in linear & non-linear dynamics. Our skilled engineers possess a profound understanding of vibrational behaviour, utilizing advanced simulation tools to predict resonance patterns. With unwavering precision, we guide designs toward harmonic harmony and optimal performance.",
       reversed: true,
-      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1693293916/Images_Website/Altair/kxh2crglcyuwkmbuucph.jpg",
+      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1699871437/Images_Website/Products/dblw2be5uc6v9kpslims.png",
     },
     {
       name: "Shock Analysis",
       content:
         "We specialize in deciphering the intricacies of sudden impact through expert shock analysis. Our team of skilled engineers possess a profound understanding of material behaviour and impact dynamics, utilizing advanced simulation tools to predict and optimize designs. With unwavering precision, we ensure designs are fortified against unforeseen events.",
       reversed: false,
-      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1694508763/ljwxroedpfjavxra8ni8.png",
+      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1699871497/Images_Website/Products/jfjracoeoznzp8mnap8b.jpg",
     },
     {
       name: "Random Vibration Analysis",
       content:
         "Random Vibration Analysis delves into the study of how structures respond to complex, unpredictable vibration inputs. It's an exploration of how materials, components, and systems react to dynamic loads that mimic real-world conditions. Through advanced simulations and statistical methods, we gain insights into the behavior of designs in scenarios where forces are inherently random.",
       reversed: true,
-      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1693294163/Images_Website/Altair/vsh6iqse5n80m7q4c2a8.jpg",
+      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1699871542/Images_Website/Products/l2ez2qak6rgeryeqrufn.jpg",
     },
     {
       name: "Sine Sweep Analysis",
       content:
         "Sine Sweep Analysis involves subjecting mechanical systems to varying frequency vibrations in a controlled manner. It's an exploration of how structures resonate and react to harmonic loads. By gradually through a range of frequencies, we gain insights into how designs respond, revealing potential resonances and weaknesses that might lead to vibrations and failure.",
       reversed: false,
-      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1695202152/Images_Website/sc0c1dgyjuj1z8ygtal7.webp",
+      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1699871566/Images_Website/Products/i1bvobkmiu7fwt9mpjyu.jpg",
     },
   ];
 

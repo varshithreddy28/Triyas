@@ -15,7 +15,7 @@
   padding: 1em;
 }
 
-.cad_first {
+.cad_firstA {
   display: flex;
   width: 100%;
   height: 90vh;
@@ -24,7 +24,7 @@
   /* padding-top: 5%; */
   gap: 2%;
   flex-direction: row-reverse;
-  background-image: url("../../assests//bg-1.jpg");
+  background-image: url("../../assests/bgA.png");
   background-size: cover;
   background-repeat: round;
 }
@@ -246,7 +246,7 @@ span.hand {
 }
 
 @media screen and (max-width: 768px) {
-  .cad_first {
+  .cad_firstA {
     align-items: center;
   }
 
@@ -266,6 +266,15 @@ span.hand {
   }
 }
 
+a.aiOutLineAlign {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #655DBB;
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+
 @media screen and (max-width: 660px) {
   .capabilities-container.row.row-cols-xl-3.row-cols-lg-3.row-cols-md-3.row-cols-sm-2.row-cols-1 {
     grid-template-columns: 1fr 1fr;
@@ -274,7 +283,7 @@ span.hand {
 }
 
 @media screen and (max-width: 500px) {
-  .cad_first.container {
+  .cad_firstA.container {
     flex-direction: column-reverse;
     height: fit-content;
     padding-bottom: 4%;

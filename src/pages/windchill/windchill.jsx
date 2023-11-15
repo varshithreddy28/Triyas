@@ -6,13 +6,20 @@ import ProductsNav from "../../components/prodyctsNav/productsnav";
 import Overview from "../../components/Overview/overview";
 import ScrollToTop from "react-scroll-to-top";
 import Info from "../../components/Products_Information/info";
-import OnShapeFeatures from "../../components/OnShapeFeatures/onshapefeatures";
+import OnShapeFeatures from "../../components/OnShapeFeatures_SecondV/onshapefeatures";
 //
 import Cloud from "../../assests/windchill/cloud.svg";
 import Security from "../../assests/windchill/security.svg";
 import Updates from "../../assests/windchill/update.svg";
 import Admin from "../../assests/windchill/support.svg";
 import Delivery from "../../assests/windchill/delivery.svg";
+import Growth from '../../assests/Growth.svg'
+import Increase from '../../assests/increse.svg'
+import Business from '../../assests/Business.svg'
+import WorldWide from '../../assests/WorldWide.svg'
+import Share from '../../assests/Share.svg'
+import Time from '../../assests/Time_windchill.svg'
+
 
 import "./windchill.css";
 import Value from "../../components/values_windchill/value";
@@ -22,7 +29,7 @@ export default function Windchills() {
     {
       name: "Modern architecture",
       content:
-        "Manage data at scale with web architecture built for multi-system orchestration.",
+        "Effortlessly manage extensive data volumes through a web architecture designed for seamless orchestration across multiple systems. This robust foundation ensures data scalability, accessibility, and integrity, driving efficient operations.",
       imageUrl: Cloud,
     },
     {
@@ -56,9 +63,9 @@ export default function Windchills() {
     content:
       "Realize value quickly with standardized, out-of-the-box functionality across a comprehensive portfolio of core PDM and advanced PLM applications.",
     logo: Logo,
-    classHome: "windchill",
+    classHome: "",
     back_img:
-      "https://res.cloudinary.com/dbomu1erj/image/upload/v1691050119/Images_Website/Windchill_bg_ltjias.jpg",
+      "https://res.cloudinary.com/dbomu1erj/image/upload/v1699790597/Images_Website/omnos9sdtcf5if3i0xwg.png",
   };
 
   const naveles = [
@@ -76,7 +83,7 @@ export default function Windchills() {
     },
     {
       name: "Framework",
-      id: "framework_windchill",
+      id: "framework_windchillV2",
     },
   ];
 
@@ -92,26 +99,32 @@ export default function Windchills() {
     {
       number: "15%",
       title: "PTC PLM market growth",
+      img: Growth
     },
     {
       number: "50%",
       title: "Increase operational efficiency",
+      img: Increase
     },
     {
       number: "59%",
       title: "of businesses consider PLM business critical or significant",
+      img: Business
     },
     {
       number: "10K+",
       title: "PTC Windchill worldwide customers",
+      img: WorldWide
     },
     {
       number: "30%",
       title: "PLM market size 2020",
+      img: Share
     },
     {
       number: "50%",
       title: "Faster Leads Time",
+      img: Time
     },
   ];
 
@@ -121,7 +134,7 @@ export default function Windchills() {
       content:
         "Windchill brings significant benefits to the product development lifecycle, including reduced costs, faster time to market, improved product quality, and enhanced collaboration. Its streamlined processes and data management optimize resources and maximize efficiency, leading to higher customer satisfaction and cost savings through minimized prototyping and increased data re-use. ",
       reversed: true,
-      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1694524086/y87cblvrt9aho6zo8m5y.jpg",
+      img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1699859446/Images_Website/Products/au5amqnh87yeidcu5b3t.png",
     },
   ];
 
@@ -132,9 +145,9 @@ export default function Windchills() {
       <ProductsNav naveles={naveles} logo={Logo} />
       <Overview {...overViewContent} />
       <Value
-        title={
-          "Windchill elevates product development for all stakeholders, delivering rapid value."
-        }
+        // title={
+        //   "Windchill elevates product development for all stakeholders, delivering rapid value."
+        // }
         values={values}
         id={"value_windchill"}
       />
@@ -143,7 +156,7 @@ export default function Windchills() {
         title="Framework & Deployment"
         className="features_windchill"
         features={windchillFeatures}
-        id="framework_windchill"
+        id="framework_windchillV2"
       />
       {/* <Info features={framework} id="framework_onshape" /> */}
     </div>

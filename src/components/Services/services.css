@@ -4,7 +4,7 @@ body {
 }
 
 #services {
-  background-image: url("../../assests//homebg_scnd.png");
+  background-image: url("../../assests/homebg_scnd.svg");
   background-size: cover;
 }
 
@@ -77,9 +77,28 @@ button.service_btn a {
 }
 
 .services_heading {
-  padding-top: 1em;
+  padding-top: 2em;
   text-align: center;
-  font-size: xx-large;
+  font-size: x-large;
+  font-weight: 700;
+  color: #075985;
+}
+
+.dfgss {
+  text-align: center;
+}
+
+div#serpdtstxt {
+  color: #475569;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 0.5%;
+}
+
+#gghh {
+  width: 56%;
 }
 
 .services_all {
@@ -100,44 +119,21 @@ button.service_btn a {
   /* padding: 2em; */
 }
 
-@media screen and (max-width: 800px) {
-  .services_all {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1em;
-    /* Gap between cards */
-    justify-content: space-between;
-  }
-
-  .service_card {
-    width: 48%;
-  }
-
-  #services {
-    background-image: url("../../assests/services_sm_bg.png");
-    background-size: cover;
-    /* height: 400vh; */
-  }
+img.hmimg1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 16%;
 }
 
-@media screen and (max-width: 580px) {
-  .services_all {
-    /* grid-template-columns: 1fr; */
-    flex-direction: column;
-    gap: 2em;
-    padding: 1em;
-  }
-
-  .service_card {
-    padding: 1em;
-    width: 100%;
-  }
+img.hmimg2 {
+  position: absolute;
+  right: 0;
+  /* top: 100%; */
 }
 
-@media screen and (max-width: 400px) {
-  .services_all {
-    padding: 0.5em;
-  }
-
-
+img.hmimg3 {
+  position: absolute;
+  left: 0;
+  /* top: 100%; */
 }
