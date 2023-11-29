@@ -16,7 +16,7 @@
 }
 
 #hero_home3 {
-    background-image: url("../../assests/homeFC.png");
+    background-image: url("../../assests/homeF3.png");
     background-size: cover;
     height: 100vh;
     background-position: bottom;
@@ -26,7 +26,7 @@
 }
 
 #hero_home4 {
-    background-image: url("../../assests/homeFB.png");
+    background-image: url("../../assests/homeF4.png");
     background-size: cover;
     height: 100vh;
     background-position: bottom;
@@ -36,24 +36,17 @@
 }
 
 #hero_home5 {
-    background-image: url("../../assests/homeFA.png");
+    background-image: url("../../assests/homeF5.png");
     background-size: cover;
     height: 100vh;
     background-position: bottom;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    width: 100%;
 }
 
 .hero_altrCnt {
     margin-left: 14%;
-    width: 64%;
-}
-
-.services_altr.aos-animate {
-    margin-right: 14%;
-    width: 36%;
 }
 
 .altairProdH {
@@ -69,7 +62,7 @@
 }
 
 .altrProdCnt {
-    width: 80%;
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -182,14 +175,6 @@ a.knowmore {
 
     .hero_line {
         width: 64%;
-    }
-
-    .services_altr.aos-init.aos-animate {
-        display: none;
-    }
-
-    .hero_altrCnt {
-        width: 100%;
     }
 }
 

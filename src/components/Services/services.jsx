@@ -1,10 +1,11 @@
 import React from "react";
 import "./services.css";
-import Info from "../../components/HomeComp/homeComp";
+import Info from "../../components/HomeCompP2/homeComp";
 import Top from '../../assests/Home/Top.svg'
 import SecRight from '../../assests/Home/LeftOne.svg'
 import ThirdRight from '../../assests/Home/RightOne.svg'
 import BtmOne from '../../assests/Home/BottomOne.svg'
+import homeBg from '../../assests/homebg_scnd.svg'
 
 import { Link } from "react-router-dom";
 
@@ -49,7 +50,7 @@ function Services() {
   ];
 
   return (
-    <div id="services" style={{ backgroundColor: "#f8fafc" }}>
+    <div id="services" style={{ backgroundImage: homeBg }}>
       <div className="home_body">
         <div
           className="dfgss"

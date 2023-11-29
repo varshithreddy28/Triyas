@@ -57,7 +57,7 @@ export default function Pdt_Altr() {
               </div>
             </div>
           </div>
-          <div className="whythis">
+          <div className="whythis container">
             <div className="yths_header">Why {`${dispCnt.dispname}`}</div>
             <div className="yths_descp">
               {dispCnt.whyaltr.map((ele) => {
