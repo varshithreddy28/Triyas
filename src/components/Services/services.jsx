@@ -60,12 +60,11 @@ function Services() {
           <img className="hmimg1" src={Top} alt="" srcset="" />
           <div className="services_heading">
 
-            We offer the following Services and Products
+            {/* We offer the following Services and Products */}
           </div>
           <div id="serpdtstxt">
             <span id="gghh">
-              Uncover a diverse array of services and products that cater to your needs. Our extensive offerings ensure you find the solutions you're looking for, all in one place.
-            </span>
+              Uncover a diverse array of services and products that cater to your needs. Our extensive offerings ensure you find the solutions you're looking for.            </span>
           </div>
         </div>
         <Info features={features} id="" />

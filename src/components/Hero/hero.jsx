@@ -15,18 +15,39 @@ function ControlledCarousel() {
   };
 
   const services = [
+
     {
-      name: "Sim Solid",
-      url: "/simulation/altair/simsolid",
+      name: "Data Anylatics & AI",
+      url: "#",
+    }, {
+      name: "Electronic System Design",
+      url: "#",
+    }, {
+      name: "Fluid & Thermal",
+      url: "#",
+    }, {
+      name: "Structural Anylasis",
+      url: "#",
+    }, {
+      name: "Multiphysics",
+      url: "#",
+    }, {
+      name: "Manufacturing",
+      url: "#",
     },
-    {
-      name: "Hyper Mesh",
-      url: "/simulation/altair/hypermesh",
-    },
-    {
-      name: "Opti Struct",
-      url: "/simulation/altair/optistruct",
-    },
+
+    // {
+    //   name: "Sim Solid",
+    //   url: "/simulation/altair/simsolid",
+    // },
+    // {
+    //   name: "Hyper Mesh",
+    //   url: "/simulation/altair/hypermesh",
+    // },
+    // {
+    //   name: "Opti Struct",
+    //   url: "/simulation/altair/optistruct",
+    // },
 
     // {
     //   name: "Service 1",
@@ -48,12 +69,20 @@ function ControlledCarousel() {
       url: "/cad/creo",
     },
     {
-      name: "Creo Plus",
-      url: "/cad/creoplus",
-    },
-    {
       name: "OnShape",
       url: "/cad/onshape",
+    },
+    {
+      name: "Windchill",
+      url: "/plm/windchill",
+    },
+    {
+      name: "Vuforia",
+      url: "/arvr/vuforia",
+    },
+    {
+      name: "ThingWorx",
+      url: "/iot/thingworx",
     },
 
     // {
@@ -150,7 +179,7 @@ function ControlledCarousel() {
               Trusted by industry leaders, OptiStruct empowers engineers with robust simulation capabilities for efficient product development and performance assessment.</div>
           </div>
           <div className="services_altr " data-aos="fade-left">
-            <div className="srv_prvd">Top Altair Products we Handle </div>
+            {/* <div className="srv_prvd">Top Altair Products we Handle </div> */}
             <ListGroup>
               {services.map((service) => {
                 return (
@@ -184,7 +213,7 @@ function ControlledCarousel() {
             </div>
           </div>
           <div className="services_altr " data-aos="fade-left">
-            <div className="srv_prvd">Top PTC Products we Handle</div>
+            {/* <div className="srv_prvd">Top PTC Products we Handle</div> */}
             <ListGroup>
               {services2.map((service) => {
                 return (
@@ -216,7 +245,7 @@ function ControlledCarousel() {
             </div>
           </div>
           <div className="services_altr " data-aos="fade-left">
-            <div className="srv_prvd">Software Services we Handle</div>
+            {/* <div className="srv_prvd">Software Services we Handle</div> */}
             <ListGroup>
               {services3.map((service) => {
                 return (

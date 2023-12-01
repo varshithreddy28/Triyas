@@ -107,8 +107,6 @@ function Modal({ open, handleModalClose, handleModelSubmit }) {
                                 name="name"
                                 onChange={handleChange}
                                 value={details.name}
-                                className='modelInp'
-                                style={{ border: '1.25px solid lightgrey' }}
                             // required="true"
                             />
                         </div>
@@ -121,8 +119,6 @@ function Modal({ open, handleModalClose, handleModelSubmit }) {
                                 name="email"
                                 onChange={handleChange}
                                 value={details.email}
-                                style={{ border: '1.25px solid lightgrey' }}
-
                             />
                         </div>
                     </div>
@@ -136,8 +132,6 @@ function Modal({ open, handleModalClose, handleModelSubmit }) {
                                 name="phno"
                                 onChange={handleChange}
                                 value={details.phno}
-                                style={{ border: '1.25px solid lightgrey' }}
-
                             // required="true"
                             />
                         </div>
@@ -150,8 +144,6 @@ function Modal({ open, handleModalClose, handleModelSubmit }) {
                                 name="company"
                                 onChange={handleChange}
                                 value={details.company}
-                                style={{ border: '1.25px solid lightgrey' }}
-
                             />
                         </div>
                     </div>
@@ -166,8 +158,6 @@ function Modal({ open, handleModalClose, handleModelSubmit }) {
                                 onChange={handleChange}
                                 rows={3}
                                 value={details.message}
-                                style={{ border: '1.25px solid lightgrey' }}
-
                             />
                         </div>
                     </div>
