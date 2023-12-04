@@ -32,6 +32,7 @@
   color: white;
   display: flex;
   flex-direction: column;
+  margin-top: 26px;
 }
 
 .creo_img {
@@ -44,7 +45,7 @@
 }
 
 .creo_header {
-  font-size: 3.5em;
+  font-size: 48px;
   font-weight: 500;
 }
 
@@ -53,7 +54,7 @@
   letter-spacing: 1px;
   text-align: justify;
   font-weight: 500;
-  margin-top: 0.25em;
+  margin-top: 26px;
 }
 
 .contactusCreo button {
@@ -137,6 +138,14 @@ img.creo_img_abt {
   border-bottom-right-radius: 24px;
   padding-bottom: 2%;
   /* padding-right: 2%; */
+  width: 60%;
+}
+
+.beniImg {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .creo_scndimg {
@@ -146,7 +155,7 @@ img.creo_img_abt {
 .beniUp {
   display: flex;
   align-items: end;
-  gap: 8%;
+  /* gap: 8%; */
 }
 
 @media screen and (max-width: 770px) {
@@ -279,7 +288,7 @@ img.creo_img_abt {
 }
 
 .fth_img img {
-  width: 64%;
+  width: 54%;
   /* height: 50%; */
 }
 
@@ -429,7 +438,7 @@ button#enhance_btn:hover {
 }
 
 .creo_enhance {
-  margin-top: 1.5%;
+  margin-top: 24px;
   display: flex;
   align-items: center;
   justify-content: end;
@@ -470,7 +479,7 @@ button#enhance_btn:hover {
 }
 
 .compo_img img {
-  width: 90%;
+  width: 76%;
 }
 
 .compo_img {
@@ -480,7 +489,7 @@ button#enhance_btn:hover {
 }
 
 .new_header {
-  font-size: 28px;
+  font-size: 34px;
   letter-spacing: 1px;
   font-weight: 550;
   background: linear-gradient(90.12deg, #4E54C8 2.09%, #8F94FB 99.08%);
@@ -503,7 +512,7 @@ img.extraImgCls {
 
 .new_cnt {
   text-align: right;
-  margin-top: 1.5%;
+  margin-top: 24px;
   font-size: 18px;
 }
 

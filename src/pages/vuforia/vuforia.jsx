@@ -42,7 +42,7 @@ export default function Windchills() {
       "Vuforia is a comprehensive, scalable enterprise AR platform. Our wide-ranging solution suite ensures that we can provide the right AR technology to every customer based on their business needs.",
     logo: Logo,
     back_img:
-      "https://res.cloudinary.com/dbomu1erj/image/upload/v1691079885/Images_Website/arvr_trhyda.jpg",
+      "https://res.cloudinary.com/dbomu1erj/image/upload/v1701676273/Images_Website/yt2dmpkndnyaax4z9ipd.png",
   };
 
   const naveles = [

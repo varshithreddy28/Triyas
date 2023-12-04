@@ -94,10 +94,9 @@ export default function Creo() {
       <div id="creo_benifits">
         <div className="scnd_cnt">
           <div className="beniUp">
-            <div className="beniCnt container">
-
-              <div className="benifits">The benefits of PTC Creo?</div>
-              <div className="creo_cnt">{benifits_info}</div>
+            <div className="beniCnt">
+              <div className="benifits container">The benefits of PTC Creo?</div>
+              <div className="creo_cnt container">{benifits_info}</div>
             </div>
             <div className="beniImg">
               <img src="https://res.cloudinary.com/dbomu1erj/image/upload/v1699263124/Images_Website/lyykrdsyeyd3t8kqv84x.png" alt="Image" />

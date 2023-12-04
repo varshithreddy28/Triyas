@@ -9,6 +9,10 @@ div#basic-navbar-nav {
   margin-right: 4%;
 }
 
+.carousel-indicators {
+  display: none;
+}
+
 .navitems.navbar-nav {
   width: 90%;
   justify-content: flex-end;

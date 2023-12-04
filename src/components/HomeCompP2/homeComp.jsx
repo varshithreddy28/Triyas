@@ -29,7 +29,8 @@ export default function Info({ title, features, id }) {
                                 <div className="btnV">
                                     {
                                         feature.gotoUrl && <Link className="cnt_altair" to={`/${feature.gotoUrl}`} smooth>
-                                            <button id="view_homPdt">View</button>
+                                            {/* <button id="view_homPdt">View</button> */}
+                                            <button id="enhance_btn_view">View</button>
                                         </Link>
                                     }
 

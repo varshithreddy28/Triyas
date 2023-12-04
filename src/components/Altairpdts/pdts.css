@@ -6,14 +6,16 @@
 
 .pdt_img img {
     width: 100%;
-    transition: transform 0.5s;
+    /* transition: transform 0.5s; */
     /*  */
     height: 14rem;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
 }
 
-.pdt_img img:hover {
+/* .pdt_img img:hover {
     transform: scale(1.03);
-}
+} */
 
 .pdt_header {
     font-size: 2em;
@@ -29,6 +31,7 @@
     text-align: justify;
     font-weight: 450;
     color: #64748B;
+    padding: 0 3%;
 }
 
 .pdt_altair_btns {
@@ -188,7 +191,7 @@ a#altair_pdt_link {
     flex-direction: column;
     justify-content: space-between;
     background-color: white;
-    padding: 3%;
+    /* padding: 3%; */
     border-radius: 6px;
     /* box-shadow: 30px 30px 16px -16px rgba(0, 0, 0, 0.4); */
     box-shadow: 0px 1px 10px 0px #2C2C2C0F;
@@ -211,6 +214,7 @@ a#altair_pdt_link {
 
 .pdt_altair_btns {
     margin-top: 3%;
+    margin-bottom: 3%;
 }
 
 @media screen and (max-width:950px) {

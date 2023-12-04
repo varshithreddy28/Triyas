@@ -22,3 +22,37 @@ div#value_slm {
 .sass_newUp {
     padding: 0 12%;
 }
+
+.sass_exp_new.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4%;
+    flex-wrap: wrap;
+}
+
+.advantage_new {
+    padding: 2%;
+    border: 2px solid #CBD5E1;
+    border-radius: 12px;
+    max-height: 36vh;
+    width: 46%;
+    margin-top: 2em;
+}
+
+.ad_icon_new img {
+    width: 50px;
+    height: 50px;
+}
+
+.ad_icon_new {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 780px) {
+    .advantage_new {
+        width: 100%;
+        max-height: max-content;
+    }
+}

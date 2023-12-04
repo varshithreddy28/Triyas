@@ -85,6 +85,24 @@ button#view_homPdt:hover:after {
 }
 
 /*  */
+button#enhance_btn_view {
+    background-color: transparent;
+    padding: 8px 20px;
+    color: #0EA5E9;
+    border: 2px solid #0EA5E9;
+    border-radius: 8px;
+    letter-spacing: 1px;
+    font-weight: 550;
+    font-size: 18px;
+}
+
+button#enhance_btn_view:hover {
+    color: white;
+    background-color: #0EA5E9;
+    transition: 0.75s;
+}
+
+/*  */
 @media screen and (max-width: 600px) {
     .info.homeCntCmp {
         display: flex;
@@ -136,5 +154,9 @@ button#view_homPdt:hover:after {
     #gghh {
         width: 100%;
         padding: 0 4%;
+    }
+
+    button#enhance_btn_view {
+        letter-spacing: 0;
     }
 }

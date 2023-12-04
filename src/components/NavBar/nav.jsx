@@ -139,7 +139,7 @@ function NavBar() {
           </Nav>
           <NavLink>
             <HashLink
-              className={`${pathname === "/" ? "home_nav_cnt" : ""}`}
+              className={`${pathname === "/" ? "home_nav_cnt" : "home_nav_cnt"}`}
               to={`/#contact`}
               smooth
             >

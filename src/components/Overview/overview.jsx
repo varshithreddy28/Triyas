@@ -15,8 +15,8 @@ export default function Overview({ header, content, video, id }) {
 
             <div className="benifits">{header}</div>
             <div className="creo_cnt" style={{ textAlign: 'justify' }}>
-              <ShowMoreText
-                /* Default options */
+              {/* <ShowMoreText
+                
                 lines={4}
                 more="Expand"
                 less="Show less"
@@ -27,7 +27,14 @@ export default function Overview({ header, content, video, id }) {
                 truncatedEndingComponent={"..... "}
               >
                 {content}
-              </ShowMoreText>
+              </ShowMoreText> */}
+              <span
+                className="content-css"
+
+              >
+                {content}
+
+              </span>
             </div>
           </div>
 

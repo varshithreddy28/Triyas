@@ -142,11 +142,11 @@ export default function Slm() {
 
           <div className="sass_newUp">
 
-            <div className="sass_exp container">
+            <div className="sass_exp_new container">
               {SaaSAdv.map((Adv) => {
                 return (
-                  <div className="advantage">
-                    <div className="ad_icon">
+                  <div className="advantage_new">
+                    <div className="ad_icon_new">
                       <img src={Adv.icon} alt="" />
                     </div>
                     <div className="ad_header">{Adv.name}</div>

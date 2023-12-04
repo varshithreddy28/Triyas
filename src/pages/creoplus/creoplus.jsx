@@ -101,29 +101,17 @@ function Creoplus() {
         <div className="whatSaaS">What does SaaS mean for CAD?</div>
 
         <div className="whatSaaS_ans">
-          <ShowMoreText
-            /* Default options */
-            lines={3}
-            more="Expand"
-            less="Show less"
-            className="content-css"
-            anchorClass="show-more-less-clickable"
-            expanded={false}
-            // width={2000}
-            truncatedEndingComponent={"..... "}
-          >
-            CAD Software as a Service (SaaS) represents a licensing and delivery
-            model for engineering CAD software, offering benefits such as
-            improved accessibility, scalability, collaboration, and security.
-            While in-office communication software like Customer Relationship
-            Management (CRM) and Human Resource Management (HRM) have already
-            embraced SaaS.
-            <br />
-            The CAD SaaS sector is approaching a pivotal moment, with widespread
-            adoption anticipated in the near future. PTC is uniquely positioned
-            to assist customers in their transition to SaaS with cloud-based CAD
-            and PLM solutions.
-          </ShowMoreText>
+
+          CAD Software as a Service (SaaS) represents a licensing and delivery
+          model for engineering CAD software, offering benefits such as
+          improved accessibility, scalability, collaboration, and security.
+          While in-office communication software like Customer Relationship
+          Management (CRM) and Human Resource Management (HRM) have already
+          embraced SaaS.
+          The CAD SaaS sector is approaching a pivotal moment, with widespread
+          adoption anticipated in the near future. PTC is uniquely positioned
+          to assist customers in their transition to SaaS with cloud-based CAD
+          and PLM solutions.
         </div>
       </div>
       <div
