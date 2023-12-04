@@ -108,7 +108,7 @@ const Contact = ({ theme }) => {
                     <img src={Add1} alt="" />
                   </div>
                   <div className="cmpydtt">
-                    Plot Number 682 Babukhan Rasheed Plaza Road #36 , Jubilee Hills Hyderabad 500033 India
+                    Plot Number #682 Babukhan Rasheed Plaza Road #36 , Jubilee Hills, Hyderabad 500033 India
                   </div>
                 </div>
                 <div className="cmpadd cmpadd2">
@@ -116,7 +116,7 @@ const Contact = ({ theme }) => {
                     <img src={Add2} alt="" />
                   </div>
                   <div className="cmpydtt">
-                    91- 84789387109
+                    +91 97044 77677
                   </div>
                 </div>
                 <div className="cmpadd cmpadd2">
@@ -124,7 +124,7 @@ const Contact = ({ theme }) => {
                     <img src={Add3} alt="" />
                   </div>
                   <div className="cmpydtt">
-                    triyas@gmail.com
+                    contact@triyas.com
                   </div>
                 </div>
               </div>

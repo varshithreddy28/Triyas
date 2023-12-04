@@ -40,7 +40,7 @@ export default function Pdts({ search, isSearched }) {
       link: "https://altair.com/optistruct",
     },
     {
-      name: "InspireForm",
+      name: "Inspire Form",
       img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1692803094/Images_Website/Altair/avhie1w4xhxkfzlmha4r.webp",
       keywords: ["Manufacturing"],
       discreption:

@@ -10,7 +10,7 @@ export default function Creonew() {
   const creo_features = [
     {
       name: "Usability and Productivity",
-      content: "introducing our finest Creo yet. Experience a wide array of enhancements designed to boost daily productivity. These improvements encompass advanced tools for CAD model management and manipulation, expanded capabilities for composite product design, and enhancements in areas like electrification, ergonomics design, model-based definition (MBD), simulation, and both additive and subtractive manufacturing.",
+      content: "Introducing our finest Creo yet. Experience a wide array of enhancements designed to boost daily productivity. These improvements encompass advanced tools for CAD model management and manipulation, expanded capabilities for composite product design, and enhancements in areas like electrification, ergonomics design, model-based definition (MBD), simulation, and both additive and subtractive manufacturing.",
       btn: "Discover Creo Composites",
       img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1699265152/Images_Website/s7arwf7eosooacx8laqc.svg",
       inverted: false,

@@ -17,7 +17,7 @@ function ControlledCarousel() {
   const services = [
 
     {
-      name: "Data Anylatics & AI",
+      name: "Data Analytics & AI",
       url: "#",
     }, {
       name: "Electronic System Design",
@@ -26,7 +26,7 @@ function ControlledCarousel() {
       name: "Fluid & Thermal",
       url: "#",
     }, {
-      name: "Structural Anylasis",
+      name: "Structural Analysis",
       url: "#",
     }, {
       name: "Multiphysics",

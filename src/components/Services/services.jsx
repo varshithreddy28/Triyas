@@ -22,7 +22,7 @@ function Services() {
     }, {
       name: "CAE Services",
       content:
-        "We encompass a broad spectrum of offerings, aiding individuals and businesses in crafting and developing diverse products, problem-solving skills, and technical expertise. Our mission is to empower innovation, improving products, and drive success across a multitude of industries.",
+        "We specialize in leveraging cutting-edge FEA, Computational tools and methodologies to simulate, analyze, and optimize mechanical systems, ensuring robust and efficient designs across diverse industries. Our CAE Services can elevate your product development and design processes.",
       reversed: false,
       img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1698493370/Images_Website/efn1b1k2cahq2rjrhei2.svg",
       designImg: ThirdRight,
@@ -31,7 +31,7 @@ function Services() {
     {
       name: "PLM Services",
       content:
-        "PLM (Product Lifecycle Management) services streamline product development, enhance collaboration, ensure data accuracy, and boost quality, covering the entire product journey from concept to retirement, crucial for modern businesses' success.",
+        "PLM (Product Lifecycle Management) services streamline product development, enhance collaboration, ensure data accuracy, and boost quality, covering the entire product journey from concept to retirement, crucial for modern businesses success.",
       reversed: true,
       img: "https://res.cloudinary.com/dbomu1erj/image/upload/v1698494099/Images_Website/ygsk10rkolpk9ju753wo.svg",
       designImg: BtmOne,
@@ -64,7 +64,8 @@ function Services() {
           </div>
           <div id="serpdtstxt">
             <span id="gghh">
-              Uncover a diverse array of services and products that cater to your needs. Our extensive offerings ensure you find the solutions you're looking for.            </span>
+              Discover a wide range of tailored solutions to meet your needs
+            </span>
           </div>
         </div>
         <Info features={features} id="" />

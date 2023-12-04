@@ -87,14 +87,6 @@
         {
           "name": "Reverse Engineering",
           "link": "/design/reverseengineering"
-        },
-        {
-          "name": "CAD Customisation",
-          "link": "/design/cadcustomisation"
-        },
-        {
-          "name": "Design Automation",
-          "link": "/design/designautomation"
         }
       ]
     },
